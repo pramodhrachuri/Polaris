@@ -1,781 +1,1104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-	  <meta name="Keywords" content="IIT, Bhilai, Polaris, Indian Institute of Technology" />
-	  <meta name="theme-color" content="#00B0FF">
-	  <title>Polaris - IIT Bhilai</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <meta name="Keywords" content="IIT, Bhilai, Polaris, Indian Institute of Technology" />
+  <meta name="theme-color" content="#00B0FF">
+  <title>Polaris - IIT Bhilai</title>
 
-<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
-<link href="https://fonts.googleapis.com/css?family=Lobster|Asul|Aclonica|Acme|Amiri|Exo+2|Mogra|Ubuntu" rel="stylesheet"> 
-<!-- CSS -->
-	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link href="css1/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-<!-- This file below to be edited for external styling -->
-		<link href="css1/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-<style>
-	nav{
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Asul|Aclonica|Acme|Amiri|Exo+2|Mogra|Ubuntu" rel="stylesheet">
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css1/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- This file below to be edited for external styling -->
+  <link href="css1/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <style>
+    nav {
 
-		font-size:28px;
-	}
-	
-	
-</style>
+      font-size: 28px;
+    }
+  </style>
 </head>
 
 <!-- This part of code is written for loading images as per priority -->
 <script type="text/javascript">
-	imgIds=["life","artsclub_1","artsclub_3","DSC_0082","DSC_0075","DSC_0027","DSC_0032","DSC_0004","DSC_0050","DSC_0028","DSC_0044"]; //write the ids in this list. Important ----------> make sure that file name and id are same
-	function loadImages(counter) {
-	  if(counter==imgIds.length) { return; }
-	  var I = document.getElementById(imgIds[counter]);
-	  I.onload = I.onerror = function() { loadImages(counter+1); }
-	  I.src = "images/"+imgIds[counter]+".jpg";
-	}
+  imgIds = ["life", "artsclub_1", "artsclub_3", "DSC_0082", "DSC_0075", "DSC_0027", "DSC_0032", "DSC_0004", "DSC_0050",
+    "DSC_0028", "DSC_0044"
+  ]; //write the ids in this list. Important ----------> make sure that file name and id are same
+  function loadImages(counter) {
+    if (counter == imgIds.length) {
+      return;
+    }
+    var I = document.getElementById(imgIds[counter]);
+    I.onload = I.onerror = function () {
+      loadImages(counter + 1);
+    }
+    I.src = "images/" + imgIds[counter] + ".jpg";
+  }
 </script>
 
 <body>
 
-<!-- Navbar Start -->
-<header>
+  <!-- Navbar Start -->
+  <header>
     <div class="navbar-fixed">
-    
-        <nav class="nav-extended #00b0ff light-blue accent-3 z-depth-5">
-         
-            <div class="nav-wrapper container
+
+      <nav class="nav-extended #00b0ff light-blue accent-3 z-depth-5">
+
+        <div class="nav-wrapper container
 ">
-                <a href="index.html" class="brand-logo white-text">POLARIS</a>
-		  <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
-               
-                <ul class="right hide-on-med-and-down">
-                       <li><a href="mentors_2018.html" class="hoverable white-text">Student Mentors</a></li>
-                    <li><a href="acad1.html" class="hoverable white-text">Academics</a></li>
-                    <li><a href="life.html" class="hoverable white-text">Life @ IITBh</a></li>
-                    <li><a href="around1.html" class="hoverable white-text">Around IITBh</a></li>
-							      <li><a href="ns1.html" class="hoverable white-text">NSS and NSO</a></li>
-                    <li><a href="Queries.html" class="hoverable white-text">Queries</a></li>
-               </ul>
-              
-            </div>
-        </nav>
+          <a href="index.html" class="brand-logo white-text">POLARIS</a>
+          <a href="#" data-activates="nav-mobile" class="button-collapse">
+            <i class="material-icons white-text">menu</i>
+          </a>
+
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="mentors1.html" class="hoverable white-text">Student Mentors</a>
+            </li>
+            <li>
+              <a href="acad1.html" class="hoverable white-text">Academics</a>
+            </li>
+            <li>
+              <a href="life.html" class="hoverable white-text">Life @ IITBh</a>
+            </li>
+            <li>
+              <a href="around1.html" class="hoverable white-text">Around IITBh</a>
+            </li>
+            <li>
+              <a href="ns1.html" class="hoverable white-text">NSS and NSO</a>
+            </li>
+            <li>
+              <a href="Queries.html" class="hoverable white-text">Queries</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
     </div>
 
 
-		  <ul id="nav-mobile" class="side-nav">
-				<li class="bold"><a href="mentors_2018.html" class="waves-effect waves-ripple hoverable">Student Mentors</a></li>
-        <li>
-          <ul class="collapsible collapsible-accordion">
-            <li><a class="collapsible-header waves-effect waves-ripple hoverable"><span class="myCollapsibleHeader">Academics</span></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="acad1.html#intro"><span class="myCollapsibleListItem light hoverable">Introduction</span></a></li>
-                  <li><a href="acad1.html#fractal"><span class="myCollapsibleListItem light hoverable">Fractal Academics</span></a></li>
-                  <li><a href="acad1.html#common"><span class="myCollapsibleListItem light hoverable">Common Subjects</span></a></li>
-                	<li><a href="acad.html#departments"><span class="myCollapsibleListItem light hoverable">Departments</span></a></li>
-									<li><a href="acad.html#grading"><span class="myCollapsibleListItem light hoverable">Grade Policy</span></a></li>
-                
-                </ul>
+    <ul id="nav-mobile" class="side-nav">
+      <li class="bold">
+        <a href="mentors1.html" class="waves-effect waves-ripple hoverable">Student Mentors</a>
+      </li>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header waves-effect waves-ripple hoverable">
+              <span class="myCollapsibleHeader">Academics</span>
+            </a>
+            <div class="collapsible-body">
+              <ul>
+                <li>
+                  <a href="acad1.html#intro">
+                    <span class="myCollapsibleListItem light hoverable">Introduction</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="acad1.html#fractal">
+                    <span class="myCollapsibleListItem light hoverable">Fractal Academics</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="acad1.html#common">
+                    <span class="myCollapsibleListItem light hoverable">Common Subjects</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="acad.html#departments">
+                    <span class="myCollapsibleListItem light hoverable">Departments</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="acad.html#grading">
+                    <span class="myCollapsibleListItem light hoverable">Grade Policy</span>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="collapsible-header waves-effect waves-ripple hoverable">
+              <span class="myCollapsibleHeader">Life @ IITBh</span>
+            </a>
+            <div class="collapsible-body">
+              <ul>
+
+                <li>
+                  <a href="life.html#location">
+                    <span class="myCollapsibleListItem light">Location</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="life.html#network">
+                    <span class="myCollapsibleListItem light">Networks</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="life.html#clubs">
+                    <span class="myCollapsibleListItem light">Clubs</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="life.html#sports">
+                    <span class="myCollapsibleListItem light">Sports</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="life.html#mess">
+                    <span class="myCollapsibleListItem light">Mess</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="life.html#mess">
+                    <span class="myCollapsibleListItem light">Medical</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="life.html#trans">
+                    <span class="myCollapsibleListItem light">Transportation</span>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="collapsible-header waves-effect waves-ripple hoverable">
+              <span class="myCollapsibleHeader">Around IIT Bhilai</span>
+            </a>
+            <div class="collapsible-body">
+              <ul>
+                <li>
+                  <a href="around1.html#trans">
+                    <span class="myCollapsibleListItem light">Transportation</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="around1.html#rest">
+                    <span class="myCollapsibleListItem light">Restaurants</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="around1.html#enter">
+                    <span class="myCollapsibleListItem light">Entertainment Hub</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="around1.html#daily">
+                    <span class="myCollapsibleListItem light">Daily Needs</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="around1.html#banks">
+                    <span class="myCollapsibleListItem light">Banks and Atms</span>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="bold">
+        <a href="ns1.html" class="waves-effect waves-ripple hoverable">NSS &amp; NSO</a>
+      </li>
+      <li class="bold">
+        <a href="Queries.html" class="waves-effect waves-ripple hoverable">Queries</a>
+      </li>
+    </ul>
+
+  </header>
+  <!-- Header starts-->
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container" id="headerTop">
+        <br>
+        <br>
+        <h1 class="header center bold amber-text text-lighten-5">LIFE AT IIT BHILAI</h1>
+        <h3 class="header center condensed light amber-text text-lighten-5">Be Yourself!!</h3>
+        <br>
+        <br>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="" id="life" alt="Unsplashed background img 1">
+    </div>
+  </div>
+
+  <!-- Hostel location and facilities-->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h2>
+            <i class="fa fa-book fa-1x" aria-hidden="true"></i>
+          </h2>
+          <h4 class="header cyan-text text-accent-4 center">Hostel Life at Indian Institute Of Technology, Bhilai</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 center">
+          <p class="light" style="text-align: justify;">
+            The hostel lifestyle is an integral part of the one’s college life. Here, at IIT Bhilai, the hostel life is much more than
+            just ‘hanging out’. Our student community is very enthusiatic which is why being here is a totally vivid experience.
+            Even though in its infancy, IIT Bhilai has developed a rich student cluture where students from different communities
+            come together and have time of their lifetime. As part of student activities we have established the official
+            student body, Council of Student Affairs(CoSA). Under it function various clubs and associations, each having
+            a coordinator. Students are encouraged to actively participate in the clubs whoch interests them. This makes
+            hostel life exciting and fun.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 left">
+          <h4 class="header cyan-text text-accent-4 center" id="location">Campus Location</h4>
+
+          <p class="light" style="text-align: justify;">
+            IIT Bhilai is located in its temporary campus which is inside the premises of The Government Engineering College(GEC), Raipur.
+            One striking feature of the campus is that it houses not two but three leading Institutions, the third one being
+            IIM Raipur.
+            <br>
+
+            <div class="container z-depth-2">
+              <iframe width="100%" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDwxilx3FT8Oe4JCbm8elUIlqN66aMTUEU&q=IIT+Bhilai,Old+Dhamtari+Rd&maptype=satellite"
+                allowfullscreen></iframe>
+            </div>
+
+            <p class="light" style="text-align: justify;">
+              The campus is about 12 km from Raipur Junction Railway Station, 16 km from Raipur Airport and 13 km from Pandri Bus Stand,
+              Raipur. Auto Rickshaws are easily available from these places to the campus.
+              <br>
+            </p>
+          </p>
+          <div class="divider"></div>
+          <h4 class="header cyan-text text-accent-4 center">Hostel Capacity</h4>
+          <p class="light" style="text-align: justify;">
+            There are separate hostels for boys and girls which are also in the premises of GEC, Raipur. When it started in 2016, The
+            boys hostel had a capacity of 120 students and 40 in the girl’s hostel, but the numbers are being increased for
+            the upcoming batches.
+
+          </p>
+
+          <div class="divider"></div>
+          <h4 class="header cyan-text text-accent-4 center">Types of Rooms</h4>
+          <p class="light" style="text-align: justify;">
+            There are two types of rooms in the boys’ hostel:
+          </p>
+          <ul>
+            <li>4 people per room</li>
+            <li>2 people per room</li>
+
+          </ul>
+          <p class="light" style="text-align: justify;">
+            In the girls’ hostel you will find just one kind of rooms i.e. the rooms meant for 4 people.
+          </p>
+
+          <div class="divider"></div>
+          <h4 class="header cyan-text text-accent-4 center">Facilities available</h4>
+          <ul>
+            <li>○&nbsp; Every student gets a bed, a fan, an almirah, a table and a chair in his room.</li>
+            <li>○&nbsp; Toilets are commonly shared with the wing mates.</li>
+            <li>○&nbsp; Two fully automated washing machines are allotted per wing.</li>
+            <li>○&nbsp; Recreation cum TV room is there in the hostels for entertainment purpose.</li>
+            <li>○&nbsp; For the music lovers, there is a music room equipped with a drum set, congo set, keyboard, guitar and
+              some other instruments.</li>
+            <li>○&nbsp; A dance room completely equipped with mirrored walls is set up for tapping your feet. And yes, if you
+              love those drops, then there are bass speakers for you to bounce on.</li>
+            <li>○&nbsp; Both the hostels have indoor badminton courts.</li>
+            <li>○&nbsp; A snooker table and other indoor games are also provided.</li>
+            <li>○&nbsp; A Table Tennis table is als there for "ping-pong" lovers.</li>
+            <li>○&nbsp; Ducting has been provided in hostels.</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--end-->
+
+  <div class="divider"></div>
+  <!--Networking-->
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 left">
+
+          <h4 class="header cyan-text text-accent-4 center" id="network">Network and Connectivity</h4>
+          <p class="light" style="text-align: justify;">
+            Being an IIT it is needless to say that we have an excellent internet connectivity. The
+            <strong>NKN (National Knowledge Network)</strong> program is the Internet service provider for the institute and supports
+            network speeds of up to 1 GB/s. Although in the elementary stage, the NKN network is useful as it provides connectivity
+            to other institutes, has resources like video lectures, seminars etc.
+            <br> Each student has access to the network through the LAN ports provided in the hostel rooms as well as Wi-Fi (each
+            student is allotted a unique ID-Password for accessing).
+            <br> We also have a DC++ culture in the hostel (Google it and you will learn that DC++ is the life line of IIT hostels).
+            It is a really productive file sharing system with a host server and various other clients linked to it. It comes
+            in handy to share large files, academic softwares and recreational stuff (like movies, games, TV series).
+            <br> Students are encouraged to avail the benefits of the system in the hostel. Apart from the above, all students
+            have access to a common file storage system. Students can use it as a drive to drop/retrieve/share files with
+            peers.
+
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--end-->
+
+  <div class="divider"></div>
+  <!--Clubs-->
+  <div class="container">
+    <h3 class="header cyan-text text-accent-4 center" id="clubs">Clubs at IIT Bhilai</h3>
+    <p style="text-align: justify;">Introduction: We all, as a part of an elite league of institutes, aspire to work at the frontiers of human knowledge,
+      innovate technology, initiate revolutions in science and propel national development to new heights. But often in such
+      a competitive environment, work is stressed to the point of mania and this is when comes in the need of recreation.
+      Rediscover your hobbies and explore new ones with Clubs at IIT Bhilai. Mind you there is absolutely no bound on anyone’s
+      interest which also means that there is no bound on how many clubs you can be in – it is all up to you. Currently the
+      following clubs are functional and conduct their respective activities at a regular basis:</p>
+
+    <div class="row">
+      <div style="width: 95% ; margin: 0 auto;">
+        <ul class="tabs z-depth-2 grey lighten-4">
+          <li class="tab col s4">
+            <a href="#cult">Cultural Clubs</a>
+          </li>
+          <li class="tab col s4">
+            <a href="#tech">SciTech Clubs</a>
+          </li>
+          <li class="tab col s4">
+            <a href="#outreach">Outreach Clubs</a>
+          </li>
+        </ul>
+        <div class="indicator"></div>
+
+        <div id="cult" class="col s12 z-depth-1 myContainer">
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Renaissance
               </div>
-            </li>
-            <li><a class="collapsible-header waves-effect waves-ripple hoverable"><span class="myCollapsibleHeader">Life @ IITBh</span></a>
               <div class="collapsible-body">
-                <ul>
-                  
-                  <li><a href="life.html#location"><span class="myCollapsibleListItem light">Location</span></a></li>
-                  <li><a href="life.html#network"><span class="myCollapsibleListItem light">Networks</span></a></li>
-									<li><a href="life.html#clubs"><span class="myCollapsibleListItem light">Clubs</span></a></li>
-									<li><a href="life.html#sports"><span class="myCollapsibleListItem light">Sports</span></a></li>
-									<li><a href="life.html#mess"><span class="myCollapsibleListItem light">Mess</span></a></li>
-									
-                  <li><a href="life.html#mess"><span class="myCollapsibleListItem light">Medical</span></a></li>
-                  <li><a href="life.html#trans"><span class="myCollapsibleListItem light">Transportation</span></a></li>
-									
-                </ul>
-              </div>
-            </li>
-            <li><a class="collapsible-header waves-effect waves-ripple hoverable" ><span class="myCollapsibleHeader">Around IIT Bhilai</span></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="around1.html#trans"><span class="myCollapsibleListItem light">Transportation</span></a></li>
-                  <li><a href="around1.html#rest"><span class="myCollapsibleListItem light">Restaurants</span></a></li>
-                  <li><a href="around1.html#enter"><span class="myCollapsibleListItem light">Entertainment Hub</span></a></li>
-                  <li><a href="around1.html#daily"><span class="myCollapsibleListItem light">Daily Needs</span></a></li>
-                  <li><a href="around1.html#banks"><span class="myCollapsibleListItem light">Banks and Atms</span></a></li>
-									
-                </ul>
+                <span>
+                  <p>
+                    <strong>Co-ordinator</strong>: Mohammed Sameer</p>
+                  <p style="text-align: justify;">
+                    <strong>Description</strong>: Our club is all about providing a platform for the students who are seeking a creative
+                    outlet in addition to their academic schedule ,and to use their talent in improving the pace of cultural
+                    activities in our college. Awaken your inner Picasso while working with people who have a lucid imagination
+                    and excellent design skills.</p>
+
+                  <p style="text-align: justify;">
+                    <strong>Objective</strong>: We endeavour to help our fellow students to cope up with academic stress and to create
+                    an enjoyable ambience for them. We are looking forward to have some independent activities for the same
+                    through this club.</p>
+
+                  <p>
+                    <strong>Activities</strong>:</p>
+                  <ul class="container">
+                    <li>&cir;&nbsp; Designed college T-shirts and hoodie</li>
+                    <li>&cir;&nbsp; Designed posters and certificates for clubs and various events of our college.</li>
+                    <li>&cir;&nbsp; Festival decorations including rangoli were also done under this club.</li>
+                    <li>&cir;&nbsp; Organised Drawing Competition</li>
+                  </ul>
+
+                  <div class="row">
+                    <br>
+                    <br>
+                    <div class="col s12 m6">
+                      <img src="" id="artsclub_1" style="width: 100%" />
+                    </div>
+                    <div class="col s12 m6">
+                      <img src="" id="artsclub_3" style="width: 100%" />
+                    </div>
+                  </div>
+                </span>
               </div>
             </li>
           </ul>
-        </li>
-        <li class="bold"><a href="ns1.html" class="waves-effect waves-ripple hoverable">NSS &amp; NSO</a></li>
-        <li class="bold"><a href="Queries.html" class="waves-effect waves-ripple hoverable">Queries</a></li>
-		  </ul>
-          
-</header>
-<!-- Header starts-->
-
-	  <div id="index-banner" class="parallax-container">
-			<div class="section no-pad-bot">
-			  <div class="container" id="headerTop">
-					<br><br>
-						<h1 class="header center bold amber-text text-lighten-5">LIFE AT IIT BHILAI</h1>
-						<h3 class="header center condensed light amber-text text-lighten-5">Be Yourself!!</h3>
-												<br><br>
-			  </div>
-			</div>
-			<div class="parallax"><img src="" id="life" alt="Unsplashed background img 1">
-			</div>
-		</div>
-		
-<!-- Hostel location and facilities-->
-		<div class="container">
-			<div class="section">
-				<div class="row">
-					<div class="col s12 center">
-						<h2><i class="fa fa-book fa-1x" aria-hidden="true"></i></h2>
-						<h4 class="header cyan-text text-accent-4 center">Hostel Life at Indian Institute Of Technology, Bhilai</h4>
-						</div>
-				</div>
-        		
-            <div class="row">
-					<div class="col s12 center">
-						<p class="light" style="text-align: justify;">
-							The hostel lifestyle is an integral part of the one’s college life; everyone experiences it at some stage of their life. However here, at IIT Bhilai, the hostel life is much more than just ‘hanging out’. Our Student community very very enthusiastic and vivacious, which is why being here is a totally vivid experience. 
-Even though in its infancy, IIT Bhilai has developed a rich student culture. As part of student activities we have established the official student body, the Student Gymkhana. Under it function various clubs and associations, each having a coordinator. Students are encouraged to actively participate in the clubs which interests them.
-
-						</p>
-		
-					</div>
-				</div>
-			</div>
-		</div>
-
-<div class="divider"></div>
-<div class="container">
-	<div class="section">
-		<div class="row">
-			<div class="col s12 left">
-						<h4 class="header cyan-text text-accent-4 center" id="location">Campus Location</h4>
-
-					<p class="light" style="text-align: justify;">
-		IIT Bhilai is located in its temporary campus which is inside the premises of The Government Engineering College(GEC), Raipur. One striking feature of the campus is that it houses not two but three leading Institutions, the third one being IIM Raipur.	<br>
-		
-<div class="container z-depth-2">
-					<iframe width="100%" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDwxilx3FT8Oe4JCbm8elUIlqN66aMTUEU&q=IIT+Bhilai,Old+Dhamtari+Rd&maptype=satellite" allowfullscreen></iframe>
-		</div>
-
-<p class="light" style="text-align: justify;">
-	The campus is about 12 km from Raipur Junction Railway Station, 16 km from Raipur Airport and 13 km from Pandri Bus Stand, Raipur. Auto Rickshaws are easily available from these places to the campus. 
-	<br>
-</p>
-						</p>
-		<div class="divider"></div>
-						<h4 class="header cyan-text text-accent-4 center">Hostel Capacity</h4>
-						<p class="light" style="text-align: justify;">
-							There are separate hostels for boys and girls which are also in the premises of GEC, Raipur.
- When it started in 2016, The boys hostel had a capacity of 120 students and 40 in the girl’s hostel, but the numbers are being increased for the upcoming batches.
-
-						</p>
-					
-		<div class="divider"></div>
-						<h4 class="header cyan-text text-accent-4 center">Types of Rooms</h4>
-						<p class="light" style="text-align: justify;">
-					There are two types of rooms in the boys’ hostel:
-						</p>
-						<ul>
-							<li>4 people per room</li>
-							<li>2 people per room</li>
-							
-						</ul>
-<p class="light" style="text-align: justify;">
-	In the girls’ hostel you will find just one kind of rooms i.e. the rooms meant for 4 people.
-</p>
-
-								<div class="divider"></div>
-						<h4 class="header cyan-text text-accent-4 center">Facilities available</h4>
-						<ul>
-          <li>○&nbsp; Every student gets a bed, a fan, an almirah, a table and a chair in his room.</li>
-          <li>○&nbsp; Toilets are commonly shared with the wing mates.</li>
-          <li>○&nbsp; Two fully automated washing machines are allotted per wing.</li>
-          <li>○&nbsp; Recreation cum TV room is there in the hostels for entertainment purpose.</li>
-          <li>○&nbsp; For the music lovers, there is a music room equipped with a drum set, congo set, keyboard, guitar and some other instruments.</li>
-          <li>○&nbsp; A dance room completely equipped with mirrored walls is set up for tapping your feet. And yes, if you love those drops, then there are bass speakers for you to bounce on.</li>
-          <li>○&nbsp; Both the hostels have indoor badminton courts.</li>
-        </ul>
-
-			</div>
-		</div>
-	</div>
-</div>
-
-<!--end-->
-
-<div class="divider"></div>
-<!--Networking-->
-
-	<div class="container">
-			<div class="section">
-				<div class="row">
-					<div class="col s12 left">
-					
-						<h4 class="header cyan-text text-accent-4 center" id="network">Network and Connectivity</h4>
-						<p class="light" style="text-align: justify;">
-							Being an IIT it is needless to say that we have an excellent internet connectivity. The <strong>NKN (National Knowledge Network)</strong> program is the Internet service provider for the institute and supports network speeds of up to 1 GB/s. Although in the elementary stage, the NKN network is useful as it provides connectivity to other institutes, has resources like video lectures, seminars etc.<br>
-                            Each student has access to the network through the LAN ports provided in the hostel rooms as well as Wi-Fi (each student is allotted a unique ID-Password for accessing).<br>
-						We also have a DC++ culture in the hostel (Google it and you will learn that DC++ is the life line of IIT hostels). It is a really productive file sharing system with a host server and various other clients linked to it. It comes in handy to share large files, academic softwares and recreational stuff (like movies, games, TV series).<br>
-                         Students are encouraged to avail the benefits of the system in the hostel. Apart from the above, all students have access to a common file storage system. Students can use it as a drive to drop/retrieve/share files with peers.
-
-
-                        </p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-<!--end-->
-
-<div class="divider"></div>
-<!--Clubs-->
-<div class="container">
-        <h3 class="header cyan-text text-accent-4 center" id="clubs">Clubs at IIT Bhilai</h3>
-        <p style="text-align: justify;">Introduction: We all, as a part of an elite league of institutes, aspire to work at the frontiers of human knowledge, innovate technology, initiate revolutions in science and propel national development to new heights. But often in such a competitive environment, work is stressed to the point of mania and this is when comes in the need of recreation. Rediscover your hobbies and explore new ones with Clubs at IIT Bhilai. Mind you there is absolutely no bound on anyone’s interest which also means that there is no bound on how many clubs you can be in – it is all up to you.  Currently the following clubs are functional and conduct their respective activities at a regular basis:</p>
-
-        <div class="row">
-          <div style="width: 95% ; margin: 0 auto;">
-            <ul class="tabs z-depth-2 grey lighten-4">
-              <li class="tab col s6"><a href="#cult">Cultural Clubs</a></li>
-              <li class="tab col s6"><a href="#tech">Tech Clubs</a></li>
-            </ul>
-            <div class="indicator"></div>
-
-              <div id="cult" class="col s12 z-depth-1 myContainer">
-                  <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Renaissance - Arts Club
-      </div>
-      <div class="collapsible-body">
-      		<span>
-               <p><strong>Co-ordinator</strong>: Ayush Singh</p>
-                <p style="text-align: justify;"><strong>Description</strong>: Our club is all about providing a platform for the students who are seeking a creative outlet in addition to their academic schedule ,and to use their talent in improving the pace of cultural activities in our college. Awaken your inner Picasso while working with people who have a lucid imagination and excellent design skills.</p>
-
-                <p style="text-align: justify;"><strong>Objective</strong>: We endeavour to help our fellow students to cope up with academic stress and to create an enjoyable ambience for them. We are looking forward to have some independent activities for the same through this club.</p>
-
-                <p><strong>Activities</strong>:</p>
-                <ul class="container">
-                  <li>&cir;&nbsp; Designed college T-shirts and hoodie</li>
-                  <li>&cir;&nbsp; Designed posters and certificates for clubs and various events of our college.</li>
-                  <li>&cir;&nbsp; Festival decorations including rangoli were also done under this club.</li>
-                  <li>&cir;&nbsp; Organised Drawing Competition</li>
-                </ul>
-
-                <div class="row">
-                	<br><br>
-					<div class="col s12 m6">
-						<img src="" id="artsclub_1" style="width: 100%"/>
-					</div>
-					<div class="col s12 m6">
-						<img src="" id="artsclub_3" style="width: 100%"/>
-					</div>
-				</div>
-			</span>
-	  </div>
-    </li>
-                  </ul>
-
-                  <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Beat Hackers - Dance Club
-      </div>
-      <div class="collapsible-body"><span>
-                                   
-                <p><strong>Co-ordinator</strong>: Soma Jholey</p>
-                <p style="text-align: justify;">Feel your feet tingling when the bass drops? Wanna learn a moonwalk or sway like Hrithik? If yes, then this the place where you can let the beats have control.</p>
-
-                <p><strong>Objective</strong>:</p>
-                <ul class="container">
-                  <li>&cir;&nbsp; To encourage participation in dance events irrespective of the student's degree of talent.</li>
-                  <li>&cir;&nbsp; To provide an opportunity to better the dancers in students through constant engagement and also through workshops.</li>
-                  <li>&cir;&nbsp; To pick the best of dancers and form an efficient college dance team to perform during various occasions within the college when required, and consequently improving quality of performance.</li>
-                  <li>&cir;&nbsp; To form a team that would introduce the basics of particular forms of dance to interested one.</li>
-                </ul>
-                <p><strong>Events &amp; Activities</strong>:</p>
-                <ul class="container">
-                  <li>&cir;&nbsp; Participated in open mic (IIT HYDERABAD).</li>
-                  <li>&cir;&nbsp; Participated on Independence day. (Freedom Fortnight).</li>
-                  <li>&cir;&nbsp;  3 workshops conducted for 3 different styles (bhangra, hip hop, and Bollywood style).</li>
-                </ul>
-
-</span></div>
-    </li>
-                  </ul>
-
-
-             
-                  <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Public Speaking Club
-      </div>
-      <div class="collapsible-body"><span>
-                  <p><strong>Co-ordinator</strong>: Mani Yadav</p>
-                <p style="text-align: justify;">Public speaking is one of the crucial tasks in today's world. The need to improve oration skills has increased with times. And with an objective of improving g vocational skills Public Speaking Club of IIT Bhilai organizes its activities which mostly include, inter-club speeches, debates, group discussions, etc. The club currently has 52 members and we expect an increase in number with our next batch.</p>
-
-</span></div>
-    </li>
-                  </ul>
-
-
-                  <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Drishya - Drama Club
-      </div>
-      <div class="collapsible-body"><span>
-                 
-                <p><strong>Co-ordinator</strong>: Mani Yadav</p>
-                <p style="text-align: justify;">For all those timid people who look forward to drama, theatre, film making, public speaking, stand-up comedy but could not do so up until now, here is the perfect opportunity to participate in the various activities conducted by the club and build your potential to find your inner dramatist/actor/speaker which has been hidden for long. <br/>Drishya is first club of IIT Bhilai formed on 9th of August (just after college was inaugurated). Drishya students won their very first award for college in a skit competition on 15th August. The club operates in the premises of temporary campus of IIT Bhilai. There are 32 members in club who actively take part in club activities. Some of the club activities include script writing, inter-club skits, drama practices etc.</p>
-
-</span></div>
-    </li>
-                  </ul>
-
-
-               <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Music Club
-      </div>
-      <div class="collapsible-body">
-      	<span>
-               <p><strong>Co-ordinator</strong>: Ashitabh Misra</p>
-                <p style="text-align: justify;">In our daily pursuit to achieve professional excellence we often neglect certain aspects of life. Music is one of them. It is our constant endeavour to spread awareness and induce a diverse music culture around us, encourage students to take up instruments. Giving opportunities to perform in front of a crowd. In our first year as a club we have performed at IIM Raipur Fest- Armageddon and Open Mic event at IIT Hyderabad.</p>
-				<div class="row">
-					<div class="col s12 m6">
-						<img src="" id="DSC_0082" style="width: 100%">
-					</div>
-					<div class="col s12 m6">
-						<img src="" id="DSC_0075" style="width: 100%">
-					</div>
-				</div>
-
-		</span>
-	  </div>
-    </li>
-                  </ul>
-
-
-                        <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Inside, IIT Bhilai - News and Media Club
-      </div>
-      <div class="collapsible-body"><span>
-                  
-                <p><strong>Co-ordinator</strong>: Harshvardhan Patel</p>
-                <p style="text-align: justify;">“Inside” is the student media body of IIT Bhilai. We are a team of dedicated individuals with a zeal for writing and passion for developing media skills. The power of professional media has revolutionized the way things shape up these days around the globe. Inspired by the fraternity of journalists and showmen, we at IIT Bhilai aim to set up a student community committed towards providing an effective forum for communication within the Institute. </p>
-
-                <p><strong>What's our work?</strong></p>
-                <ul class="container">
-                  <li>&cir;&nbsp; Maintenance of the Intra-College Newsletter which features all the happenings in and around the Institution.</li>
-                  <li>&cir;&nbsp; Handling of Institute’s Social Media profiles in collaboration with the administrative wing of IIT Bhilai.</li>
-                  <li>&cir;&nbsp; Content Development of websites related to the Institute.</li>
-                  <li>&cir;&nbsp; Organizing discussions and interviews with dignitaries who visit the Institution.</li>
-                  <li>&cir;&nbsp; Setting up of and conducting student polls on various matters.</li>
-                  <li>&cir;&nbsp; Promoting and Publishing various media related to the different spheres of the Institute.</li>
-                  <li>&cir;&nbsp; Acting as a voice of the Student Community.</li>
-                </ul>
-
-</span></div>
-    </li>
-                  </ul>
-
-
-         
-                
-                
-            
-              
-               
-              
-         
-              </div>
-              <div id="tech" class="col s12 z-depth-1 myContainer">
-
-                     <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Codificaso Club
-      </div>
-      <div class="collapsible-body"><span>
-             
-                <p><strong>Co-ordinator</strong>: Abhor Gupta</p>
-                <p style="text-align: justify;"><strong>About</strong>: The Codificaso Club seeks to develop the student’s minds and capabilities in the massive and overgrowing field of competitive coding and software development.</p>
-
-                <p><strong>Intentions, themes and ideas</strong>:</p>
-                <ul class="container">
-                  <li>&cir;&nbsp; We wish to help students on their path of coding by giving them required facilities and opportunities.</li>
-                  <li>&cir;&nbsp; Knowing more programming languages is never a disadvantage.</li>
-                  <li>&cir;&nbsp;  Practice makes perfect.</li>
-                </ul>
-
-                <p><strong>Features</strong>:</p>
-                <ul class="container">
-                  <li>&cir;&nbsp; Everyone is invited to join and be a part of Codificaso.</li>
-                  <li>&cir;&nbsp; We support new, innovative ideas and do our best to help guide you through it.</li>
-                  <li>&cir;&nbsp;  Open projects, which require a team to work on, are also available for you to volunteer to work on and spend some quality time with other technical groups and get handy experience.</li>
-                </ul>
-
-                <p><strong>Detailed Description</strong>:</p>
-                <ul class="container">
-                  <li>&cir;&nbsp; For Competitive coding, we give sets of problems weekly for students to try and solve. </li>
-                  <li>&cir;&nbsp; Students are free to approach any core member for doubts/advice regarding any problem, be it club related or a personal project.</li>
-                  <li>&cir;&nbsp;  Small intra-competitions will be organised on a non-regular basis to excite extra enthusiasm and motivation among the students.</li>
-                  <li>&cir;&nbsp; Any student who comes up with an idea of a project in the software field can come and discuss with us for any help from the club. Should he need people to work with him, the club will help gather volunteers for the project which he will be encouraged to spearhead.</li>
-                  <li>&cir;&nbsp; Any and all help will be provided from the club, by coordinating with the authorities.</li>
-                  <li>&cir;&nbsp;  Our aim is to make your dream a reality.</li>
-                </ul>
-
-</span></div>
-    </li>
-                  </ul>
-
-               <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Electronics Club
-      </div>
-      <div class="collapsible-body"><span>
-            
-               
-                
-                <p><strong>Co-ordinator</strong>: Anees Ahmed</p>
-                <p style="text-align: justify;"><strong>About</strong>: Electronics Club is the most visible club in IIT Bhilai. All the electronics components and chips are issued to the students by the Electronics Club. The best part of the club is students converting their innovative ideas into real-life projects. The Electronics Club motivates students to build practically what they read in theory. The club makes it possible to get hands-on experience in building new machines and gadgets using electronic components for any student. The club provides support, guidance and means to help students realise their conceptual designs and ideas to working real-life machines. The club also organises many activities like competitions, seminars, demonstrations and exhibitions.</p>
-
-                <p><strong>Objectives and Ideas</strong>:</p>
-                <ul class="container">
-                  <li>&cir;&nbsp; Group of students sharing a common interest Electronics and its Applications in engineering.</li>
-                  <li>&cir;&nbsp; Give a taste of building machines and making life easier through technology to the students of all the branches.</li>
-                  <li>&cir;&nbsp;  Passion to combine electronic parts into machines and robots.</li>
-                  <li>&cir;&nbsp; Expose students to hands-on experience early in life.</li>
-                  <li>&cir;&nbsp; Promotion of Innovative ideas and designs.</li>
-                  <li>&cir;&nbsp; Inculcating the good habits and practices of engineering things.</li>
-                </ul>
-
-                <p><strong>Features</strong>:</p>
-                <ul class="container">
-                  <li>&cir;&nbsp; Accessible to all students irrespective of the branch.</li>
-                  <li>&cir;&nbsp; Encouragement of building it for real instead of just designing it on paper.</li>
-                  <li>&cir;&nbsp; Organisation of events and group activities.</li>
-                  <li>&cir;&nbsp; A platform to get help and give help.</li>
-                  <li>&cir;&nbsp; Critical or advisory, feedback is always welcome and is acted upon.</li>
-                </ul>
-                <br><br>
-                <div class="row">
-					<div class="col s12 m6">
-						<img src="" id="DSC_0027" style="width: 100%">
-					</div>
-					<div class="col s12 m6">
-						<img src="" id="DSC_0032" style="width: 100%">
-					</div>
-				</div>
-
-</span></div>
-    </li>
-                  </ul>
-
-        <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Epsilon Club
-      </div>
-      <div class="collapsible-body"><span>
-           
-               
-                <p><strong>Co-ordinator</strong>: Aayush Srivastava</p>
-                <p style="text-align: justify;"><strong>About</strong>: A group of science enthusiasts who dare to look beyond the engineering concepts into the fascinating field of theoretical and practical science and their applications in form of student projects, exhibitions etc. If you are curious about science, this club would definitely cater to your interests.</p>
-
-                <p><strong>Intentions, themes and ideas</strong>:</p>
-                <ul class="container">
-                  <li>&cir;&nbsp; Group of students sharing a common interest in Physics &amp; General Science.</li>
-                  <li>&cir;&nbsp; The purpose of the club is to give physics majors and non-majors alike a place to meet other people with an interest in physics, promote understanding of the discipline we love, perform community outreach, and work on interesting projects!</li>
-                  <li>&cir;&nbsp; Most important objective is to promote inventions &amp; innovative ideas of students.</li>
-                  <li>&cir;&nbsp; Exploring Science beyond engineering syllabus.</li>
-                </ul>
-
-                <p><strong>Detailed Description</strong>:</p>
-                <ul class="container">
-                  <li>&cir;&nbsp; The club mainly focusses on the promotion of inventions &amp; innovative ideas of students.</li>
-                  <li>&cir;&nbsp; The ‘self-project’ the students opt for, will be discussed in the group, they would be provided with the necessary budget, plus they would also be given assistance by the core members of the Club.</li>
-                  <li>&cir;&nbsp;  The projects may be done in groups or individually. </li>
-                  <li>&cir;&nbsp; The motive is to gather/make things &amp; stuffs related to science. So, if we couldn’t make it, we’ll buy it.</li>
-                  <li>&cir;&nbsp; Small or big scale events &amp; competitions related to science shall be held, organized by this Club.</li>
-                  <li>&cir;&nbsp;  The projects being made shall be put to display with a ‘one-page’ document beside it, containing the name of the maker. They may also be presented in Tech-Fests, etc.</li>
-                  <li>&cir;&nbsp;  The publicity of the most brilliant projects shall be done with the help of “Inside, IIT Bhilai” (The News and Media Club).</li>
-                </ul>
-
-</span></div>
-    </li>
-                  </ul>
-
-
-              </div>
-
-          </div>
-        </div>
-</div>
-<!--end-->
-
-<div class="divider"></div>
-<!--Sports-->
-
-	<div class="container">
-			<div class="section">
-				<div class="row">
-					<div class="col s12 left">
-						<h2 class="center"><i class="fa fa-trophy fa-1x" aria-hidden="true"></i></h2>
-						<h4 class="header cyan-text text-accent-4 center" id="sports">Sports Facilities <strong>at Indian Institute of Technology Bhilai</strong></h4>
-				<h4 class="header light center teal-text" style="font-weight:10px; color:black ;">
-					"Sports do not build character.
-They reveal it."
-
-				</h4>
-						<p class="light" style="text-align: justify;">
-							Education – for many this is probably one of the most important factors of our lives and from a very young age children work their way through the education system before being able to make their own decisions about whether to continue their learning through college, university and further education.
-As part of our educational syllabus we are expected to learn about a number of subjects, however, one of particular interest to us is physical education and sports, as they have a massive part to play within the education system. 
-<br>
-Sports teach us key values such as: Teamwork, Respect, Passion, Hard work and many other key attributes that help towards developing an individual’s character. 
-<br>
-Presence of good sports facilities is a vital tool in developing the above skills. The following sections elaborate on the sports facilities present at IIT Bhilai which will help the students to tackle the challenging curriculum with renewed vigour.
-<br>
-For indoor games there is a recreation room in both the hostels. It houses T.T., board games, pool and Television facilities.
-<br>
-
-						</p>
 
           <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Cricket</div>
-      <div class="collapsible-body"><span>Currently, we have a well-maintained cricket ground in our campus in front of the academic-block with a cemented pitch. All the important equipments such as bat, balls, wickets etc. are made available to the students by the institute. The ground and all the equipments are available to the students without any restrictions on the playing hours. 
-</span></div>
-    </li>
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Beat Hackers
+              </div>
+              <div class="collapsible-body">
+                <span>
 
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Badminton</div>
-      <div class="collapsible-body"><span>We have two well maintained, standard, outdoor badminton courts in our institute in both the boys’ and the girls’ hostel courtyards. The shuttles are provided by the institute itself, without any time restrictions. You are adviced to bring your own rackets.
-</span></div>
-    </li>
+                  <p>
+                    <strong>Co-ordinator</strong>: Mohammed Sameer</p>
+                  <p style="text-align: justify;">Feel your feet tingling when the bass drops? Wanna learn a moonwalk or sway like Hrithik? If yes, then
+                    this the place where you can let the beats have control.</p>
 
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Basketball</div>
+                  <p>
+                    <strong>Objective</strong>:</p>
+                  <ul class="container">
+                    <li>&cir;&nbsp; To encourage participation in dance events irrespective of the student's degree of talent.</li>
+                    <li>&cir;&nbsp; To provide an opportunity to better the dancers in students through constant engagement and
+                      also through workshops.</li>
+                    <li>&cir;&nbsp; To pick the best of dancers and form an efficient college dance team to perform during various
+                      occasions within the college when required, and consequently improving quality of performance.</li>
+                    <li>&cir;&nbsp; To form a team that would introduce the basics of particular forms of dance to interested
+                      one.
+                    </li>
+                  </ul>
+                  <p>
+                    <strong>Events &amp; Activities</strong>:</p>
+                  <ul class="container">
+                    <li>&cir;&nbsp; Participated in open mic (IIT HYDERABAD).</li>
+                    <li>&cir;&nbsp; Participated on Independence day. (Freedom Fortnight).</li>
+                    <li>&cir;&nbsp; 3 workshops conducted for 3 different styles (bhangra, hip hop, and Bollywood style).</li>
+                  </ul>
 
-      <div class="collapsible-body"><span>We have a maintained basketball court in our institute just beside the IIM Campus. The Basketballs are provided by the institute and can be collected by the students from the hostel storeroom itself.  
-        </span></div>
-    </li>
-
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Table Tennis</div>
-						
-      <div class="collapsible-body"><span>Table Tennis equipment is available in both the boys and the girls hostel. 
-</span></div>
-    </li>
-
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Football</div>
-						
-      <div class="collapsible-body"><span>We have a football ground just beside the cricket ground with the footballs being provided by the institute.
-</span></div>
-    </li>
-
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Snooker/Pool</div>
-      <div class="collapsible-body"><span>We have a pool table in the boys’ hostel recreation room with good quality standard balls and cues.
-</span></div>
-    </li>
-
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Board Games</div>
-      <div class="collapsible-body"><span>					For board games we have chess and carom boards. The equipments can be issued by the students from the recreation rooms of the boys’ and girls’ hostels.
-</span></div>
-    </li>
-
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Volley Ball</div>
-      <div class="collapsible-body"><span>						We have two well maintained volleyball courts in our campus- one, in our hostel, and the other in front of the academic block. The volleyballs are provided by the institute itself and can be issued by the students irrespective of the time.                             Our volleyball team is all set to represent IIT Bhilai in this year’s Inter IIT Sports Meet.
-</span></div>
-    </li>
-
-  </ul>
+                </span>
+              </div>
+            </li>
+          </ul>
 
 
-	  <h5 class="header teal-text text-accent-4 center" >
-	  	<br>Tournaments Organised So Far<br>
-	  </h5>
-	  <br>
-	  <div class="row">
-	  <p class="light" style="text-align: justify;">
-	  	
-	  	<ul style="text-align: justify;">
-	  		<li>&cir;&nbsp;
-	  			Two Badminton tournaments
-	  		</li>
-	  		<li>&cir;&nbsp;
-	  			One Table Tennis tournaments
-	  		</li>
-	  		<li>&cir;&nbsp;
-	  			One Volley Ball tournaments
-	  		</li>
-	  	</ul>
-	  </p></div>
 
-				<div class="row">
-					<div class="col s12 m6">
-						<img src="" id="DSC_0004" style="width: 100%">
-					</div>
-					
-					<div class="col s12 m6">
-						<img src="" id="DSC_0050" style="width: 100%">
-					</div>
-				</div>
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>G.O.A.L.S
+              </div>
+              <div class="collapsible-body">
+                <span>
+                  <p>
+                    <strong>Co-ordinator</strong>: Gaurav Verma, Ankit Yadav, Aditya Rajesh</p>
+                  <p style="text-align: justify;">GOALS, which stands for General Oratory And Literary Society (check full form) is a society which sprung
+                    from the Orators club. Initially confined to the arena of public-speaking, it was decided that the club
+                    would expand its ventures and dabble in other literary fields too. The society is a vibrant one, with
+                    lots of regular and interesting activities, that both serve to be fun as well as beneficial. Every student
+                    taking part in these activities is encouraged to come out of his/her shell and start communicating effectively.
+                    <br> The society also has its own newsletter, called the Couch Potato. The contents are typically informal
+                    and talk about the most interesting things happening in and around the campus. In all, it is a society
+                    that's definitely worth joining, if you want a major upgrade to your people skills!</p>
+
+                </span>
+              </div>
+            </li>
+          </ul>
 
 
-					</div>
-				</div>
-			</div>
-		</div>
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Drishya
+              </div>
+              <div class="collapsible-body">
+                <span>
 
-<!--end-->
+                  <p>
+                    <strong>Co-ordinator</strong>: Rishabh Jain</p>
+                  <p style="text-align: justify;">“The most exicting acting tends to happen in the roles you never thought you could play” - John Lithgow
+                    Drishya, the official drama club of iit bhilai, where you enter into a new world. You forget about yourself
+                    and gain the identity of an anonymous character. Here you can be the opposite of what you are or anyone
+                    you want to be. You will get a chance to act, write scripts, direct plays or you can also become a story
+                    teller. I, as a coordinator of drishya assures you that once you enter this club, you will have lots
+                    of fun with enhancement of your drama skills.
+                    <br> So all those who believes that – yes there is an actor inside me, then do come and become a part of
+                    drishya family.</p>
 
-<div class="divider"></div>
-
-<!--Mess-->
-
-
-		<div class="container">
-			<div class="section">
-				<div class="row">
-					<div class="col s12 center">
-						<h4 class="header cyan-text text-accent-4" id="mess">Mess Facilities</h4>
-						<p class="light" style="text-align: justify;">
-Currently the dining hall is situated in the Boys hostel. Bus service to the mess at boys’ hostel is arranged for girls during lunch and dinner. Breakfast and evening snacks are served at the respective hostels. Both the hostels have mess canteens which are open till 1 am in the night. They serve Snacks, Drinks, Fresh Fruit Juices, Noodles, Ice-Creams etc. 
-
-						</p>
-						<div class="row">
-							<div class="col s12 m6">
-								<img src="" id="DSC_0028" style="width: 100%">
-							</div>
-							<div class="col s12 m6">
-								<img src="" id="DSC_0044" style="width: 100%">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-<!--end-->
-
-<div class="divider"></div>
-<!--Medical-->
-
-		<div class="container">
-			<div class="section">
-				<div class="row">
-					<div class="col s12 center">
-						<h4 class="header cyan-text text-accent-4" id="medical">Medical Facilities</h4>
-						<p class="light" style="text-align: justify;">
-						The hostel has first-aid facilities along with medications for common ailments. If one needs to see a doctor, he can find him at the academic block in the Nurse room. A paramedic is always available at the campus and so is the ambulance service (An ambulance vehicle available 24 x 7 in the campus). In case of emergency or any other medical call, one is taken to the nearest Hospital: The VY Hospital (Located about 5 km from the campus, distance is covered within 15 min due to presence of wide and less busy roads). It is functional 24 x 7 and has all major facilities.
-
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-<!--end-->
-
-<div class="divider"></div>
-<!--Transportation within Hostel-->
-
-	<div class="container">
-			<div class="section">
-				<div class="row">
-					<div class="col s12 center">
-						<h4 class="header cyan-text text-accent-4" id="trans">Transportation Facilities within <strong>Campus</strong></h4>
-						<p class="light" style="text-align: justify;">
-				The boys hostel is located at a distance of about 900m from the academic block. A wide road within the campus connects both. There are plenty of options to ply between these two:
-						</p>
-<ul style="text-align: justify;">
-    <li>&cir;&nbsp; You can walk without even breaking a sweat (Can’t guarantee about summers though)</li>
-    <li>&cir;&nbsp; Paddle your way to the Acad. Block</li>
-    <li> &cir;&nbsp;Lazy enough? Well there is a bus service  back and forth from the hostel to the Acad. Block. It runs at scheduled times- generally half and prior to lectures and lunch.
-
-    </li>
-    <li> &cir;&nbsp;Girls Hostel is just behind the Academic Block, roughly half as far as the boys hostel.</li>
-</ul>
-					</div>
-				</div>
-			</div>
-		</div>
+                </span>
+              </div>
+            </li>
+          </ul>
 
 
-<!--end-->
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Music Club
+              </div>
+              <div class="collapsible-body">
+                <span>
+                  <p>
+                    <strong>Co-ordinator</strong>: Ashitabh Misra</p>
+                  <p style="text-align: justify;">In our daily pursuit to achieve professional excellence we often neglect certain aspects of life. Music
+                    is one of them. It is our constant endeavour to spread awareness and induce a diverse music culture around
+                    us, encourage students to take up instruments. Giving opportunities to perform in front of a crowd. In
+                    our first year as a club we have performed at IIM Raipur Fest- Armageddon and Open Mic event at IIT Hyderabad.</p>
+                  <div class="row">
+                    <div class="col s12 m6">
+                      <img src="" id="DSC_0082" style="width: 100%">
+                    </div>
+                    <div class="col s12 m6">
+                      <img src="" id="DSC_0075" style="width: 100%">
+                    </div>
+                  </div>
 
-<!-- Footer starts -->
+                </span>
+              </div>
+            </li>
+          </ul>
+
+
+
+
+
+        </div>
+
+        <div id="tech" class="col s12 z-depth-1 myContainer">
+
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Codificaso Club
+              </div>
+              <div class="collapsible-body">
+                <span>
+
+                  <p>
+                    <strong>Co-ordinator</strong>: Abhor Gupta</p>
+                  <p style="text-align: justify;">
+                    <strong>About</strong>: The Codificaso Club seeks to develop the student’s minds and capabilities in the massive
+                    and overgrowing field of competitive coding and software development.</p>
+
+                  <p>
+                    <strong>Intentions, themes and ideas</strong>:</p>
+                  <ul class="container">
+                    <li>&cir;&nbsp; We wish to help students on their path of coding by giving them required facilities and opportunities.</li>
+                    <li>&cir;&nbsp; Knowing more programming languages is never a disadvantage.</li>
+                    <li>&cir;&nbsp; Practice makes perfect.</li>
+                  </ul>
+
+                  <p>
+                    <strong>Features</strong>:</p>
+                  <ul class="container">
+                    <li>&cir;&nbsp; Everyone is invited to join and be a part of Codificaso.</li>
+                    <li>&cir;&nbsp; We support new, innovative ideas and do our best to help guide you through it.</li>
+                    <li>&cir;&nbsp; Open projects, which require a team to work on, are also available for you to volunteer to
+                      work on and spend some quality time with other technical groups and get handy experience.</li>
+                  </ul>
+
+                  <p>
+                    <strong>Detailed Description</strong>:</p>
+                  <ul class="container">
+                    <li>&cir;&nbsp; For Competitive coding, we give sets of problems weekly for students to try and solve. </li>
+                    <li>&cir;&nbsp; Students are free to approach any core member for doubts/advice regarding any problem, be
+                      it club related or a personal project.</li>
+                    <li>&cir;&nbsp; Small intra-competitions will be organised on a non-regular basis to excite extra enthusiasm
+                      and motivation among the students.</li>
+                    <li>&cir;&nbsp; Any student who comes up with an idea of a project in the software field can come and discuss
+                      with us for any help from the club. Should he need people to work with him, the club will help gather
+                      volunteers for the project which he will be encouraged to spearhead.</li>
+                    <li>&cir;&nbsp; Any and all help will be provided from the club, by coordinating with the authorities.</li>
+                    <li>&cir;&nbsp; Our aim is to make your dream a reality.</li>
+                  </ul>
+
+                </span>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Electronics Club
+              </div>
+              <div class="collapsible-body">
+                <span>
+
+
+
+                  <p>
+                    <strong>Co-ordinator</strong>: Anees Ahmed</p>
+                  <p style="text-align: justify;">
+                    <strong>About</strong>: Electronics Club is the most visible club in IIT Bhilai. All the electronics components
+                    and chips are issued to the students by the Electronics Club. The best part of the club is students converting
+                    their innovative ideas into real-life projects. The Electronics Club motivates students to build practically
+                    what they read in theory. The club makes it possible to get hands-on experience in building new machines
+                    and gadgets using electronic components for any student. The club provides support, guidance and means
+                    to help students realise their conceptual designs and ideas to working real-life machines. The club also
+                    organises many activities like competitions, seminars, demonstrations and exhibitions.</p>
+
+                  <p>
+                    <strong>Objectives and Ideas</strong>:</p>
+                  <ul class="container">
+                    <li>&cir;&nbsp; Group of students sharing a common interest Electronics and its Applications in engineering.</li>
+                    <li>&cir;&nbsp; Give a taste of building machines and making life easier through technology to the students
+                      of all the branches.</li>
+                    <li>&cir;&nbsp; Passion to combine electronic parts into machines and robots.</li>
+                    <li>&cir;&nbsp; Expose students to hands-on experience early in life.</li>
+                    <li>&cir;&nbsp; Promotion of Innovative ideas and designs.</li>
+                    <li>&cir;&nbsp; Inculcating the good habits and practices of engineering things.</li>
+                  </ul>
+
+                  <p>
+                    <strong>Features</strong>:</p>
+                  <ul class="container">
+                    <li>&cir;&nbsp; Accessible to all students irrespective of the branch.</li>
+                    <li>&cir;&nbsp; Encouragement of building it for real instead of just designing it on paper.</li>
+                    <li>&cir;&nbsp; Organisation of events and group activities.</li>
+                    <li>&cir;&nbsp; A platform to get help and give help.</li>
+                    <li>&cir;&nbsp; Critical or advisory, feedback is always welcome and is acted upon.</li>
+                  </ul>
+                  <br>
+                  <br>
+                  <div class="row">
+                    <div class="col s12 m6">
+                      <img src="" id="DSC_0027" style="width: 100%">
+                    </div>
+                    <div class="col s12 m6">
+                      <img src="" id="DSC_0032" style="width: 100%">
+                    </div>
+                  </div>
+
+                </span>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Epsilon Club
+              </div>
+              <div class="collapsible-body">
+                <span>
+
+
+                  <p>
+                    <strong>Co-ordinator</strong>: Aayush Srivastava</p>
+                  <p style="text-align: justify;">
+                    <strong>About</strong>: A group of science enthusiasts who dare to look beyond the engineering concepts into
+                    the fascinating field of theoretical and practical science and their applications in form of student
+                    projects, exhibitions etc. If you are curious about science, this club would definitely cater to your
+                    interests.
+                  </p>
+
+                  <p>
+                    <strong>Intentions, themes and ideas</strong>:</p>
+                  <ul class="container">
+                    <li>&cir;&nbsp; Group of students sharing a common interest in Physics &amp; General Science.</li>
+                    <li>&cir;&nbsp; The purpose of the club is to give physics majors and non-majors alike a place to meet other
+                      people with an interest in physics, promote understanding of the discipline we love, perform community
+                      outreach, and work on interesting projects!</li>
+                    <li>&cir;&nbsp; Most important objective is to promote inventions &amp; innovative ideas of students.</li>
+                    <li>&cir;&nbsp; Exploring Science beyond engineering syllabus.</li>
+                  </ul>
+
+                  <p>
+                    <strong>Detailed Description</strong>:</p>
+                  <ul class="container">
+                    <li>&cir;&nbsp; The club mainly focusses on the promotion of inventions &amp; innovative ideas of students.</li>
+                    <li>&cir;&nbsp; The ‘self-project’ the students opt for, will be discussed in the group, they would be provided
+                      with the necessary budget, plus they would also be given assistance by the core members of the Club.</li>
+                    <li>&cir;&nbsp; The projects may be done in groups or individually. </li>
+                    <li>&cir;&nbsp; The motive is to gather/make things &amp; stuffs related to science. So, if we couldn’t make
+                      it, we’ll buy it.</li>
+                    <li>&cir;&nbsp; Small or big scale events &amp; competitions related to science shall be held, organized
+                      by this Club.</li>
+                    <li>&cir;&nbsp; The projects being made shall be put to display with a ‘one-page’ document beside it, containing
+                      the name of the maker. They may also be presented in Tech-Fests, etc.</li>
+                    <li>&cir;&nbsp; The publicity of the most brilliant projects shall be done with the help of “Inside, IIT
+                      Bhilai” (The News and Media Club).</li>
+                  </ul>
+
+                </span>
+              </div>
+            </li>
+          </ul>
+
+
+        </div>
+
+        <div id="outreach" class="col s12 z-depth-1 myContainer">
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Inside, IIT Bhilai - News and Media Club
+              </div>
+              <div class="collapsible-body">
+                <span>
+
+                  <p>
+                    <strong>Co-ordinator</strong>: Harshvardhan Patel</p>
+                  <p style="text-align: justify;">“Inside” is the student media body of IIT Bhilai. We are a team of dedicated individuals with a zeal for
+                    writing and passion for developing media skills. The power of professional media has revolutionized the
+                    way things shape up these days around the globe. Inspired by the fraternity of journalists and showmen,
+                    we at IIT Bhilai aim to set up a student community committed towards providing an effective forum for
+                    communication within the Institute. </p>
+
+                  <p>
+                    <strong>What's our work?</strong>
+                  </p>
+                  <ul class="container">
+                    <li>&cir;&nbsp; Maintenance of the Intra-College Newsletter which features all the happenings in and around
+                      the Institution.</li>
+                    <li>&cir;&nbsp; Handling of Institute’s Social Media profiles in collaboration with the administrative wing
+                      of IIT Bhilai.</li>
+                    <li>&cir;&nbsp; Content Development of websites related to the Institute.</li>
+                    <li>&cir;&nbsp; Organizing discussions and interviews with dignitaries who visit the Institution.</li>
+                    <li>&cir;&nbsp; Setting up of and conducting student polls on various matters.</li>
+                    <li>&cir;&nbsp; Promoting and Publishing various media related to the different spheres of the Institute.</li>
+                    <li>&cir;&nbsp; Acting as a voice of the Student Community.</li>
+                  </ul>
+
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--end-->
+
+  <div class="divider"></div>
+  <!--Sports-->
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 left">
+          <h2 class="center">
+            <i class="fa fa-trophy fa-1x" aria-hidden="true"></i>
+          </h2>
+          <h4 class="header cyan-text text-accent-4 center" id="sports">Sports Facilities
+            <strong>at Indian Institute of Technology Bhilai</strong>
+          </h4>
+          <h4 class="header light center teal-text" style="font-weight:10px; color:black ;">
+            "Sports do not build character. They reveal it."
+
+          </h4>
+          <p class="light" style="text-align: justify;">
+            Education – for many this is probably one of the most important factors of our lives and from a very young age children work
+            their way through the education system before being able to make their own decisions about whether to continue
+            their learning through college, university and further education. As part of our educational syllabus we are
+            expected to learn about a number of subjects, however, one of particular interest to us is physical education
+            and sports, as they have a massive part to play within the education system.
+            <br> Sports teach us key values such as: Teamwork, Respect, Passion, Hard work and many other key attributes that
+            help towards developing an individual’s character.
+            <br> Presence of good sports facilities is a vital tool in developing the above skills. The following sections elaborate
+            on the sports facilities present at IIT Bhilai which will help the students to tackle the challenging curriculum
+            with renewed vigour.
+            <br> For indoor games there is a recreation room in both the hostels. It houses T.T., board games, pool and Television
+            facilities.
+            <br>
+
+          </p>
+
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Cricket</div>
+              <div class="collapsible-body">
+                <span>Currently, we have a well-maintained cricket ground in our campus in front of the academic-block with a cemented
+                  pitch. All the important equipments such as bat, balls, wickets etc. are made available to the students
+                  by the institute. The ground and all the equipments are available to the students without any restrictions
+                  on the playing hours.
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Badminton</div>
+              <div class="collapsible-body">
+                <span>We have two well maintained, standard, outdoor badminton courts in our institute in both the boys’ and the
+                  girls’ hostel courtyards. The shuttles are provided by the institute itself, without any time restrictions.
+                  You are adviced to bring your own rackets.
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Basketball</div>
+
+              <div class="collapsible-body">
+                <span>We have a maintained basketball court in our institute just beside the IIM Campus. The Basketballs are provided
+                  by the institute and can be collected by the students from the hostel storeroom itself.
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Table Tennis</div>
+
+              <div class="collapsible-body">
+                <span>Table Tennis equipment is available in both the boys and the girls hostel.
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Football</div>
+
+              <div class="collapsible-body">
+                <span>We have a football ground just beside the cricket ground with the footballs being provided by the institute.
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Snooker/Pool</div>
+              <div class="collapsible-body">
+                <span>We have a pool table in the boys’ hostel recreation room with good quality standard balls and cues.
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Board Games</div>
+              <div class="collapsible-body">
+                <span> For board games we have chess and carom boards. The equipments can be issued by the students from the recreation
+                  rooms of the boys’ and girls’ hostels.
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">whatshot</i>Volley Ball</div>
+              <div class="collapsible-body">
+                <span> We have two well maintained volleyball courts in our campus- one, in our hostel, and the other in front of
+                  the academic block. The volleyballs are provided by the institute itself and can be issued by the students
+                  irrespective of the time. Our volleyball team is all set to represent IIT Bhilai in this year’s Inter IIT
+                  Sports Meet.
+                </span>
+              </div>
+            </li>
+
+          </ul>
+
+
+          <h5 class="header teal-text text-accent-4 center">
+            <br>Tournaments Organised So Far
+            <br>
+          </h5>
+          <br>
+          <div class="row">
+            <p class="light" style="text-align: justify;">
+
+              <ul style="text-align: justify;">
+                <li>&cir;&nbsp; Two Badminton tournaments
+                </li>
+                <li>&cir;&nbsp; One Table Tennis tournaments
+                </li>
+                <li>&cir;&nbsp; One Volley Ball tournaments
+                </li>
+              </ul>
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m6">
+              <img src="" id="DSC_0004" style="width: 100%">
+            </div>
+
+            <div class="col s12 m6">
+              <img src="" id="DSC_0050" style="width: 100%">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--end-->
+
+  <div class="divider"></div>
+
+  <!--Mess-->
+
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4 class="header cyan-text text-accent-4" id="mess">Mess Facilities</h4>
+          <p class="light" style="text-align: justify;">
+            Currently the dining hall is situated in the Boys hostel. Bus service to the mess at boys’ hostel is arranged for girls during
+            lunch and dinner. Breakfast and evening snacks are served at the respective hostels. Both the hostels have mess
+            canteens which are open till 1 am in the night. They serve Snacks, Drinks, Fresh Fruit Juices, Noodles, Ice-Creams
+            etc.
+
+          </p>
+          <div class="row">
+            <div class="col s12 m6">
+              <img src="" id="DSC_0028" style="width: 100%">
+            </div>
+            <div class="col s12 m6">
+              <img src="" id="DSC_0044" style="width: 100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--end-->
+
+  <div class="divider"></div>
+  <!--Medical-->
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4 class="header cyan-text text-accent-4" id="medical">Medical Facilities</h4>
+          <p class="light" style="text-align: justify;">
+            The hostel has first-aid facilities along with medications for common ailments. If one needs to see a doctor, he can find
+            him at the academic block in the Nurse room. A paramedic is always available at the campus and so is the ambulance
+            service (An ambulance vehicle available 24 x 7 in the campus). In case of emergency or any other medical call,
+            one is taken to the nearest Hospital: The VY Hospital (Located about 5 km from the campus, distance is covered
+            within 15 min due to presence of wide and less busy roads). It is functional 24 x 7 and has all major facilities.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--end-->
+
+  <div class="divider"></div>
+  <!--Transportation within Hostel-->
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4 class="header cyan-text text-accent-4" id="trans">Transportation Facilities within
+            <strong>Campus</strong>
+          </h4>
+          <p class="light" style="text-align: justify;">
+            The boys hostel is located at a distance of about 900m from the academic block. A wide road within the campus connects both.
+            There are plenty of options to ply between these two:
+          </p>
+          <ul style="text-align: justify;">
+            <li>&cir;&nbsp; You can walk without even breaking a sweat (Can’t guarantee about summers though)</li>
+            <li>&cir;&nbsp; Paddle your way to the Acad. Block</li>
+            <li> &cir;&nbsp;Lazy enough? Well there is a bus service back and forth from the hostel to the Acad. Block. It runs
+              at scheduled times- generally half and prior to lectures and lunch.
+
+            </li>
+            <li> &cir;&nbsp;Girls Hostel is just behind the Academic Block, roughly half as far as the boys hostel.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--end-->
+
+  <!-- Footer starts -->
   <footer class="page-footer #00b0ff light-blue accent-3">
-		<div class="container">
-		  <div class="row">
-			<div class="col l6 s12">
-			  <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Disclaimer Note</h5>
-			  <p class="grey-text text-lighten-4" style="text-align: justify;">The content on this website is developed solely by the student body of Indian Institute of Technology Bhilai. None of the views on any of the topics are endorsed by the institution.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Disclaimer Note</h5>
+          <p class="grey-text text-lighten-4" style="text-align: justify;">The content on this website is developed solely by the student body of Indian Institute of Technology Bhilai. None
+            of the views on any of the topics are endorsed by the institution.</p>
 
 
-			</div>
-			<div class="col l3 s12">
-			  <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Menu</h5>
-			  <ul class="footer_menu" style="text-align: justify;">
-				<li><a class="white-text" href="index.html">Home</a></li>				
-				<li><a class="white-text" href="mentors_2018.html">Student Mentors</a></li>
-				<li><a class="white-text" href="acad1.html">Academics</a></li>
-				<li><a class="white-text" href="life.html">Life @ IITBh</a></li>
-				<li><a class="white-text" href="around1.html">Around IITBh</a></li>
-				<li><a class="white-text" href="ns1.html">NSS &amp; NSO</a></li>
-				<li><a class="white-text" href="Queries.html">Queries</a></li>
-			  </ul>
-			</div>
-			<div class="col l3 s12">
-			  <h5 class="white-text">Connect</h5>
-			  <ul>
-				<li><a class="white-text" href="https://www.facebook.com/iit.bh/"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a></li>
-				<li><a class="white-text" href="https://twitter.com/IIT_Bhilai"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Twitter</a></li>
-				<li><a class="white-text" href="https://www.instagram.com/iitbhilai/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Instagram</a></li>
-			  </ul>
-			</div>
-		  </div>
-		</div>
-		<div class="footer-copyright">
-		  <div class="container" style="font-family: 'Exo 2', sans-serif;">
-		  &copy; 2017-2018, Indian Institute of Technology Bhilai
-		  </div>
-		</div>
-	  </footer>
-	  <!-- Scripts -->
-	  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js1/materialize.js"></script>
-		<script src="js1\typed.js">
-		 </script>
-		<script type="text/javascript">
-		$(function(){
-			$(".typed_writer").typed({
-				strings:[
-					"Welcome to IIT Bhilai","Your Journey Begins Here!!"
-				]
-				,typeSpeed:70,
-				backDelay:200,
-				loop:true
-			});
-		});
-   </script>
-    
-		
-<!-- This file below to be edited for external styling -->
-		<script src="js1/init.js"></script>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Menu</h5>
+          <ul class="footer_menu" style="text-align: justify;">
+            <li>
+              <a class="white-text" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="white-text" href="mentors1.html">Student Mentors</a>
+            </li>
+            <li>
+              <a class="white-text" href="acad1.html">Academics</a>
+            </li>
+            <li>
+              <a class="white-text" href="life.html">Life @ IITBh</a>
+            </li>
+            <li>
+              <a class="white-text" href="around1.html">Around IITBh</a>
+            </li>
+            <li>
+              <a class="white-text" href="ns1.html">NSS &amp; NSO</a>
+            </li>
+            <li>
+              <a class="white-text" href="Queries.html">Queries</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li>
+              <a class="white-text" href="https://www.facebook.com/iit.bh/">
+                <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a>
+            </li>
+            <li>
+              <a class="white-text" href="https://twitter.com/IIT_Bhilai">
+                <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Twitter</a>
+            </li>
+            <li>
+              <a class="white-text" href="https://www.instagram.com/iitbhilai/?hl=en">
+                <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container" style="font-family: 'Exo 2', sans-serif;">
+        &copy; 2017-2018, Indian Institute of Technology Bhilai
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js1/materialize.js"></script>
+  <script src="js1\typed.js">
+  </script>
+  <script type="text/javascript">
+    $(function () {
+      $(".typed_writer").typed({
+        strings: [
+          "Welcome to IIT Bhilai", "Your Journey Begins Here!!"
+        ],
+        typeSpeed: 70,
+        backDelay: 200,
+        loop: true
+      });
+    });
+  </script>
 
-  </body>
+
+  <!-- This file below to be edited for external styling -->
+  <script src="js1/init.js"></script>
+
+</body>
+
 </html>
