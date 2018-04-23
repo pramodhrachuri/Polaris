@@ -1,244 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-	<meta name="Keywords" content="IIT, Bhilai, Polaris, Indian Institute of Technology" />
-	<meta name="theme-color" content="#00B0FF">
-	<title>Polaris - IIT Bhilai</title>
-	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-	<!-- CSS -->
-	<link href="https://fonts.googleapis.com/css?family=Lobster|Asul|Aclonica|Acme|Amiri|Exo+2|Mogra|Ubuntu" rel="stylesheet">
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	  <meta name="Keywords" content="IIT, Bhilai, Polaris, Indian Institute of Technology" />
+	  <meta name="theme-color" content="#00B0FF">
+	  <title>Polaris - IIT Bhilai</title>
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<!-- CSS -->
+<link href="https://fonts.googleapis.com/css?family=Lobster|Asul|Aclonica|Acme|Amiri|Exo+2|Mogra|Ubuntu" rel="stylesheet"> 
 
 
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="css1/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-	<!-- This file below to be edited for external styling -->
-	<link href="css1/style1.css" type="text/css" rel="stylesheet" media="screen,projection" />
-	<link href="css1/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
-	<style>
-		nav {
-
-			font-size: 28px;
-		}
-	</style>
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link href="css1/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<!-- This file below to be edited for external styling -->
+		<link href="css1/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css1/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		
+<style>
+	nav{
+		font-size:28px;
+	}
+	
+	
+</style>
 
 </head>
 
 <!-- This part of code is written for loading images as per priority -->
 <script type="text/javascript">
-	imgIds = ["background4", "Naman", "Rudrashish", "Vijit", "Priyesh", "Anant", "Rishabh_Jain", "Ketan", "Mayank",
-		"Rohit", "Amiay", "Sourabh", "vikram", "avnish", "Neha", "Aikata"
-	]; //write the ids in this list. Important ----------> make sure that file name and id are same
+	imgIds=["background4","adityar","adwait","aniket","antaraphukan","gave","nageshwar","naman_pujari","pallavi_pandey","pramit","ripu","rushabh_dhabe","shivam","shivani_tripathi","shivansh","sumit","surya","yash_tiwari"]; //write the ids in this list. Important ----------> make sure that file name and id are same
 	function loadImages(counter) {
-		if (counter == imgIds.length) {
-			return;
-		}
-		var I = document.getElementById(imgIds[counter]);
-		I.onload = I.onerror = function () {
-			loadImages(counter + 1);
-		}
-		I.src = "images/" + imgIds[counter] + ".jpg";
+	  if(counter==imgIds.length) { return; }
+	  var I = document.getElementById(imgIds[counter]);
+	  I.onload = I.onerror = function() { loadImages(counter+1); }
+	  I.src = "images/mentors_2018/"+imgIds[counter]+".jpg";
 	}
 </script>
 
 <body>
-	<!-- Navbar Start -->
-	<header>
-		<div class="navbar-fixed">
-
-			<nav class="nav-extended #00b0ff light-blue accent-3 z-depth-5">
-
-				<div class="nav-wrapper container
+<!-- Navbar Start -->
+<header>
+    <div class="navbar-fixed">
+    
+        <nav class="nav-extended #00b0ff light-blue accent-3 z-depth-5">
+         
+            <div class="nav-wrapper container
 ">
-					<a href="index.html" class="brand-logo white-text">POLARIS</a>
-					<a href="#" data-activates="nav-mobile" class="button-collapse">
-						<i class="material-icons white-text">menu</i>
-					</a>
-
-					<ul class="right hide-on-med-and-down">
-						<li>
-							<a href="mentors1.html" class="hoverable white-text">Student Mentors</a>
-						</li>
-						<li>
-							<a href="acad1.html" class="hoverable white-text">Academics</a>
-						</li>
-						<li>
-							<a href="life.html" class="hoverable white-text">Life @ IITBh</a>
-						</li>
-						<li>
-							<a href="around1.html" class="hoverable white-text">Around IITBh</a>
-						</li>
-						<li>
-							<a href="ns1.html" class="hoverable white-text">NSS and NSO</a>
-						</li>
-						<li>
-							<a href="Queries.html" class="hoverable white-text">Queries</a>
-						</li>
-					</ul>
-
-				</div>
-			</nav>
-		</div>
+                <a href="index.html" class="brand-logo white-text">POLARIS</a>
+		  <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
+               
+                <ul class="right hide-on-med-and-down">
+                        <li><a href="mentors_2018.html" class="hoverable white-text">Student Mentors</a></li>
+                    <li><a href="acad1.html" class="hoverable white-text">Academics</a></li>
+                    <li><a href="life.html" class="hoverable white-text">Life @ IITBh</a></li>
+                    <li><a href="around1.html" class="hoverable white-text">Around IITBh</a></li>
+							      <li><a href="ns1.html" class="hoverable white-text">NSS and NSO</a></li>
+                    <li><a href="Queries.html" class="hoverable white-text">Queries</a></li>
+               </ul>
+              
+            </div>
+        </nav>
+    </div>
 
 
-		<ul id="nav-mobile" class="side-nav">
-			<li class="bold">
-				<a href="mentors1.html" class="waves-effect waves-ripple hoverable">Student Mentors</a>
-			</li>
-			<li>
-				<ul class="collapsible collapsible-accordion">
-					<li>
-						<a class="collapsible-header waves-effect waves-ripple hoverable">
-							<span class="myCollapsibleHeader">Academics</span>
-						</a>
-						<div class="collapsible-body">
-							<ul>
-								<li>
-									<a href="acad1.html#intro">
-										<span class="myCollapsibleListItem light hoverable">Introduction</span>
-									</a>
-								</li>
-								<li>
-									<a href="acad1.html#fractal">
-										<span class="myCollapsibleListItem light hoverable">Fractal Academics</span>
-									</a>
-								</li>
-								<li>
-									<a href="acad1.html#common">
-										<span class="myCollapsibleListItem light hoverable">Common Subjects</span>
-									</a>
-								</li>
-								<li>
-									<a href="acad.html#departments">
-										<span class="myCollapsibleListItem light hoverable">Departments</span>
-									</a>
-								</li>
-								<li>
-									<a href="acad.html#grading">
-										<span class="myCollapsibleListItem light hoverable">Grade Policy</span>
-									</a>
-								</li>
-
-							</ul>
-						</div>
-					</li>
-					<li>
-						<a class="collapsible-header waves-effect waves-ripple hoverable">
-							<span class="myCollapsibleHeader">Life @ IITBh</span>
-						</a>
-						<div class="collapsible-body">
-							<ul>
-
-								<li>
-									<a href="life.html#location">
-										<span class="myCollapsibleListItem light">Location</span>
-									</a>
-								</li>
-								<li>
-									<a href="life.html#network">
-										<span class="myCollapsibleListItem light">Networks</span>
-									</a>
-								</li>
-								<li>
-									<a href="life.html#clubs">
-										<span class="myCollapsibleListItem light">Clubs</span>
-									</a>
-								</li>
-								<li>
-									<a href="life.html#sports">
-										<span class="myCollapsibleListItem light">Sports</span>
-									</a>
-								</li>
-								<li>
-									<a href="life.html#mess">
-										<span class="myCollapsibleListItem light">Mess</span>
-									</a>
-								</li>
-
-								<li>
-									<a href="life.html#mess">
-										<span class="myCollapsibleListItem light">Medical</span>
-									</a>
-								</li>
-								<li>
-									<a href="life.html#trans">
-										<span class="myCollapsibleListItem light">Transportation</span>
-									</a>
-								</li>
-
-							</ul>
-						</div>
-					</li>
-					<li>
-						<a class="collapsible-header waves-effect waves-ripple hoverable">
-							<span class="myCollapsibleHeader">Around IIT Bhilai</span>
-						</a>
-						<div class="collapsible-body">
-							<ul>
-								<li>
-									<a href="around1.html#trans">
-										<span class="myCollapsibleListItem light">Transportation</span>
-									</a>
-								</li>
-								<li>
-									<a href="around1.html#rest">
-										<span class="myCollapsibleListItem light">Restaurants</span>
-									</a>
-								</li>
-								<li>
-									<a href="around1.html#enter">
-										<span class="myCollapsibleListItem light">Entertainment Hub</span>
-									</a>
-								</li>
-								<li>
-									<a href="around1.html#daily">
-										<span class="myCollapsibleListItem light">Daily Needs</span>
-									</a>
-								</li>
-								<li>
-									<a href="around1.html#banks">
-										<span class="myCollapsibleListItem light">Banks and Atms</span>
-									</a>
-								</li>
-
-							</ul>
-						</div>
-					</li>
-				</ul>
-			</li>
-			<li class="bold">
-				<a href="ns1.html" class="waves-effect waves-ripple hoverable">NSS &amp; NSO</a>
-			</li>
-			<li class="bold">
-				<a href="Queries.html" class="waves-effect waves-ripple hoverable">Queries</a>
-			</li>
-		</ul>
-
-	</header>
+		  <ul id="nav-mobile" class="side-nav">
+				<li class="bold"><a href="mentors_2018.html" class="waves-effect waves-ripple hoverable">Student Mentors</a></li>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li><a class="collapsible-header waves-effect waves-ripple hoverable"><span class="myCollapsibleHeader">Academics</span></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="acad1.html#intro"><span class="myCollapsibleListItem light hoverable">Introduction</span></a></li>
+                  <li><a href="acad1.html#fractal"><span class="myCollapsibleListItem light hoverable">Fractal Academics</span></a></li>
+                  <li><a href="acad1.html#common"><span class="myCollapsibleListItem light hoverable">Common Subjects</span></a></li>
+                	<li><a href="acad.html#departments"><span class="myCollapsibleListItem light hoverable">Departments</span></a></li>
+									<li><a href="acad.html#grading"><span class="myCollapsibleListItem light hoverable">Grade Policy</span></a></li>
+                
+                </ul>
+              </div>
+            </li>
+            <li><a class="collapsible-header waves-effect waves-ripple hoverable"><span class="myCollapsibleHeader">Life @ IITBh</span></a>
+              <div class="collapsible-body">
+                <ul>
+                  
+                  <li><a href="life.html#location"><span class="myCollapsibleListItem light">Location</span></a></li>
+                  <li><a href="life.html#network"><span class="myCollapsibleListItem light">Networks</span></a></li>
+									<li><a href="life.html#clubs"><span class="myCollapsibleListItem light">Clubs</span></a></li>
+									<li><a href="life.html#sports"><span class="myCollapsibleListItem light">Sports</span></a></li>
+									<li><a href="life.html#mess"><span class="myCollapsibleListItem light">Mess</span></a></li>
+									
+                  <li><a href="life.html#mess"><span class="myCollapsibleListItem light">Medical</span></a></li>
+                  <li><a href="life.html#trans"><span class="myCollapsibleListItem light">Transportation</span></a></li>
+									
+                </ul>
+              </div>
+            </li>
+            <li><a class="collapsible-header waves-effect waves-ripple hoverable" ><span class="myCollapsibleHeader">Around IIT Bhilai</span></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="around1.html#trans"><span class="myCollapsibleListItem light">Transportation</span></a></li>
+                  <li><a href="around1.html#rest"><span class="myCollapsibleListItem light">Restaurants</span></a></li>
+                  <li><a href="around1.html#enter"><span class="myCollapsibleListItem light">Entertainment Hub</span></a></li>
+                  <li><a href="around1.html#daily"><span class="myCollapsibleListItem light">Daily Needs</span></a></li>
+                  <li><a href="around1.html#banks"><span class="myCollapsibleListItem light">Banks and Atms</span></a></li>
+									
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="bold"><a href="ns1.html" class="waves-effect waves-ripple hoverable">NSS &amp; NSO</a></li>
+        <li class="bold"><a href="Queries.html" class="waves-effect waves-ripple hoverable">Queries</a></li>
+		  </ul>
+          
+</header>
 	<!-- Header starts -->
 
-	<!-- Header starts -->
+<!-- Header starts -->
 
-	<div id="index-banner" class="parallax-container">
-		<div class="section no-pad-bot">
-			<div class="container" id="headerTop">
-				<br>
-				<br>
-				<h1 class="header center bold amber-text text-lighten-5">Student Mentors</h1>
-				<h5 class="header center condensed light amber-text text-lighten-5">We are Here to Help...</h5>
-
-				<br>
-				<br>
+	  <div id="index-banner" class="parallax-container">
+			<div class="section no-pad-bot">
+			  <div class="container" id="headerTop">
+					<br><br>
+						<h1 class="header center bold amber-text text-lighten-5">Student Mentors</h1>
+						<h5 class="header center condensed light amber-text text-lighten-5">We are Here to Help...</h5>
+				
+					<br><br>
+			  </div>
 			</div>
-		</div>
-		<div class="parallax">
-			<img src="" id="background4" alt="Unsplashed background img 1">
-		</div>
-	</div>
+			<div class="parallax"><img src="" id="background4" alt="Unsplashed background img 1"></div>
+	  </div>
 
 	<div class="container">
 		<div class="section">
@@ -251,111 +144,246 @@
 
 			<div class="row">
 				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Naman">
+			        	<div class="card hover-reveal">
+				            <div class="card-image waves-effect waves-block waves-light">
+				              <img class="activator" src="" id="adityar">
+				            </div>
+										<div class="card-content">
+				              <span class="card-title activator grey-text text-darken-4">Aditya Rajesh</span>
+				            </div>
+				            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+				                <span class="card-title grey-text text-darken-4">Aditya<i class="material-icons right">close</i></span>
+				                <br/>
+				                <p><i class="material-icons left">book</i><small>ME Dept 2017</small></p>
+				                <p><i class="material-icons left">home</i><small>Pathanamthitta, Kerala</small></p>
+				                <p><i class="material-icons left">call</i><small>7470526600</small></p>
+												<p><i class="material-icons left">email</i><small>cs16b1018@iitbhilai.ac.in</small></p>
+				                <p style="text-align: center;"><a href="https://www.facebook.com/naman.samarth"><i class="fa fa-facebook"></i>acebook Profile</a></p>
+							</div>
 						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Naman Samarth</span>
+					</div>
+				<div class="col s12 m4">
+		        	<div class="card hover-reveal">
+			            <div class="card-image waves-effect waves-block waves-light">
+			              <img class="activator" src="" id="adwait">
+			            </div>
+			            <div class="card-content">
+			              <span class="card-title activator grey-text text-darken-4">Adwait Parasnis</span>
+			            </div>
+			            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+			                <span class="card-title grey-text text-darken-4">Adwait<i class="material-icons right">close</i></span>
+			                <br/>
+			                <p><i class="material-icons left">book</i><small>ME Dept 2017</small></p>
+			                <p><i class="material-icons left">home</i><small>Pune, Maharashtra</small></p>
+			                <p><i class="material-icons left">call</i><small>8949726855</small></p>
+											<p><i class="material-icons left">email</i><small>adwaitp@iitbhilai.ac.in</small></p>
+			                <p style="text-align: center;"><a href="https://www.facebook.com/rudrashishpal"><i class="fa fa-facebook"></i>acebook Profile</a></p>
+								</div>
 						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Naman
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, CSE Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Hyderabad, Telangana</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>8719977059</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>cs16b1018@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/naman.samarth">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
+					</div>
+
+				<div class="col s12 m4">
+		        	<div class="card hover-reveal">
+			            <div class="card-image waves-effect waves-block waves-light">
+			              <img class="activator" src="" id="aniket">
+			            </div>
+			            <div class="card-content">
+			              <span class="card-title activator grey-text text-darken-4">Aniket Raj</span>
+			            </div>
+			            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+			                <span class="card-title grey-text text-darken-4">Aniket<i class="material-icons right">close</i></span>
+			                <br/>
+			                <p><i class="material-icons left">book</i><small>CSE Dept 2017</small></p>
+			                <p><i class="material-icons left">home</i><small>??????</small></p>
+			                <p><i class="material-icons left">call</i><small>9521205979</small></p>
+											<p><i class="material-icons left">email</i><small>aniketr@iitbhilai.ac.in</small></p>
+			                <p style="text-align: center;"><a href="https://www.facebook.com/profile.php?id=100010720866538"><i class="fa fa-facebook"></i>acebook Profile</a></p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col s12 m4">
+		        	<div class="card hover-reveal">
+			            <div class="card-image waves-effect waves-block waves-light">
+			              <img class="activator" src="" id="antaraphukan">
+			            </div>
+			            <div class="card-content">
+			              <span class="card-title activator grey-text text-darken-4">Antara Phukan</span>
+			            </div>
+			            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+			                <span class="card-title grey-text text-darken-4">Antara<i class="material-icons right">close</i></span>
+			                <br/>
+			                <p><i class="material-icons left">book</i><small>CSE Dept 2017</small></p>
+			                <p><i class="material-icons left">home</i><small>Guwahati, Assam</small></p>
+			                <p><i class="material-icons left">call</i><small>???????</small></p>
+											<p><i class="material-icons left">email</i><small>antarap@iitbhilai.ac.in</small></p>
+			                <p style="text-align: center;"><a href="https://www.facebook.com/priyesh.pandey.144"><i class="fa fa-facebook"></i>acebook Profile</a></p>
 						</div>
 					</div>
 				</div>
 				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Rudrashish">
+		        	<div class="card hover-reveal">
+			            <div class="card-image waves-effect waves-block waves-light">
+			              <img class="activator" src="" id="gave">
+			            </div>
+			            <div class="card-content">
+			              <span class="card-title activator grey-text text-darken-4">Gaurav Verma</span>
+			            </div>
+			            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+			                <span class="card-title grey-text text-darken-4">Gaurav<i class="material-icons right">close</i></span>
+			                <br/>
+			                <p><i class="material-icons left">book</i><small>CSE Dept 2017</small></p>
+			                <p><i class="material-icons left">home</i><small>Jaipur, Rajasthan</small></p>
+			                <p><i class="material-icons left">call</i><small>7976521104</small></p>
+											<p><i class="material-icons left">email</i><small>gauravv@iitbhilai.ac.in</small></p>
+			                <p style="text-align: center;"><a href="https://www.facebook.com/anant.kumar.771"><i class="fa fa-facebook"></i>acebook Profile</a></p>
 						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Rudrashish Pal</span>
+					</div>
+				</div>
+				<div class="col s12 m4">
+		        	<div class="card hover-reveal">
+			            <div class="card-image waves-effect waves-block waves-light">
+			              <img class="activator" src="" id="nageshwar">
+			            </div>
+			            <div class="card-content">
+			              <span class="card-title activator grey-text text-darken-4">Nageshwar Arepally</span>
+			            </div>
+			            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+			                <span class="card-title grey-text text-darken-4">Rishabh<i class="material-icons right">close</i></span>
+			                <br/>
+			                <p><i class="material-icons left">book</i><small>ME Dept 2017</small></p>
+			                <p><i class="material-icons left">home</i><small>Ajmer,Rajasthan</small></p>
+			                <p><i class="material-icons left">call</i><small>7389643344</small></p>
+											<p><i class="material-icons left">email</i><small>me16b1026@iitbhilai.ac.in</small></p>
+			                <p style="text-align: center;"><a href="https://www.facebook.com/profile.php?id=100003270173240"><i class="fa fa-facebook"></i>acebook Profile</a></p>
 						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Rudrashish
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, EE Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Vadodara, Gujarat</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>9409089265</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>ee16b1042@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/rudrashishpal">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col s12 m4">
+		        	<div class="card hover-reveal">
+			            <div class="card-image waves-effect waves-block waves-light">
+			              <img class="activator" src="" id="naman_pujari">
+			            </div>
+			            <div class="card-content">
+			              <span class="card-title activator grey-text text-darken-4">Naman Pujari</span>
+			            </div>
+			            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+			                <span class="card-title grey-text text-darken-4">Naman<i class="material-icons right">close</i></span>
+			                <br/>
+			                <p><i class="material-icons left">book</i><small>EE Dept 2017</small></p>
+			                <p><i class="material-icons left">home</i><small>Haldwani, Uttarakhand</small></p>
+			                <p><i class="material-icons left">call</i><small>7389888989</small></p>
+											<p><i class="material-icons left">email</i><small>me16b1016@iitbhilai.ac.in</small></p>
+			                <p style="text-align: center;"><a href="https://www.facebook.com/naman.pujari"><i class="fa fa-facebook"></i>acebook Profile</a></p>
 						</div>
 					</div>
 				</div>
 
 				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Vijit">
+		        	<div class="card hover-reveal">
+			            <div class="card-image waves-effect waves-block waves-light">
+			              <img class="activator" src="" id="pallavi_pandey">
+			            </div>
+			            <div class="card-content">
+			              <span class="card-title activator grey-text text-darken-4">Pallavi Pandey</span>
+			            </div>
+			            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+			                <span class="card-title grey-text text-darken-4">Pallavi<i class="material-icons right">close</i></span>
+			                <br/>
+			                <p><i class="material-icons left">book</i><small>CSE Dept 2016</small></p>
+			                <p><i class="material-icons left">home</i><small>Lucknow , Uttar Pradesh</small></p>
+			                <p><i class="material-icons left">call</i><small>?????</small></p>
+											<p><i class="material-icons left">email</i><small>ee16b1016@iitbhilai.ac.in</small></p>
+			                <p style="text-align: center;"><a href="https://www.facebook.com/mayank.sharma.52206654"><i class="fa fa-facebook"></i>acebook Profile</a></p>
 						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Vijit Shrivastava</span>
+					</div>
+				</div>
+
+				<div class="col s12 m4">
+		        	<div class="card hover-reveal">
+			            <div class="card-image waves-effect waves-block waves-light">
+			              <img class="activator" src="" id="pramit">
+			            </div>
+			            <div class="card-content">
+			              <span class="card-title activator grey-text text-darken-4">Pramit Bhattacharyya</span>
+			            </div>
+			            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+			                <span class="card-title grey-text text-darken-4">Pramit<i class="material-icons right">close</i></span>
+			                <br/>
+			                <p><i class="material-icons left">book</i><small>CSE Dept 2017</small></p>
+			                <p><i class="material-icons left">home</i><small>Kolkata, West Bengal</small></p>
+			                <p><i class="material-icons left">call</i><small>8777266581</small></p>
+											<p><i class="material-icons left">email</i><small>ee16b1040@iitbhilai.ac.in</small></p>
+			                <p style="text-align: center;"><a href="https://www.facebook.com/profile.php?id=100007015189401"><i class="fa fa-facebook"></i>acebook Profile</a></p>
 						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Vijit
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, ME Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Jabalpur, M.P.</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>9993239288</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>me16b1037@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/vijit.shrivastava">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col s12 m4">
+		        	<div class="card hover-reveal">
+			            <div class="card-image waves-effect waves-block waves-light">
+			              <img class="activator" src="" id="ripu">
+			            </div>
+			            <div class="card-content">
+			              <span class="card-title activator grey-text text-darken-4">Ripunjoy Kalita</san>
+			            </div>
+			            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+			                <span class="card-title grey-text text-darken-4">Ripunjoy<i class="material-icons right">close</i></span>
+			                <br/>
+			                <p><i class="material-icons left">book</i><small>2nd Year, ME Dept</small></p>
+			                <p><i class="material-icons left">home</i><small>Lakhisarai, Bihar</small></p>
+			                <p><i class="material-icons left">call</i><small>8011932320</small></p>
+											<p><i class="material-icons left">email</i><small>me16b1007@iitbhilai.ac.in</small></p>
+			                <p style="text-align: center;"><a href="https://www.facebook.com/amiay.narayan"><i class="fa fa-facebook"></i>acebook Profile</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4">
+		        	<div class="card hover-reveal">
+			            <div class="card-image waves-effect waves-block waves-light">
+			              <img class="activator" src="" id="rushabh_dhabe">
+			            </div>
+			            <div class="card-content">
+			              <span class="card-title activator grey-text text-darken-4">Rushabh Dhabe</span>
+			            </div>
+			            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+			                <span class="card-title grey-text text-darken-4">Rushabh<i class="material-icons right">close</i></span>
+			                <br/>
+			                <p><i class="material-icons left">book</i><small>CSE Dept 2017</small></p>
+			                <p><i class="material-icons left">home</i><small>Buldana, Maharashtra</small></p>
+			                <p><i class="material-icons left">call</i><small>9922881015</small></p>
+											<p><i class="material-icons left">email</i><small>me16b1032@iitbhilai.ac.in</small></p>
+			                <p style="text-align: center;"><a href="https://www.facebook.com/sourabhgite007"><i class="fa fa-facebook"></i>acebook Profile</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s12 m4">
+		        	<div class="card hover-reveal">
+			            <div class="card-image waves-effect waves-block waves-light">
+			              <img class="activator" src="" id="shivam">
+			            </div>
+									<div class="card-content">
+			              <span class="card-title activator grey-text text-darken-4">Shivam Singh</span>
+			            </div>
+			            <div class="card-reveal" style="display: none; transform: translateY(0px);">
+			                <span class="card-title grey-text text-darken-4">Shivam<i class="material-icons right">close</i></span>
+			                <br/>
+			                <p><i class="material-icons left">book</i><small>CSE Dept 2016</small></p>
+			                <p><i class="material-icons left">home</i><small>Varanasi, Uttar Pradesh</small></p>
+			                <p><i class="material-icons left">call</i><small>8744997678</small></p>
+											<p><i class="material-icons left">email</i	><small>shivams@iitbhilai.ac.in</small></p>
+			                <p style="text-align: center;"><a href="https://www.facebook.com/profile.php?id=100005929247409"><i class="fa fa-facebook"></i>acebook Profile</a></p>
 						</div>
 					</div>
 				</div>
@@ -366,433 +394,109 @@
 				<div class="col s12 m4">
 					<div class="card hover-reveal">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Priyesh">
+								<img class="activator" src="" id="shivani_tripathi">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Priyesh Pandey</span>
+								<span class="card-title activator grey-text text-darken-4">SHIVANI TRIPATHI</span>
 						</div>
 						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Priyesh
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, EE Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Gwalior, M.P.</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>7566206628</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>ee16b1022@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/priyesh.pandey.144">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
+									<span class="card-title grey-text text-darken-4">Shivani<i class="material-icons right">close</i></span>
+									<br/>
+									<p><i class="material-icons left">book</i><small>CSE Dept 2017</small></p>
+									<p><i class="material-icons left">home</i><small>JAIPUR , RAJASTHAN</small></p>
+									<p><i class="material-icons left">call</i><small>8949667919</small></p>
+									<p><i class="material-icons left">email</i><small>me16b1010@iitbhilai.ac.in</small></p>
+									<p style="text-align: center;"><a href="https://www.facebook.com/shivani.tripathi.562"><i class="fa fa-facebook"></i>acebook Profile</a></p>
 						</div>
 					</div>
 				</div>
+
 				<div class="col s12 m4">
 					<div class="card hover-reveal">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Anant">
+								<img class="activator" src="" id="shivansh">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Anant Kumar</span>
+								<span class="card-title activator grey-text text-darken-4">Shivansh mishra</span>
 						</div>
 						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Anant
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, EE Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Bokaro Steel City, Jharkhand</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>8864039909</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>ee16b1002@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/anant.kumar.771">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
+									<span class="card-title grey-text text-darken-4">Shivansh<i class="material-icons right">close</i></span>
+									<br/>
+									<p><i class="material-icons left">book</i><small>CSE Dept 2017</small></p>
+									<p><i class="material-icons left">home</i><small>Mumbai, Maharashtra</small></p>
+									<p><i class="material-icons left">call</i><small>9518937578</small></p>
+									<p><i class="material-icons left">email</i><small>shivansha@iitbhilai.ac.in</small></p>
+									<p style="text-align: center;"><a href="https://www.facebook.com/shivani.tripathi.562"><i class="fa fa-facebook"></i>acebook Profile</a></p>
 						</div>
 					</div>
 				</div>
+
 				<div class="col s12 m4">
 					<div class="card hover-reveal">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Rishabh_Jain">
+								<img class="activator" src="" id="sumit">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Rishabh Jain</span>
+								<span class="card-title activator grey-text text-darken-4">Sumit Sheoran</span>
 						</div>
 						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Rishabh
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, ME Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Ajmer,Rajasthan</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>8107999942</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>me16b1026@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/profile.php?id=100003270173240">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
+									<span class="card-title grey-text text-darken-4">Sumit<i class="material-icons right">close</i></span>
+									<br/>
+									<p><i class="material-icons left">book</i><small>ME Dept 2017</small></p>
+									<p><i class="material-icons left">home</i><small>Jhunjhunu, Rajasthan</small></p>
+									<p><i class="material-icons left">call</i><small>9080652631</small></p>
+									<p><i class="material-icons left">email</i><small>me16b1010@iitbhilai.ac.in</small></p>
+									<p style="text-align: center;"><a href="https://www.facebook.com/sumit.sheoran.980315"><i class="fa fa-facebook"></i>acebook Profile</a></p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+
+				<div class="col s12 m4">
+					<div class="card hover-reveal">
+						<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="" id="surya">
+						</div>
+						<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Surya Teja Ethalapaka</span>
+						</div>
+						<div class="card-reveal" style="display: none; transform: translateY(0px);">
+									<span class="card-title grey-text text-darken-4">Surya<i class="material-icons right">close</i></span>
+									<br/>
+									<p><i class="material-icons left">book</i><small>CSE Dept 2017</small></p>
+									<p><i class="material-icons left">home</i><small>Visakhapatnam, Andhra Pradesh</small></p>
+									<p><i class="material-icons left">call</i><small>8247481130</small></p>
+									<p><i class="material-icons left">email</i><small>me16b1010@iitbhilai.ac.in</small></p>
+									<p style="text-align: center;"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i>acebook Profile</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s12 m4">
+					<div class="card hover-reveal">
+						<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="" id="yash_tiwari">
+						</div>
+						<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Yash Tiwari</span>
+						</div>
+						<div class="card-reveal" style="display: none; transform: translateY(0px);">
+									<span class="card-title grey-text text-darken-4">Yash<i class="material-icons right">close</i></span>
+									<br/>
+									<p><i class="material-icons left">book</i><small>ME Dept 2017</small></p>
+									<p><i class="material-icons left">home</i><small>????</small></p>/
+									<p><i class="material-icons left">call</i><small>9589059032</small></p>
+									<p><i class="material-icons left">email</i><small>yashtiwari@iitbhilai.ac.in</small></p>
+									<p style="text-align: center;"><a href="https://www.facebook.com/yash.tiwari.31149"><i class="fa fa-facebook"></i>acebook Profile</a></p>
 						</div>
 					</div>
 				</div>
 
 			</div>
 
-			<div class="row">
-				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Ketan">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Ketan mishra</span>
-						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Ketan
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, ME Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Jabalpur, M.P.</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>8109757005</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>me16b1016@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/ketan.mishra.3107">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Mayank">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Mayank Sharma</span>
-						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Mayank
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, EE Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Kanpur, U.P.</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>9407765748</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>ee16b1016@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/mayank.sharma.52206654">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Rohit">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Rohit Kar</span>
-						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Rohit
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, EE Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Calcutta, West Bengal</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>8697336359</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>ee16b1040@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/rohit.kar.77">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="row">
-				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Amiay">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Amiay Narayan</span>
-						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Amiay
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, ME Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Lakhisarai, Bihar</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>9407758539</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>me16b1007@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/amiay.narayan">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Sourabh">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Sourabh Gite</span>
-						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Sourabh
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, ME Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Indore, M.P.</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>9587384512</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>me16b1032@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/sourabhgite007">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="vikram">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Vikram Meena</span>
-						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Vikram
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, EE Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Sawai Madhopur, Rajasthan</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>9685457221</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>ee16b1037@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="https://www.facebook.com/profile.php?id=100005929247409">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="row">
-				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="avnish">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Avnish</span>
-						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Avnish
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, ME Dept</small>
-							</p>
-							<p>
-								<i class="material-icons left">home</i>
-								<small>Unknown</small>
-							</p>
-							<p>
-								<i class="material-icons left">call</i>
-								<small>9685457221</small>
-							</p>
-							<p>
-								<i class="material-icons left">email</i>
-								<small>me16b1010@iitbhilai.ac.in</small>
-							</p>
-							<p style="text-align: center;">
-								<a href="#">
-									<i class="fa fa-facebook"></i>acebook Profile</a>
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Neha">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Neha Jain</span>
-						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Neha
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, CSE Dept</small>
-							</p>
-							<!-- <p><i class="material-icons left">home</i><small>Unknown</small></p>
-									<p><i class="material-icons left">call</i><small>Unknown</small></p> -->
-							<p>
-								<i class="material-icons left">email</i>
-								<small>cs16b1019@iitbhilai.ac.in</small>
-							</p>
-							<!-- <p style="text-align: center;"><a href="#"><i class="fa fa-facebook"></i>acebook Profile</a></p> -->
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m4">
-					<div class="card hover-reveal">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="" id="Aikata">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Aikata</span>
-						</div>
-						<div class="card-reveal" style="display: none; transform: translateY(0px);">
-							<span class="card-title grey-text text-darken-4">Aikata
-								<i class="material-icons right">close</i>
-							</span>
-							<br/>
-							<p>
-								<i class="material-icons left">book</i>
-								<small>2nd Year, CSE Dept</small>
-							</p>
-							<!-- <p><i class="material-icons left">home</i><small>Unknown</small></p>
-									<p><i class="material-icons left">call</i><small>Unknown</small></p> -->
-							<p>
-								<i class="material-icons left">email</i>
-								<small>cs16b1005@iitbhilai.ac.in</small>
-							</p>
-							<!-- <p style="text-align: center;"><a href="#"><i class="fa fa-facebook"></i>acebook Profile</a></p> -->
-						</div>
-					</div>
-				</div>
+				
 
 			</div>
 
@@ -801,75 +505,50 @@
 
 	<!-- Footer starts -->
 
-	<footer class="page-footer #00b0ff light-blue accent-3">
+	   <footer class="page-footer #00b0ff light-blue accent-3">
 		<div class="container">
-			<div class="row">
-				<div class="col l6 s12">
-					<h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Disclaimer Note</h5>
-					<p class="grey-text text-lighten-4" style="font-family: 'Ubuntu', sans-serif;">The content on this website is developed solely by the student body of Indian Institute of Technology Bhilai. None of
-						the views on any of the topics are endorsed by the institution.</p>
+		  <div class="row">
+			<div class="col l6 s12">
+			  <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Disclaimer Note</h5>
+			  <p class="grey-text text-lighten-4" style="font-family: 'Ubuntu', sans-serif;">The content on this website is developed solely by the student body of Indian Institute of Technology Bhilai. None of the views on any of the topics are endorsed by the institution.</p>
 
 
-				</div>
-				<div class="col l3 s12">
-					<h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Menu</h5>
-					<ul class="footer_menu" style="font-family: 'Ubuntu', sans-serif;">
-						<li>
-							<a class="white-text" href="index.html">Home</a>
-						</li>
-						<li>
-							<a class="white-text" href="mentors1.html">Student Mentors</a>
-						</li>
-						<li>
-							<a class="white-text" href="acad1.html">Academics</a>
-						</li>
-						<li>
-							<a class="white-text" href="life.html">Life @ IITBh</a>
-						</li>
-						<li>
-							<a class="white-text" href="around1.html">Around IITBh</a>
-						</li>
-						<li>
-							<a class="white-text" href="ns1.html">NSS &amp; NSO</a>
-						</li>
-						<li>
-							<a class="white-text" href="Queries.html">Queries</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col l3 s12">
-					<h5 class="white-text">Connect</h5>
-					<ul>
-						<li>
-							<a class="white-text" href="https://www.facebook.com/iit.bh/">
-								<i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a>
-						</li>
-						<li>
-							<a class="white-text" href="https://twitter.com/IIT_Bhilai">
-								<i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Twitter</a>
-						</li>
-						<li>
-							<a class="white-text" href="https://www.instagram.com/iitbhilai/?hl=en">
-								<i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Instagram</a>
-						</li>
-					</ul>
-				</div>
 			</div>
+			<div class="col l3 s12">
+			  <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Menu</h5>
+			  <ul class="footer_menu" style="font-family: 'Ubuntu', sans-serif;">
+				<li><a class="white-text" href="index.html">Home</a></li>				
+				<li><a class="white-text" href="mentors_2018.html">Student Mentors</a></li>
+				<li><a class="white-text" href="acad1.html">Academics</a></li>
+				<li><a class="white-text" href="life.html">Life @ IITBh</a></li>
+				<li><a class="white-text" href="around1.html">Around IITBh</a></li>
+				<li><a class="white-text" href="ns1.html">NSS &amp; NSO</a></li>
+				<li><a class="white-text" href="Queries.html">Queries</a></li>
+			  </ul>
+			</div>
+			<div class="col l3 s12">
+			  <h5 class="white-text">Connect</h5>
+			  <ul>
+				<li><a class="white-text" href="https://www.facebook.com/iit.bh/"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a></li>
+				<li><a class="white-text" href="https://twitter.com/IIT_Bhilai"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Twitter</a></li>
+				<li><a class="white-text" href="https://www.instagram.com/iitbhilai/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Instagram</a></li>
+			  </ul>
+			</div>
+		  </div>
 		</div>
 		<div class="footer-copyright">
-			<div class="container" style="font-family: 'Exo 2', sans-serif;">
-				&copy; 2017-2018, Indian Institute of Technology Bhilai
-			</div>
+		  <div class="container" style="font-family: 'Exo 2', sans-serif;">
+		  &copy; 2017-2018, Indian Institute of Technology Bhilai
+		  </div>
 		</div>
-	</footer>
+	  </footer>
 	<!-- Scripts -->
-	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="js1/materialize.js"></script>
-	<!-- This file below to be edited for external styling -->
-	<script src="js1/init1.js"></script>
-	<script src="js1/init.js"></script>
-
+	  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	  <script src="js1/materialize.js"></script>
+<!-- This file below to be edited for external styling -->
+		<script src="js1/init1.js"></script>
+		<script src="js1/init.js"></script>
+		
 
 </body>
-
 </html>
