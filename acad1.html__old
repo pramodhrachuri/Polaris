@@ -9,7 +9,7 @@
 	  <title>Polaris - IIT Bhilai</title>
 <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 <!-- CSS -->
-<link href="https://fonts.googleapis.com/css?family=Lobster|Asul|Aclonica|Acme|Amiri|Exo+2|Mogra|Ubuntu" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster|Asul|Aclonica|Acme|Amiri|Exo+2|Mogra|Ubuntu" rel="stylesheet"> 
 
 
 	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -17,14 +17,14 @@
 <!-- This file below to be edited for external styling -->
 		<link href="css1/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 		<link href="css1/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
+		
 <style>
 	nav{
 
 		font-size:28px;
 	}
-
-
+	
+	
 </style>
 
 </head>
@@ -44,14 +44,14 @@
 <!-- Navbar Start -->
 <header>
     <div class="navbar-fixed">
-
+    
         <nav class="nav-extended #00b0ff light-blue accent-3 z-depth-5">
-
+         
             <div class="nav-wrapper container
 ">
                 <a href="index.html" class="brand-logo white-text">POLARIS</a>
 		  <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
-
+               
                 <ul class="right hide-on-med-and-down">
                         <li><a href="mentors1.html" class="hoverable white-text">Student Mentors</a></li>
                     <li><a href="acad1.html" class="hoverable white-text">Academics</a></li>
@@ -60,7 +60,7 @@
 							      <li><a href="ns1.html" class="hoverable white-text">NSS and NSO</a></li>
                     <li><a href="Queries.html" class="hoverable white-text">Queries</a></li>
                 </ul>
-
+              
             </div>
         </nav>
     </div>
@@ -78,23 +78,23 @@
                   <li><a href="acad1.html#common"><span class="myCollapsibleListItem light hoverable">Common Subjects</span></a></li>
                 	<li><a href="acad.html#departments"><span class="myCollapsibleListItem light hoverable">Departments</span></a></li>
 									<li><a href="acad.html#grading"><span class="myCollapsibleListItem light hoverable">Grade Policy</span></a></li>
-
+                
                 </ul>
               </div>
             </li>
             <li><a class="collapsible-header waves-effect waves-ripple hoverable"><span class="myCollapsibleHeader">Life @ IITBh</span></a>
               <div class="collapsible-body">
                 <ul>
-
+                  
                   <li><a href="life.html#location"><span class="myCollapsibleListItem light">Location</span></a></li>
                   <li><a href="life.html#network"><span class="myCollapsibleListItem light">Networks</span></a></li>
 									<li><a href="life.html#clubs"><span class="myCollapsibleListItem light">Clubs</span></a></li>
 									<li><a href="life.html#sports"><span class="myCollapsibleListItem light">Sports</span></a></li>
 									<li><a href="life.html#mess"><span class="myCollapsibleListItem light">Mess</span></a></li>
-
+									
                   <li><a href="life.html#mess"><span class="myCollapsibleListItem light">Medical</span></a></li>
                   <li><a href="life.html#trans"><span class="myCollapsibleListItem light">Transportation</span></a></li>
-
+									
                 </ul>
               </div>
             </li>
@@ -106,7 +106,7 @@
                   <li><a href="around1.html#enter"><span class="myCollapsibleListItem light">Entertainment Hub</span></a></li>
                   <li><a href="around1.html#daily"><span class="myCollapsibleListItem light">Daily Needs</span></a></li>
                   <li><a href="around1.html#banks"><span class="myCollapsibleListItem light">Banks and Atms</span></a></li>
-
+									
                 </ul>
               </div>
             </li>
@@ -115,7 +115,7 @@
         <li class="bold"><a href="ns1.html" class="waves-effect waves-ripple hoverable">NSS &amp; NSO</a></li>
         <li class="bold"><a href="Queries.html" class="waves-effect waves-ripple hoverable">Queries</a></li>
 		  </ul>
-
+          
 </header>
 <!-- Header starts -->
 
@@ -125,7 +125,7 @@
 					<br><br>
 						<h1 class="header center bold amber-text text-lighten-2">ACADEMICS</h1>
 						<h4 class="header center condensed light amber-text text-lighten-2">Learning has its New Name...</h4>
-
+						
 					<br><br>
 			  </div>
 			</div>
@@ -139,14 +139,7 @@
     <div class="row">
       <div class="col s12">
         <h2 class="header cyan-text text-accent-4 center" id="intro">Introduction</h2>
-        <p  style="text-align: justify;" class="light">The academic system of IIT Bhilai has been derived from the
-system of our mentor institute, IIT Hyderabad. The system, called
-the Fractal System, involves distributing courses across
-semesters. The curriculum gives due importance to developing
-crucial practical skills required in industry, in addition to the
-required theoretical knowledge. Nearly all the classes are now
-being conducted by professors hired within the institute, with a
-few professors from IITH being present as well.</p>
+        <p  style="text-align: justify;" class="light">The Academic system and culture of IIT Bhilai is inspired by that at IIT Hyderabad, our mentoring institute. The highlight of the academics here is the <strong>Fractal System</strong> of distributing courses across the semesters. The curriculum lays strong emphasis on developing industrial/practical skills while backing them up with a concrete theoretical foundation. Highly skilled and experienced faculty members from IIT Hyderabad are currently teaching the courses at IIT Bhilai, hence one also has ample opportunities to try for internships under their sublime guidance. Explore through the academic life at IIT Bhilai and feel free to post doubts in the "Queries Tab".</p>
 				<br/>
 
         <h2 class="header cyan-text text-accent-4 center" id="fractal">Fractal Academics</h2>
@@ -211,26 +204,26 @@ few professors from IITH being present as well.</p>
         <h2 class="header cyan-text text-accent-4 center" id="common">Common Subjects</h2>
 				<div class="myContainer">
 	        <h4 class="header teal-text text-accent-4">First Semester</h4>
-
+          
   <ul class="collapsible popout" data-collapsible="accordion">
     <li>
       <div class="collapsible-header"><i class="material-icons">filter_drama</i>Independent Project:</div>
       <div class="collapsible-body"><span>As the name suggests, it is a project and you will have to present it to the assigned faculty member after you come back from the winter break. People will be divided into teams of 4 or 5, a budget will be assigned to you based on what you want to make. The maximum budget that can be allotted will be announced by the concerned faculty. There will not be anything taught for the IDP (Independent Project), but you may ask faculty for guidance. And one piece of advice, do not try to blatantly rip off something from the internet. You will be caught and asked to change your project. Add your own flavours to it. Make a few modifications of your own. Inspiration is highly encouraged but plagiarism is not.
         </span></div>
     </li>
-
+   
     <li>
       <div class="collapsible-header"><i class="material-icons">filter_drama</i>Calculus I:</div>
       <div class="collapsible-body"><span>Do not go by the name, it not your usual JEE calculus. It is a completely different ball game. The name of the topics will sound familiar to you; Sequences, series, limit, continuity, derivatives, but the content is completely different. You won’t be asked to simply calculate the limit or the derivative. This will be first time you will be exposed to what real mathematics looks like, the way mathematicians do it. Look up the book by Walter Rudin on Mathematical Analysis.
             </span></div>
     </li>
-
+   
     <li>
       <div class="collapsible-header"><i class="material-icons">filter_drama</i>Calculus II:</div>
       <div class="collapsible-body"><span> Unlike its predecessor which is one dimensional it takes calculus to N dimensions. This course teaches you the same things as Calculus I but in N dimensions. This course introduces Directional Derivatives, Partial Derivatives, Total Derivatives, Lagrange Multipliers. This course also introduces the concepts of integration namely Riemann Integral, Multiple integral and a few applications. Needless to say this is a notch above its predecessor.
         </span></div>
     </li>
-
+   
     <li>
       <div class="collapsible-header"><i class="material-icons">filter_drama</i>Digital Fabrication:</div>
       <div class="collapsible-body"><span> A fancy name for what is more commonly known as 3D printing. You will be taught the basics of how to work with 3D models, how to design 3D objects and how they are made. At the end of the course you will have to make your own project. You will have to design a 3D model of your own and fabricate it using a 3D printer. You can see ours in the 3D lab sitting inside the glass closet. You will be graded on the assignments handed out in class and the final project and of course attendance!!
@@ -245,7 +238,7 @@ few professors from IITH being present as well.</p>
 
       </div>
     </li>
-
+   
 
     <li>
       <div class="collapsible-header"><i class="material-icons">filter_drama</i>Liberal &amp Creative arts:</div>
@@ -253,13 +246,13 @@ few professors from IITH being present as well.</p>
          </span></div>
     </li>
     <h4 class="header teal-text text-accent-4">Second Semester</h4>
-
+   
     <li>
       <div class="collapsible-header"><i class="material-icons">filter_drama</i>Vector Calculus:</div>
       <div class="collapsible-body"><span>This is calculus applied to physics in 3 dimensions. It introduces the concepts of divergence, gradient, curl, multiples integral, Stokes’ Theorem, Gauss’ Theorem.   </span></div>
     </li>
   </ul>
-
+	       
 			  </div>
         <br/>
 
@@ -340,7 +333,7 @@ few professors from IITH being present as well.</p>
 
                     </p>
                     <p  style="text-align: justify;">
-                      2) Though it is not a pre-requisite but having an idea of coding (loops, basic syntax, conditionals, functions, a tiny bit of pointers), mainly C language would surely help you to catch pace during the various courses.
+                      2) Though it is not a pre-requisite but having an idea of coding (loops, basic syntax, conditionals, functions, a tiny bit of pointers), mainly C language would surely help you to catch pace during the various courses. 
 
                     </p>
                     <p  style="text-align: justify;">
@@ -360,11 +353,11 @@ few professors from IITH being present as well.</p>
                      6) Try reading about analysis of algorithms, mainly in terms of time complexity.
                        </p>
                         <p  style="text-align: justify;">
-                    7) Some basic familiarity with Discrete Mathematics/Mathematical Logic will really help you in some of the courses but is not compulsory.
+                    7) Some basic familiarity with Discrete Mathematics/Mathematical Logic will really help you in some of the courses but is not compulsory. 
 
                        </p>
                         <p  style="text-align: justify;">
-                    8) The world is at your feet in form of the internet. Explore the same for your benefit.
+                    8) The world is at your feet in form of the internet. Explore the same for your benefit.  
                        </p>
                   </div>
                   <p style="text-align: justify;"><strong>
@@ -432,7 +425,7 @@ few professors from IITH being present as well.</p>
           <p>
             "Dude enjoy it (first year)! You will not get time later on."
 This is what you will hear coming to IIT most of the time from seniors.
-DON’T get FOOLED by them. First year is the foundation of coming years. So study and enjoy I a balanced manner.
+DON’T get FOOLED by them. First year is the foundation of coming years. So study and enjoy I a balanced manner. 
 
           </p>
                   <div class="container">
@@ -487,7 +480,7 @@ Don’t detest these subjects.
 
                        </p>
                         <p  style="text-align: justify;">
-                    8) The world is at your feet in form of the internet. Explore the same for your benefit.
+                    8) The world is at your feet in form of the internet. Explore the same for your benefit.  
                        </p>
                   </div>
                   <p style="text-align: justify;"><strong>
@@ -579,7 +572,7 @@ Don’t detest these subjects.
 
                     </p>
                     <p  style="text-align: justify;">
-                    2.	Make yourself comfortable with programming in any one language (preferably C/C++) during the first year itself.
+                    2.	Make yourself comfortable with programming in any one language (preferably C/C++) during the first year itself. 
 
                     </p>
                     <p  style="text-align: justify;">
@@ -588,10 +581,10 @@ Don’t detest these subjects.
                       </p>
 
                     <p  style="text-align: justify;">
-                    4.	The first year mechanical curriculum consists of a good number of Math Courses. Do not ignore them as they carry with them significant credits of the semester.
+                    4.	The first year mechanical curriculum consists of a good number of Math Courses. Do not ignore them as they carry with them significant credits of the semester.  
 
                        </p>
-
+                      
                   </div>
                   <p style="text-align: justify;"><strong>
                     **These tips are in no sense a pre-requisite for any of the courses mentioned above. They are just a couple of pointers to set you in the right direction without having to wander aimlessly through a plethora of resources.
@@ -691,7 +684,7 @@ Don’t detest these subjects.
 			<div class="col l3 s12">
 			  <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Menu</h5>
 			  <ul class="footer_menu"  style="text-align: justify;">
-				<li><a class="white-text" href="index.html">Home</a></li>
+				<li><a class="white-text" href="index.html">Home</a></li>				
 				<li><a class="white-text" href="mentors1.html">Student Mentors</a></li>
 				<li><a class="white-text" href="acad1.html">Academics</a></li>
 				<li><a class="white-text" href="life.html">Life @ IITBh</a></li>
@@ -723,7 +716,7 @@ Don’t detest these subjects.
 <!-- This file below to be edited for external styling -->
 		<script src="js1/init1.js"></script>
 		<script src="js1/init.js"></script>
-
+    
 
   </body>
 </html>

@@ -10,7 +10,7 @@
 	  <title>Polaris - IIT Bhilai</title>
 <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 <!-- CSS -->
-<link href="https://fonts.googleapis.com/css?family=Lobster|Asul|Aclonica|Acme|Amiri|Exo+2|Mogra|Ubuntu" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster|Asul|Aclonica|Acme|Amiri|Exo+2|Mogra|Ubuntu" rel="stylesheet"> 
 
 
 	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,14 +18,14 @@
 <!-- This file below to be edited for external styling -->
 		<link href="css1/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 		<link href="css1/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
+		
 <style>
 	nav{
-
+		
 		font-size:28px;
 	}
-
-
+	
+	
 </style>
 
 </head>
@@ -45,14 +45,14 @@
 <!-- Navbar Start -->
 <header>
     <div class="navbar-fixed">
-
+    
         <nav class="nav-extended #00b0ff light-blue accent-3 z-depth-5">
-
+         
             <div class="nav-wrapper container
 ">
                 <a href="index.html" class="brand-logo white-text">POLARIS</a>
 		  <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
-
+               
                 <ul class="right hide-on-med-and-down">
                     <li><a href="mentors1.html" class="hoverable white-text">Student Mentors</a></li>
                     <li><a href="acad1.html" class="hoverable white-text">Academics</a></li>
@@ -61,7 +61,7 @@
 							      <li><a href="ns1.html" class="hoverable white-text">NSS and NSO</a></li>
                     <li><a href="Queries.html" class="hoverable white-text">Queries</a></li>
                 </ul>
-
+              
             </div>
         </nav>
     </div>
@@ -79,23 +79,23 @@
                   <li><a href="acad1.html#common"><span class="myCollapsibleListItem light hoverable">Common Subjects</span></a></li>
                 	<li><a href="acad.html#departments"><span class="myCollapsibleListItem light hoverable">Departments</span></a></li>
 									<li><a href="acad.html#grading"><span class="myCollapsibleListItem light hoverable">Grade Policy</span></a></li>
-
+                
                 </ul>
               </div>
             </li>
             <li><a class="collapsible-header waves-effect waves-ripple hoverable"><span class="myCollapsibleHeader">Life @ IITBh</span></a>
               <div class="collapsible-body">
                 <ul>
-
+                  
                   <li><a href="life.html#location"><span class="myCollapsibleListItem light">Location</span></a></li>
                   <li><a href="life.html#network"><span class="myCollapsibleListItem light">Networks</span></a></li>
 									<li><a href="life.html#clubs"><span class="myCollapsibleListItem light">Clubs</span></a></li>
 									<li><a href="life.html#sports"><span class="myCollapsibleListItem light">Sports</span></a></li>
 									<li><a href="life.html#mess"><span class="myCollapsibleListItem light">Mess</span></a></li>
-
+									
                   <li><a href="life.html#mess"><span class="myCollapsibleListItem light">Medical</span></a></li>
                   <li><a href="life.html#trans"><span class="myCollapsibleListItem light">Transportation</span></a></li>
-
+									
                 </ul>
               </div>
             </li>
@@ -107,7 +107,7 @@
                   <li><a href="around1.html#enter"><span class="myCollapsibleListItem light">Entertainment Hub</span></a></li>
                   <li><a href="around1.html#daily"><span class="myCollapsibleListItem light">Daily Needs</span></a></li>
                   <li><a href="around1.html#banks"><span class="myCollapsibleListItem light">Banks and Atms</span></a></li>
-
+									
                 </ul>
               </div>
             </li>
@@ -116,7 +116,7 @@
         <li class="bold"><a href="ns1.html" class="waves-effect waves-ripple hoverable">NSS &amp; NSO</a></li>
         <li class="bold"><a href="Queries.html" class="waves-effect waves-ripple hoverable">Queries</a></li>
 		  </ul>
-
+          
 </header>
 <!-- Header starts -->
 
@@ -159,7 +159,7 @@
 					  <div class="icon-block">
 							<h2 class="center green-text text-accent-3 myIcons"><i class="material-icons slideanim_up">business_center</i></h2>
 							<h4 class="center teal-text text-accent-4" style=" font-size:28px;">Objective</h4>
-							<p class="light center"  style="text-align: justify;"><em>"Been there, done that".</em><br/> A lot of things runs into a Freshie’s mind during his initial stay at the institute. We are here to clear those clouds of apprehensiveness. Here, we aim to provide info to all the freshers and give them insight to the life @iitbhilai. If you are more intrigued, then you can simply contact us and we would have your question answered in the best possible way. </p>
+							<p class="light center"  style="text-align: justify;"><em>"Been there, done that".</em><br/> A lot of things run in a Freshie's mind during his initial stay at an institution. We are here to clear those clouds of apprehensiveness. The site has almost all the trivial content which a fresher should know about IIT Bhilai. If you are more intrigued, then you can simply post a question on the blog and you will have it answered in the best possible way.</p>
 					  </div>
 					</div>
 
@@ -167,7 +167,7 @@
 					  <div class="icon-block">
 							<h2 class="center light-blue-text myIcons"><i class="material-icons slideanim_up">info_outline</i></h2>
 							<h4 class="center teal-text text-accent-4"  style="font-size:28px;">About</h4>
-							<p class="light center"  style="text-align: justify;">This site is of the students, by the students and for the students of IIT Bhilai. Here you will get an intimate view of this institute and its people. If you are a fresher at IIT Bhilai, this site is the right place for you to know more and make yourself familiar with the institute.</p>
+							<p class="light center"  style="text-align: justify;">This blog is of the students, by the students and for the students of IIT Bhilai. Here you will get an intimate view of this Institution and its people. If you are a fresher at IIT Bhilai,then this is the right place to halt and make yourself familiar with the institution.</p>
 					  </div>
 					</div>
 
@@ -175,7 +175,7 @@
 					  <div class="icon-block">
 							<h2 class="center orange-text myIcons"><i class="material-icons slideanim_up">group</i></h2>
 							<h4 class="center teal-text text-accent-4"  style="font-size:28px;">The Mentors</h4>
-							<p class="light center"  style="text-align: justify;">They are a group of seniors who will be helping the juniors in exploring their options at the same time in progressing forward. This site is an online implementation of the mentorship scheme. An offline version of this will involve a senior being assigned as a mentor to a group of freshers to guide them in making wel informed decisions through their life at IIT Bhilai.</p>
+							<p class="light center"  style="text-align: justify;">They are a group of senior students who will be helping the juniors in exploring their options and at the same time in progressing forward. This blog is an online implementation of the mentorship scheme. An offline version of this will involve a senior being assigned as a mentor to a group of freshers to guide them in making well informed decisions through their courses at IIT Bhilai.</p>
 					  </div>
 					</div>
 			  </div>
@@ -201,7 +201,7 @@
 			 <strong>
 			  With best Wishes,<br>
 		 Siddharth Jain,
-
+		
 			 <br>President,<br>Students` Gymkhana</strong></span>
 
 						</p>
@@ -384,7 +384,7 @@
 			<div class="col l3 s12">
 			  <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Menu</h5>
 			  <ul class="footer_menu" style="font-family: 'Ubuntu', sans-serif;">
-				<li><a class="white-text" href="index.html">Home</a></li>
+				<li><a class="white-text" href="index.html">Home</a></li>				
 				<li><a class="white-text" href="mentors1.html">Student Mentors</a></li>
 				<li><a class="white-text" href="acad1.html">Academics</a></li>
 				<li><a class="white-text" href="life.html">Life @ IITBh</a></li>
@@ -427,11 +427,11 @@
 			});
 		});
    </script>
-
+    
 <!-- This file below to be edited for external styling -->
 		<script src="js1/init1.js"></script>
 		<script src="js1/init.js"></script>
-
+		
 
   </body>
 </html>
