@@ -60,7 +60,7 @@
 
 					<ul class="right hide-on-med-and-down">
 						<li>
-							<a href="mentors1.html" class="hoverable white-text">Student Mentors</a>
+							<a href="mentors_2018.html" class="hoverable white-text">Student Mentors</a>
 						</li>
 						<li>
 							<a href="acad1.html" class="hoverable white-text">Academics</a>
@@ -86,7 +86,7 @@
 
 		<ul id="nav-mobile" class="side-nav">
 			<li class="bold">
-				<a href="mentors1.html" class="waves-effect waves-ripple hoverable">Student Mentors</a>
+				<a href="mentors_2018.html" class="waves-effect waves-ripple hoverable">Student Mentors</a>
 			</li>
 			<li>
 				<ul class="collapsible collapsible-accordion">
@@ -634,7 +634,7 @@
 							<a class="white-text" href="index.html">Home</a>
 						</li>
 						<li>
-							<a class="white-text" href="mentors1.html">Student Mentors</a>
+							<a class="white-text" href="mentors_2018.html">Student Mentors</a>
 						</li>
 						<li>
 							<a class="white-text" href="acad1.html">Academics</a>
