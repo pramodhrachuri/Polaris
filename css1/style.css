@@ -1,0 +1,239 @@
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 600px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* My Style */
+
+#headerTop {
+  padding-top: 100px;
+}
+
+.myIcons {
+  font-size: 7rem;
+}
+
+.myCollapsibleHeader {
+  padding-left: 1rem;
+}
+
+.myCollapsibleListItem {
+  padding-left: 1rem;
+}
+
+
+/*this part is for hoverable cards*/
+
+
+.card-reveal{
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.7) !important;
+}
+div.card-reveal span.card-title{
+  color: #ffffff !important;
+}
+.tabs{
+  background-color: transparent;
+}
+td, th{
+  padding: 5px 5px !important;
+}
+table.highlight>tbody>tr:hover{
+  background-color: rgba(238,110,115,0.6);
+}
+input[type=search]:focus{
+  border-bottom: 1px solid #ee6e73 !important;
+  box-shadow: 0 1px 0 0 #ee6e73 !important;
+}
+
+/*the part is for hoverable cards ends here*/
+
+
+  .slideanim_up {visibility:hidden;}
+  .slideanim_down {visibility:hidden;}
+  
+  .slide_up {
+      animation-name: slide_up;
+      -webkit-animation-name: slide_up;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+
+
+.slide_down {
+      animation-name: slide_down;
+      -webkit-animation-name: slide_down;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+
+
+   @keyframes slide_up {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide_up {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+
+
+   @keyframes slide_down {
+    0% {
+      opacity: 0;
+      transform: translateY(-70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide_down {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+
+
+
+  .slideanim_left {visibility:hidden;}
+  .slideanim_right {visibility:hidden;}
+  
+  .slide_left {
+      animation-name: slide_left;
+      -webkit-animation-name: slide_left;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+
+
+.slide_right {
+      animation-name: slide_right;
+      -webkit-animation-name: slide_right;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+
+
+   @keyframes slide_left {
+    0% {
+      opacity: 0;
+      transform: translateX(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  @-webkit-keyframes slide_left {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0%);
+    }
+  }
+
+
+
+   @keyframes slide_right {
+    0% {
+      opacity: 0;
+      transform: translateX(-70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  @-webkit-keyframes slide_right {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0%);
+    }
+  }
+
+  .fa:hover,.footer_menu{
+    color: blue;
+
+  }
+
+
+.fa:hover {
+    color: #00bfa5;
+}

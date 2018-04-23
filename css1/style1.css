@@ -1,0 +1,103 @@
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 600px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* My Style */
+
+#headerTop {
+  padding-top: 100px;
+}
+
+.myIcons {
+  font-size: 7rem;
+}
+
+.myCollapsibleHeader {
+  padding-left: 1rem;
+}
+
+.myCollapsibleListItem {
+  padding-left: 1rem;
+}
+
+/*this part is for hoverable cards*/
+
+
+.card-reveal{
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.7) !important;
+}
+div.card-reveal span.card-title{
+  color: #ffffff !important;
+}
+.tabs{
+  background-color: transparent;
+}
+td, th{
+  padding: 5px 5px !important;
+}
+table.highlight>tbody>tr:hover{
+  background-color: rgba(238,110,115,0.6);
+}
+input[type=search]:focus{
+  border-bottom: 1px solid #ee6e73 !important;
+  box-shadow: 0 1px 0 0 #ee6e73 !important;
+}
+
+/*the part is for hoverable cards ends here*/
+
+/* Some more style */
+
+.myContainer {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  padding-bottom: 2rem !important;
+}
