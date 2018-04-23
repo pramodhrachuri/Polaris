@@ -1,308 +1,545 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-	  <meta name="Keywords" content="IIT, Bhilai, Polaris, Indian Institute of Technology" />
-	  <meta name="theme-color" content="#00B0FF">
-	  <title>Polaris - IIT Bhilai</title>
-<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-<!-- CSS -->
-<link href="https://fonts.googleapis.com/css?family=Lobster|Asul|Aclonica|Acme|Amiri|Exo+2|Mogra|Ubuntu" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <meta name="Keywords" content="IIT, Bhilai, Polaris, Indian Institute of Technology" />
+  <meta name="theme-color" content="#00B0FF">
+  <title>Polaris - IIT Bhilai</title>
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Asul|Aclonica|Acme|Amiri|Exo+2|Mogra|Ubuntu" rel="stylesheet">
 
 
-	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link href="css1/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-<!-- This file below to be edited for external styling -->
-		<link href="css1/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-		<link href="css1/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css1/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- This file below to be edited for external styling -->
+  <link href="css1/style1.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css1/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
-<style>
-	nav{
+  <style>
+    nav {
 
-		font-size:28px;
-	}
-
-
-</style>
+      font-size: 28px;
+    }
+  </style>
 
 </head>
 
 <!-- This part of code is written for loading images as per priority -->
 <script type="text/javascript">
-	imgIds=["background6","DSC_0058","DSC_0045","DSC_0107","DSC_0112",]; //write the ids in this list. Important ----------> make sure that file name and id are same
-	function loadImages(counter) {
-	  if(counter==imgIds.length) { return; }
-	  var I = document.getElementById(imgIds[counter]);
-	  I.onload = I.onerror = function() { loadImages(counter+1); }
-	  I.src = "images/"+imgIds[counter]+".jpg";
-	}
+  imgIds = ["background6", "DSC_0058", "DSC_0045", "DSC_0107", "DSC_0112", ]; //write the ids in this list. Important ----------> make sure that file name and id are same
+  function loadImages(counter) {
+    if (counter == imgIds.length) {
+      return;
+    }
+    var I = document.getElementById(imgIds[counter]);
+    I.onload = I.onerror = function () {
+      loadImages(counter + 1);
+    }
+    I.src = "images/" + imgIds[counter] + ".jpg";
+  }
 </script>
 
 <body>
-<!-- Navbar Start -->
-<header>
+  <!-- Navbar Start -->
+  <header>
     <div class="navbar-fixed">
 
-        <nav class="nav-extended #00b0ff light-blue accent-3 z-depth-5">
+      <nav class="nav-extended #00b0ff light-blue accent-3 z-depth-5">
 
-            <div class="nav-wrapper container
+        <div class="nav-wrapper container
 ">
-                <a href="index.html" class="brand-logo white-text">POLARIS</a>
-		  <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
+          <a href="index.html" class="brand-logo white-text">POLARIS</a>
+          <a href="#" data-activates="nav-mobile" class="button-collapse">
+            <i class="material-icons white-text">menu</i>
+          </a>
 
-                <ul class="right hide-on-med-and-down">
-                        <li><a href="mentors_2018.html" class="hoverable white-text">Student Mentors</a></li>
-                    <li><a href="acad1.html" class="hoverable white-text">Academics</a></li>
-                    <li><a href="life.html" class="hoverable white-text">Life @ IITBh</a></li>
-                    <li><a href="around1.html" class="hoverable white-text">Around IITBh</a></li>
-							      <li><a href="ns1.html" class="hoverable white-text">NSS and NSO</a></li>
-                    <li><a href="Queries.html" class="hoverable white-text">Queries</a></li>
-                </ul>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="mentors1.html" class="hoverable white-text">Student Mentors</a>
+            </li>
+            <li>
+              <a href="acad1.html" class="hoverable white-text">Academics</a>
+            </li>
+            <li>
+              <a href="life.html" class="hoverable white-text">Life @ IITBh</a>
+            </li>
+            <li>
+              <a href="around1.html" class="hoverable white-text">Around IITBh</a>
+            </li>
+            <li>
+              <a href="ns1.html" class="hoverable white-text">NSS and NSO</a>
+            </li>
+            <li>
+              <a href="Queries.html" class="hoverable white-text">Queries</a>
+            </li>
+          </ul>
 
-            </div>
-        </nav>
+        </div>
+      </nav>
     </div>
 
 
-		  <ul id="nav-mobile" class="side-nav">
-				<li class="bold"><a href="mentors_2018.html" class="waves-effect waves-ripple hoverable">Student Mentors</a></li>
-        <li>
-          <ul class="collapsible collapsible-accordion">
-            <li><a class="collapsible-header waves-effect waves-ripple hoverable"><span class="myCollapsibleHeader">Academics</span></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="acad1.html#intro"><span class="myCollapsibleListItem light hoverable">Introduction</span></a></li>
-                  <li><a href="acad1.html#fractal"><span class="myCollapsibleListItem light hoverable">Fractal Academics</span></a></li>
-                  <li><a href="acad1.html#common"><span class="myCollapsibleListItem light hoverable">Common Subjects</span></a></li>
-                	<li><a href="acad.html#departments"><span class="myCollapsibleListItem light hoverable">Departments</span></a></li>
-									<li><a href="acad.html#grading"><span class="myCollapsibleListItem light hoverable">Grade Policy</span></a></li>
+    <ul id="nav-mobile" class="side-nav">
+      <li class="bold">
+        <a href="mentors1.html" class="waves-effect waves-ripple hoverable">Student Mentors</a>
+      </li>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header waves-effect waves-ripple hoverable">
+              <span class="myCollapsibleHeader">Academics</span>
+            </a>
+            <div class="collapsible-body">
+              <ul>
+                <li>
+                  <a href="acad1.html#intro">
+                    <span class="myCollapsibleListItem light hoverable">Introduction</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="acad1.html#fractal">
+                    <span class="myCollapsibleListItem light hoverable">Fractal Academics</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="acad1.html#common">
+                    <span class="myCollapsibleListItem light hoverable">Common Subjects</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="acad.html#departments">
+                    <span class="myCollapsibleListItem light hoverable">Departments</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="acad.html#grading">
+                    <span class="myCollapsibleListItem light hoverable">Grade Policy</span>
+                  </a>
+                </li>
 
-                </ul>
-              </div>
-            </li>
-            <li><a class="collapsible-header waves-effect waves-ripple hoverable"><span class="myCollapsibleHeader">Life @ IITBh</span></a>
-              <div class="collapsible-body">
-                <ul>
-
-                  <li><a href="life.html#location"><span class="myCollapsibleListItem light">Location</span></a></li>
-                  <li><a href="life.html#network"><span class="myCollapsibleListItem light">Networks</span></a></li>
-									<li><a href="life.html#clubs"><span class="myCollapsibleListItem light">Clubs</span></a></li>
-									<li><a href="life.html#sports"><span class="myCollapsibleListItem light">Sports</span></a></li>
-									<li><a href="life.html#mess"><span class="myCollapsibleListItem light">Mess</span></a></li>
-
-                  <li><a href="life.html#mess"><span class="myCollapsibleListItem light">Medical</span></a></li>
-                  <li><a href="life.html#trans"><span class="myCollapsibleListItem light">Transportation</span></a></li>
-
-                </ul>
-              </div>
-            </li>
-            <li><a class="collapsible-header waves-effect waves-ripple hoverable" ><span class="myCollapsibleHeader">Around IIT Bhilai</span></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="around1.html#trans"><span class="myCollapsibleListItem light">Transportation</span></a></li>
-                  <li><a href="around1.html#rest"><span class="myCollapsibleListItem light">Restaurants</span></a></li>
-                  <li><a href="around1.html#enter"><span class="myCollapsibleListItem light">Entertainment Hub</span></a></li>
-                  <li><a href="around1.html#daily"><span class="myCollapsibleListItem light">Daily Needs</span></a></li>
-                  <li><a href="around1.html#banks"><span class="myCollapsibleListItem light">Banks and Atms</span></a></li>
-
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </li>
-        <li class="bold"><a href="ns1.html" class="waves-effect waves-ripple hoverable">NSS &amp; NSO</a></li>
-        <li class="bold"><a href="Queries.html" class="waves-effect waves-ripple hoverable">Queries</a></li>
-		  </ul>
-
-</header>
-<!-- Header starts -->
-
-	  <div id="index-banner" class="parallax-container">
-			<div class="section no-pad-bot">
-			  <div class="container" id="headerTop">
-					<br><br>
-						<h1 class="header center bold amber-text text-lighten-2">ACADEMICS</h1>
-						<h4 class="header center condensed light amber-text text-lighten-2">Learning has its New Name...</h4>
-
-					<br><br>
-			  </div>
-			</div>
-			<div class="parallax"><img src="" id="background6" alt="Unsplashed background img 1"></div>
-	  </div>
-
-<!-- Main content starts -->
-
-<div class="container">
-  <div class="section">
-    <div class="row">
-      <div class="col s12">
-        <h2 class="header cyan-text text-accent-4 center" id="intro">Introduction</h2>
-        <p  style="text-align: justify;" class="light">The academic system of IIT Bhilai has been derived from the
-system of our mentor institute, IIT Hyderabad. The system, called
-the Fractal System, involves distributing courses across
-semesters. The curriculum gives due importance to developing
-crucial practical skills required in industry, in addition to the
-required theoretical knowledge. Nearly all the classes are now
-being conducted by professors hired within the institute, with a
-few professors from IITH being present as well.</p>
-				<br/>
-
-        <h2 class="header cyan-text text-accent-4 center" id="fractal">Fractal Academics</h2>
-        <p  style="text-align: justify;" class="light">Before we dive right into the departmental subjects offered lets first talk about the common subjects that are taught to all the streams. Since you will be studying in the Fractal system, a drastically different system compared to the existing systems in place at the other IIT’s which follow mostly the traditional system; you will be introduced to the core subjects from the very first semester. The common subjects that we study are slightly different from what is taught elsewhere and is slightly more industry inclined. With that we begin the list of subjects.</p>
-        <br/>
-        <div class="light">
-          <div class="row">
-            <div style="width: 90% ; margin: 0 auto;">
-              <ul class="tabs z-depth-2 grey lighten-4">
-                <li class="tab col s6"><a href="#what"><b>What is fractal system?</b></a></li>
-                <li class="tab col s6"><a href="#why"><b>Why fractal system?</b></a></li>
               </ul>
-              <div class="indicator"></div>
-              <div id="what" class="col s12 z-depth-1 myContainer">
-                <h4 class="header teal-text text-accent-4">What is Fractal System?</h4>
-                <p  style="text-align: justify;">IIT Bhilai has adopted a very innovative academic structure (courtesy IIT Hyderabad), referred to as Fractal Academics which is the first step in creating an experiential learning ambience.</p>
-                <div class="container">
-                  <ul>
-                    <li  style="text-align: justify;">&cir;&nbsp;At the centre of Fractal Academics is the concept of <strong>T-education</strong> -- Breadth and Depth.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;Under ‘T’ education, we have classified the courses that require width and length for training separately. </li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;Subsequently, each subject is fractalised (divided) into various segments with 1 or 2 credits.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;Breadth courses are basic building block for the depth courses. </li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;The fundamental idea is to atomize the credits to enable the students to get breadth in a large number of courses and depth in the courses of your choice.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;Initial emphasis is on breadth courses (first four semesters) and then on depth.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;Breadth courses are typically of 1 credit. There are plenty of such courses to help build a broad perspective. Introductory core courses provide students a window into further important topics.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;Depth courses are built on the foundation set by the breadth courses and are of 2 credits or more. For e.g., courses in the first semester are intended to provide a glimpse of all the core areas in EE viz., control systems, communication and signal processing, microelectronics and power electronics.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;In-depth coverage of core topics is offered in the depth courses. </li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;Often students build products/prototypes – bridging gulf between theory and practice.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;A balance is sought between technical and non-technical courses to reduce stress in students.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;There are numerous liberal arts/creative arts courses too depending upon student’s choice. (These include 1 credit courses related to Economics, Arts, Performing Arts, Management etc.)</li><br/>
-                  </ul>
+            </div>
+          </li>
+          <li>
+            <a class="collapsible-header waves-effect waves-ripple hoverable">
+              <span class="myCollapsibleHeader">Life @ IITBh</span>
+            </a>
+            <div class="collapsible-body">
+              <ul>
+
+                <li>
+                  <a href="life.html#location">
+                    <span class="myCollapsibleListItem light">Location</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="life.html#network">
+                    <span class="myCollapsibleListItem light">Networks</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="life.html#clubs">
+                    <span class="myCollapsibleListItem light">Clubs</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="life.html#sports">
+                    <span class="myCollapsibleListItem light">Sports</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="life.html#mess">
+                    <span class="myCollapsibleListItem light">Mess</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="life.html#mess">
+                    <span class="myCollapsibleListItem light">Medical</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="life.html#trans">
+                    <span class="myCollapsibleListItem light">Transportation</span>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="collapsible-header waves-effect waves-ripple hoverable">
+              <span class="myCollapsibleHeader">Around IIT Bhilai</span>
+            </a>
+            <div class="collapsible-body">
+              <ul>
+                <li>
+                  <a href="around1.html#trans">
+                    <span class="myCollapsibleListItem light">Transportation</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="around1.html#rest">
+                    <span class="myCollapsibleListItem light">Restaurants</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="around1.html#enter">
+                    <span class="myCollapsibleListItem light">Entertainment Hub</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="around1.html#daily">
+                    <span class="myCollapsibleListItem light">Daily Needs</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="around1.html#banks">
+                    <span class="myCollapsibleListItem light">Banks and Atms</span>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="bold">
+        <a href="ns1.html" class="waves-effect waves-ripple hoverable">NSS &amp; NSO</a>
+      </li>
+      <li class="bold">
+        <a href="Queries.html" class="waves-effect waves-ripple hoverable">Queries</a>
+      </li>
+    </ul>
+
+  </header>
+  <!-- Header starts -->
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container" id="headerTop">
+        <br>
+        <br>
+        <h1 class="header center bold amber-text text-lighten-2">ACADEMICS</h1>
+        <h4 class="header center condensed light amber-text text-lighten-2">Learning has its New Name...</h4>
+
+        <br>
+        <br>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="" id="background6" alt="Unsplashed background img 1">
+    </div>
+  </div>
+
+  <!-- Main content starts -->
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12">
+          <h2 class="header cyan-text text-accent-4 center" id="intro">Introduction</h2>
+          <p style="text-align: justify;" class="light">The academic system of IIT Bhilai has been derived from the system of our mentor institute, IIT Hyderabad. The
+            system, called the Fractal System, involves distributing courses across semesters. The curriculum gives due importance
+            to developing crucial practical skills required in industry, in addition to the required theoretical knowledge.
+            Nearly all the classes are now being conducted by professors hired within the institute, with a few professors
+            from IITH being present as well.</p>
+          <br/>
+
+          <h2 class="header cyan-text text-accent-4 center" id="fractal">Fractal Academics</h2>
+          <p style="text-align: justify;" class="light">Before we dive right into the departmental subjects offered lets first talk about the common subjects that are
+            taught to all the streams. Since you will be studying in the Fractal system, a drastically different system compared
+            to the existing systems in place at the other IIT’s which follow mostly the traditional system; you will be introduced
+            to the core subjects from the very first semester. The common subjects that we study are slightly different from
+            what is taught elsewhere and is slightly more industry inclined. With that we begin the list of subjects.</p>
+          <br/>
+          <div class="light">
+            <div class="row">
+              <div style="width: 90% ; margin: 0 auto;">
+                <ul class="tabs z-depth-2 grey lighten-4">
+                  <li class="tab col s6">
+                    <a href="#what">
+                      <b>What is fractal system?</b>
+                    </a>
+                  </li>
+                  <li class="tab col s6">
+                    <a href="#why">
+                      <b>Why fractal system?</b>
+                    </a>
+                  </li>
+                </ul>
+                <div class="indicator"></div>
+                <div id="what" class="col s12 z-depth-1 myContainer">
+                  <h4 class="header teal-text text-accent-4">What is Fractal System?</h4>
+                  <p style="text-align: justify;">IIT Bhilai has adopted a very innovative academic structure (courtesy IIT Hyderabad), referred to as Fractal
+                    Academics which is the first step in creating an experiential learning ambience.</p>
+                  <div class="container">
+                    <ul>
+                      <li style="text-align: justify;">&cir;&nbsp;At the centre of Fractal Academics is the concept of
+                        <strong>T-education</strong> -- Breadth and Depth.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;Under ‘T’ education, we have classified the courses that require width and length for training
+                        separately. </li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;Subsequently, each subject is fractalised (divided) into various segments with 1 or 2 credits.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;Breadth courses are basic building block for the depth courses. </li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;The fundamental idea is to atomize the credits to enable the students to get breadth in
+                        a large number of courses and depth in the courses of your choice.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;Initial emphasis is on breadth courses (first four semesters) and then on depth.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;Breadth courses are typically of 1 credit. There are plenty of such courses to help build
+                        a broad perspective. Introductory core courses provide students a window into further important topics.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;Depth courses are built on the foundation set by the breadth courses and are of 2 credits
+                        or more. For e.g., courses in the first semester are intended to provide a glimpse of all the core
+                        areas in EE viz., control systems, communication and signal processing, microelectronics and power
+                        electronics.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;In-depth coverage of core topics is offered in the depth courses. </li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;Often students build products/prototypes – bridging gulf between theory and practice.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;A balance is sought between technical and non-technical courses to reduce stress in students.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;There are numerous liberal arts/creative arts courses too depending upon student’s choice.
+                        (These include 1 credit courses related to Economics, Arts, Performing Arts, Management etc.)</li>
+                      <br/>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div id="why" class="col s12 z-depth-1 myContainer">
-                <h4 class="header teal-text text-accent-4">Why Fractal System?</h4>
-                <div class="container">
-                  <ul>
-                    <li  style="text-align: justify;">&cir;&nbsp;Better access to a wide variety of courses increases exposure and preparedness for research. This fosters undergraduate R&amp;D. </li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;Faculty is more of a mentor than a lecturer.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;Fractal academics enable a lot more flexibility in the academic program.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;There are departmental core courses in the very first semester and this creates an excitement to pursue research, develop new technologies and possibly be entrepreneurs.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;The breadth courses help students make an informed decision on their specialization choices.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp; Students get exposure to basic tools early. Here: MatLab, SolidEdge, GNU Octave, Arduino Genuino and many more.</li>
-                  </ul>
-                  <p><strong>Some Pointers to Maximize the benefits of Fractal System</strong></p>
-                  <ul>
-                    <li  style="text-align: justify;">&cir;&nbsp;The design of the system itself reduces the course burden, hence giving you ample amount of time to explore the topic.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;Observe what intrigues you, which topic catches your fancy and start working on it. In a straight forward fashion: Discover your passion.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;Many courses will be hands on (significant duration of course will be in labs or on computers), hence there will be ample opportunities to pick up practical skills which actually matter in the industry.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;The flexibility of courses will also give you more than enough time to pursue some non-academic interests also like music, sports, arts etc. We recommend you all to pick up at least one of them. After all, “Break toh banta hai Boss”</li><br/>
-                    <li style="text-align: justify;">&cir;&nbsp;A balance is sought between technical and non-technical courses to reduce stress in students.</li><br/>
-                    <li  style="text-align: justify;">&cir;&nbsp;With increased flexibility, creeps in lethargy. It is always better to be alert and spend some time with each subject taught to avoid unwanted outcomes. (You know what we mean: P)</li><br/>
-                    <p><strong>Branch Change</strong></p>
-                    <p  style="text-align: justify;">The curriculum allows you to apply for a branch change after the First-Semester. Exact conditions and qualification for the same will be provided by the Academic department of the institute.</p>
-                  </ul>
+                <div id="why" class="col s12 z-depth-1 myContainer">
+                  <h4 class="header teal-text text-accent-4">Why Fractal System?</h4>
+                  <div class="container">
+                    <ul>
+                      <li style="text-align: justify;">&cir;&nbsp;Better access to a wide variety of courses increases exposure and preparedness for research.
+                        This fosters undergraduate R&amp;D. </li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;Faculty is more of a mentor than a lecturer.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;Fractal academics enable a lot more flexibility in the academic program.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;There are departmental core courses in the very first semester and this creates an excitement
+                        to pursue research, develop new technologies and possibly be entrepreneurs.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;The breadth courses help students make an informed decision on their specialization choices.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp; Students get exposure to basic tools early. Here: MatLab, SolidEdge, GNU Octave, Arduino
+                        Genuino and many more.</li>
+                    </ul>
+                    <p>
+                      <strong>Some Pointers to Maximize the benefits of Fractal System</strong>
+                    </p>
+                    <ul>
+                      <li style="text-align: justify;">&cir;&nbsp;The design of the system itself reduces the course burden, hence giving you ample amount
+                        of time to explore the topic.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;Observe what intrigues you, which topic catches your fancy and start working on it. In a
+                        straight forward fashion: Discover your passion.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;Many courses will be hands on (significant duration of course will be in labs or on computers),
+                        hence there will be ample opportunities to pick up practical skills which actually matter in the
+                        industry.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;The flexibility of courses will also give you more than enough time to pursue some non-academic
+                        interests also like music, sports, arts etc. We recommend you all to pick up at least one of them.
+                        After all, “Break toh banta hai Boss”</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;A balance is sought between technical and non-technical courses to reduce stress in students.</li>
+                      <br/>
+                      <li style="text-align: justify;">&cir;&nbsp;With increased flexibility, creeps in lethargy. It is always better to be alert and spend
+                        some time with each subject taught to avoid unwanted outcomes. (You know what we mean: P)</li>
+                      <br/>
+                      <p>
+                        <strong>Branch Change</strong>
+                      </p>
+                      <p style="text-align: justify;">The curriculum allows you to apply for a branch change after the First-Semester. Exact conditions and
+                        qualification for the same will be provided by the Academic department of the institute.</p>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <h2 class="header cyan-text text-accent-4 center" id="common">Common Subjects</h2>
-				<div class="myContainer">
-	        <h4 class="header teal-text text-accent-4">First Semester</h4>
+          <h2 class="header cyan-text text-accent-4 center" id="common">Common Subjects</h2>
+          <div class="myContainer">
+            <h4 class="header teal-text text-accent-4">First Semester</h4>
 
-  <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Independent Project:</div>
-      <div class="collapsible-body"><span>As the name suggests, it is a project and you will have to present it to the assigned faculty member after you come back from the winter break. People will be divided into teams of 4 or 5, a budget will be assigned to you based on what you want to make. The maximum budget that can be allotted will be announced by the concerned faculty. There will not be anything taught for the IDP (Independent Project), but you may ask faculty for guidance. And one piece of advice, do not try to blatantly rip off something from the internet. You will be caught and asked to change your project. Add your own flavours to it. Make a few modifications of your own. Inspiration is highly encouraged but plagiarism is not.
-        </span></div>
-    </li>
+            <ul class="collapsible popout" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">filter_drama</i>Independent Project:</div>
+                <div class="collapsible-body">
+                  <span>As the name suggests, it is a project and you will have to present it to the assigned faculty member after
+                    you come back from the winter break. People will be divided into teams of 4 or 5, a budget will be assigned
+                    to you based on what you want to make. The maximum budget that can be allotted will be announced by the
+                    concerned faculty. There will not be anything taught for the IDP (Independent Project), but you may ask
+                    faculty for guidance. And one piece of advice, do not try to blatantly rip off something from the internet.
+                    You will be caught and asked to change your project. Add your own flavours to it. Make a few modifications
+                    of your own. Inspiration is highly encouraged but plagiarism is not.
+                  </span>
+                </div>
+              </li>
 
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Calculus I:</div>
-      <div class="collapsible-body"><span>Do not go by the name, it not your usual JEE calculus. It is a completely different ball game. The name of the topics will sound familiar to you; Sequences, series, limit, continuity, derivatives, but the content is completely different. You won’t be asked to simply calculate the limit or the derivative. This will be first time you will be exposed to what real mathematics looks like, the way mathematicians do it. Look up the book by Walter Rudin on Mathematical Analysis.
-            </span></div>
-    </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">filter_drama</i>Calculus I:</div>
+                <div class="collapsible-body">
+                  <span>Do not go by the name, it not your usual JEE calculus. It is a completely different ball game. The name
+                    of the topics will sound familiar to you; Sequences, series, limit, continuity, derivatives, but the
+                    content is completely different. You won’t be asked to simply calculate the limit or the derivative.
+                    This will be first time you will be exposed to what real mathematics looks like, the way mathematicians
+                    do it. Look up the book by Walter Rudin on Mathematical Analysis.
+                  </span>
+                </div>
+              </li>
 
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Calculus II:</div>
-      <div class="collapsible-body"><span> Unlike its predecessor which is one dimensional it takes calculus to N dimensions. This course teaches you the same things as Calculus I but in N dimensions. This course introduces Directional Derivatives, Partial Derivatives, Total Derivatives, Lagrange Multipliers. This course also introduces the concepts of integration namely Riemann Integral, Multiple integral and a few applications. Needless to say this is a notch above its predecessor.
-        </span></div>
-    </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">filter_drama</i>Calculus II:</div>
+                <div class="collapsible-body">
+                  <span> Unlike its predecessor which is one dimensional it takes calculus to N dimensions. This course teaches
+                    you the same things as Calculus I but in N dimensions. This course introduces Directional Derivatives,
+                    Partial Derivatives, Total Derivatives, Lagrange Multipliers. This course also introduces the concepts
+                    of integration namely Riemann Integral, Multiple integral and a few applications. Needless to say this
+                    is a notch above its predecessor.
+                  </span>
+                </div>
+              </li>
 
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Digital Fabrication:</div>
-      <div class="collapsible-body"><span> A fancy name for what is more commonly known as 3D printing. You will be taught the basics of how to work with 3D models, how to design 3D objects and how they are made. At the end of the course you will have to make your own project. You will have to design a 3D model of your own and fabricate it using a 3D printer. You can see ours in the 3D lab sitting inside the glass closet. You will be graded on the assignments handed out in class and the final project and of course attendance!!
-         </span>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">filter_drama</i>Digital Fabrication:</div>
+                <div class="collapsible-body">
+                  <span> A fancy name for what is more commonly known as 3D printing. You will be taught the basics of how to work
+                    with 3D models, how to design 3D objects and how they are made. At the end of the course you will have
+                    to make your own project. You will have to design a 3D model of your own and fabricate it using a 3D
+                    printer. You can see ours in the 3D lab sitting inside the glass closet. You will be graded on the assignments
+                    handed out in class and the final project and of course attendance!!
+                  </span>
 
-      <div class="row">
-            <br><br>
-            <div class="col s10 offset-s1">
-              <img src="" id="DSC_0058" style="width: 100%">
-            </div>
-      </div>
+                  <div class="row">
+                    <br>
+                    <br>
+                    <div class="col s10 offset-s1">
+                      <img src="" id="DSC_0058" style="width: 100%">
+                    </div>
+                  </div>
 
-      </div>
-    </li>
+                </div>
+              </li>
 
 
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Liberal &amp Creative arts:</div>
-      <div class="collapsible-body"><span>This is a compulsory course in every semester. A few subjects will be offered and you will have to choose one that suits your taste. Liberal Arts is like any other humanities subject and will be taught in the same way. Creative Arts are a little different. They are aimed at building your personality development and improving your social skills which being in an IIT most of us need. The will be offered by eminent actors, journalists, painters and the likes. From watching films, to visiting a place to making painting, it nurtures your artistic side.
-         </span></div>
-    </li>
-    <h4 class="header teal-text text-accent-4">Second Semester</h4>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">filter_drama</i>Liberal &amp Creative arts:</div>
+                <div class="collapsible-body">
+                  <span>This is a compulsory course in every semester. A few subjects will be offered and you will have to choose
+                    one that suits your taste. Liberal Arts is like any other humanities subject and will be taught in the
+                    same way. Creative Arts are a little different. They are aimed at building your personality development
+                    and improving your social skills which being in an IIT most of us need. The will be offered by eminent
+                    actors, journalists, painters and the likes. From watching films, to visiting a place to making painting,
+                    it nurtures your artistic side.
+                  </span>
+                </div>
+              </li>
+              <h4 class="header teal-text text-accent-4">Second Semester</h4>
 
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Vector Calculus:</div>
-      <div class="collapsible-body"><span>This is calculus applied to physics in 3 dimensions. It introduces the concepts of divergence, gradient, curl, multiples integral, Stokes’ Theorem, Gauss’ Theorem.   </span></div>
-    </li>
-  </ul>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">filter_drama</i>Vector Calculus:</div>
+                <div class="collapsible-body">
+                  <span>This is calculus applied to physics in 3 dimensions. It introduces the concepts of divergence, gradient,
+                    curl, multiples integral, Stokes’ Theorem, Gauss’ Theorem. </span>
+                </div>
+              </li>
+            </ul>
 
-			  </div>
-        <br/>
+          </div>
+          <br/>
 
-        <h2 class="header cyan-text text-accent-4 center" id="departments">Departments</h2>
-        <div class="light">
-          <div class="row">
-            <div style="width: 90% ; margin: 0 auto;">
-              <ul class="tabs z-depth-2 grey lighten-4">
-                <li class="tab col s4"><a href="#cse"><b>Computer Science &amp; Engineering</b></a></li>
-                <li class="tab col s4"><a href="#ee"><b>Electrical Engineering</b></a></li>
-                <li class="tab col s4"><a href="#me"><b>Mechanical Engineering</b></a></li>
-              </ul>
-              <div class="indicator"></div>
-
-              <div id="cse" class="col s12 z-depth-1 myContainer">
-                <h4 class="header teal-text text-accent-4">Computer Science &amp; Engineering</h4>
-                <p  style="text-align: justify;"><strong>About the Department:</strong> The first thing which pops up when you think of CSE is programming. Given that coding is an integral part of Computer Science, it is not the only part. As the name suggests, one learns both the science behind the computers and the engineering aspects of the field. CSE at IIT Bhilai is focussed on providing the students with a perfect blend of both – research and industrial facet of the computing world.</p>
-
-                <p  style="text-align: justify;"><strong>Courses during the first year:</strong> The courses for computer science students during the first year can be classified as follows:</p>
-                <ul class="container"  style="text-align: justify;">
-                  <li>1. Department Core
-                    <ul class="container">
-                      <li>a. Theory Course</li>
-                      <li>b. Theory and Practical</li>
-                    </ul>
+          <h2 class="header cyan-text text-accent-4 center" id="departments">Departments</h2>
+          <div class="light">
+            <div class="row">
+              <div style="width: 90% ; margin: 0 auto;">
+                <ul class="tabs z-depth-2 grey lighten-4">
+                  <li class="tab col s4">
+                    <a href="#cse">
+                      <b>Computer Science &amp; Engineering</b>
+                    </a>
                   </li>
-                  <li>2. Basic Science Courses</li>
-                  <li>3. Electrical and Electronics Courses</li>
+                  <li class="tab col s4">
+                    <a href="#ee">
+                      <b>Electrical Engineering</b>
+                    </a>
+                  </li>
+                  <li class="tab col s4">
+                    <a href="#me">
+                      <b>Mechanical Engineering</b>
+                    </a>
+                  </li>
                 </ul>
-                <p  style="text-align: justify;">The following sections collapse the bullets mentioned above:</p>
+                <div class="indicator"></div>
 
-                  <p><strong>1. Department Core</strong></p>
+                <div id="cse" class="col s12 z-depth-1 myContainer">
+                  <h4 class="header teal-text text-accent-4">Computer Science &amp; Engineering</h4>
+                  <p style="text-align: justify;">
+                    <strong>About the Department:</strong> The first thing which pops up when you think of CSE is programming. Given
+                    that coding is an integral part of Computer Science, it is not the only part. As the name suggests, one
+                    learns both the science behind the computers and the engineering aspects of the field. CSE at IIT Bhilai
+                    is focussed on providing the students with a perfect blend of both – research and industrial facet of
+                    the computing world.</p>
+
+                  <p style="text-align: justify;">
+                    <strong>Courses during the first year:</strong> The courses for computer science students during the first year
+                    can be classified as follows:</p>
+                  <ul class="container" style="text-align: justify;">
+                    <li>1. Department Core
+                      <ul class="container">
+                        <li>a. Theory Course</li>
+                        <li>b. Theory and Practical</li>
+                      </ul>
+                    </li>
+                    <li>2. Basic Science Courses</li>
+                    <li>3. Electrical and Electronics Courses</li>
+                  </ul>
+                  <p style="text-align: justify;">The following sections collapse the bullets mentioned above:</p>
+
+                  <p>
+                    <strong>1. Department Core</strong>
+                  </p>
                   <div class="container">
-                    <p  style="text-align: justify;"><strong>a. Theory Courses:</strong> For the first year students, Discrete Mathematics is the only theory course provided. The course is spread over two semesters with a weightage of 2 credits in each sem. It deals with the mathematical aspects of the computers. The part in the first semester will cover the following:</p>
+                    <p style="text-align: justify;">
+                      <strong>a. Theory Courses:</strong> For the first year students, Discrete Mathematics is the only theory course
+                      provided. The course is spread over two semesters with a weightage of 2 credits in each sem. It deals
+                      with the mathematical aspects of the computers. The part in the first semester will cover the following:</p>
                     <div class="container">
-                      <p  style="text-align: justify;">i. Boolean Algebra/ Logical Statements<br/>
-                      ii. How to write proofs for various logical statements<br/>
-                      iii. Modular Algebra<br/>
-                      iv. Application of the above concepts in game theory, cryptography etc. at a very basic level.</p>
+                      <p style="text-align: justify;">i. Boolean Algebra/ Logical Statements
+                        <br/> ii. How to write proofs for various logical statements
+                        <br/> iii. Modular Algebra
+                        <br/> iv. Application of the above concepts in game theory, cryptography etc. at a very basic level.</p>
                     </div>
 
-                    <p  style="text-align: justify;"><strong>b. Theory + Lab Courses:</strong> Introduction to Programming is the course taught during the first semester. The language to work with will be C. The course is taught from scratch and requires no prior knowledge of coding. However, one needs to back the theory taught in class with sufficient coding for the concepts to stick in your mind. Four or Five practical assignments with gradually increasing difficulty level will be given at regular intervals and the evaluation of the same will form a part of final grading.</p>
-                    <p  style="text-align: justify;">The second semester will introduce you to the world of “Algorithms and Data Structures”. They are the building blocks of every software application you have ever fiddled with. Implementing the algorithms and data structures through a programming language is a skill which every computer science enthusiast should hone. The course is taught in C language and build up on the programming knowledge which you have developed in the first semester. At the end of the semester you get a chance to apply your skills in coding a project.</p><br/>
+                    <p style="text-align: justify;">
+                      <strong>b. Theory + Lab Courses:</strong> Introduction to Programming is the course taught during the first
+                      semester. The language to work with will be C. The course is taught from scratch and requires no prior
+                      knowledge of coding. However, one needs to back the theory taught in class with sufficient coding for
+                      the concepts to stick in your mind. Four or Five practical assignments with gradually increasing difficulty
+                      level will be given at regular intervals and the evaluation of the same will form a part of final grading.</p>
+                    <p style="text-align: justify;">The second semester will introduce you to the world of “Algorithms and Data Structures”. They are the
+                      building blocks of every software application you have ever fiddled with. Implementing the algorithms
+                      and data structures through a programming language is a skill which every computer science enthusiast
+                      should hone. The course is taught in C language and build up on the programming knowledge which you
+                      have developed in the first semester. At the end of the semester you get a chance to apply your skills
+                      in coding a project.</p>
+                    <br/>
                   </div>
 
                   <div class="row">
@@ -311,419 +548,618 @@ few professors from IITH being present as well.</p>
                     </div>
                   </div>
 
-                  <p><strong>2. Basic Science Courses</strong></p>
-                  <div class="container">
-                    <p  style="text-align: justify;"><strong>a. Classical Physics (1st Sem)</strong>: This course is common to both Computer Science and Electrical Engineering. You have studied mechanics before, well this takes it beyond Newton’s laws of motion and introduces more powerful ways to analyse dynamical systems namely the Lagrangian and Hamiltonian formulation of Classical mechanics</p>
-                    <p  style="text-align: justify;"><strong>b. Environmental Chemistry (1st Sem)</strong>: Introduces you to the world of environmental engineering. You will study the basics of our ecosystem, atmosphere and how existing technologies can be modified to make them eco-friendlier. A glimpse into current water management and purification methods will also be given in the course. </p>
-                    <p  style="text-align: justify;"><strong>c. Quantum Chemistry and Chemical Kinetics (2nd Sem)</strong>: The course will have a very brief introduction to quantum chemistry followed by analysis of chemical kinetics (This part of the course will be all that you have learned during your JEE prep about chemical kinetics).</p>
-                    <p  style="text-align: justify;"><strong>d. Electrodynamics</strong>: Builds on your JEE concepts of electrodynamics and goes a notch higher to explore the Maxwell’s equations and electromagnetic waves.</p>
-                    <p  style="text-align: justify;"><strong>e. Linear Algebra</strong>: The concepts developed in this course will act as fundamentals when you take up advanced computing. The course primarily deals with matrices, builds up on the matrices you studied for JEE and takes you on a ride (pun intended :P) towards exploring advanced concepts such as eigen values and eigen vectors. </p><br/>
-                  </div>
-
-                  <p><strong>3. Electrical and Electronics Courses:</strong></p>
-                  <div class="container">
-                    <p  style="text-align: justify;"><strong>a. Digital System Design</strong>: This course is common to both Computer Science and Electrical Engineering. It introduces you to Arduino and how the vast array of things that can be made using it. You will also be introduced to fundamental concepts used in Digital System like Boolean Algebra, Karnaugh Maps.</p>
-                    <p  style="text-align: justify;"><strong>b. Applied Digital Logic Design</strong>: This course is common to both Computer Science and Electrical Engineering. This course is similar to the previous one. It builds on it. It introduces you to Multiplexers, Flip Flops, Latches, State Machines. A piece of advice, it would benefit you to learn LATEX and Neso academy will be your best friend!!</p>
-                    <p  style="text-align: justify;"><strong>c. Digital Signal Processing</strong>: You will be introduced to digital signals and how to process them. There will be a lot of theory assignments and coding assignments which will be mostly done in Python. So, learning a little bit of python would help you a lot.</p><br/>
-
-                    <p  style="text-align: justify;"><strong>Lab Facilities:</strong> The computer lab flaunts powerful systems (i7 cores) with both windows and linux distros installed in them. All systems have high speed net connectivity. The laboratory comprises of more than 40 desktops with all the necessary software and hardware installed. </p>
-                  </div>
-
-<ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>CSE Hacks:</div>
-      <div class="collapsible-body"><span>
-          <p><strong>For CSE students:</strong></p>
-                  <div class="container">
-                    <p  style="text-align: justify;">
-                      1) It is recommended to have a laptop as there will be a good number of courses which require you to write assignments on a computer and submit them online. E.g. CAD Modelling, Programming, Some electrical courses.
-
-                    </p>
-                    <p  style="text-align: justify;">
-                      2) Though it is not a pre-requisite but having an idea of coding (loops, basic syntax, conditionals, functions, a tiny bit of pointers), mainly C language would surely help you to catch pace during the various courses.
-
-                    </p>
-                    <p  style="text-align: justify;">
-                      3) Get some knowledge about Linux based systems, mainly Ubuntu. There are plenty of resources on the net to help you install the same along with your Windows OS.
-
-                      </p>
-
-                    <p  style="text-align: justify;">
-                      4) Having some knowledge of Python and MATLAB can be helpful in some courses as these languages are used as tools in their assignments (Digital Signal Processing).
-
-                       </p>
-                        <p  style="text-align: justify;">
-                    5) Advanced C concepts such as Algorithms and Data Structures can be studied. This will help you breeze through the basics in the classes and focus on more advanced concepts.
-
-                       </p>
-                        <p  style="text-align: justify;">
-                     6) Try reading about analysis of algorithms, mainly in terms of time complexity.
-                       </p>
-                        <p  style="text-align: justify;">
-                    7) Some basic familiarity with Discrete Mathematics/Mathematical Logic will really help you in some of the courses but is not compulsory.
-
-                       </p>
-                        <p  style="text-align: justify;">
-                    8) The world is at your feet in form of the internet. Explore the same for your benefit.
-                       </p>
-                  </div>
-                  <p style="text-align: justify;"><strong>
-                    * The tips are in no sense a pre-requisite for any of the courses you take during your semesters. They are just a set of pointers to get you in the right direction without having to fumble over a plethora of resources.
-</strong>
+                  <p>
+                    <strong>2. Basic Science Courses</strong>
                   </p>
-
-                </span></div>
-    </li>
-</ul>
-
-              </div>
-
-              <div id="ee" class="col s12 z-depth-1 myContainer">
-                <h4 class="header teal-text text-accent-4">Electrical Engineering</h4>
-                <p  style="text-align: justify;"><strong>About the Department</strong>: The Department of Electrical Engineering, IIT Bhilai, since its inception in the year 2016 has been striving towards providing a vibrant atmosphere for students, in different aspects of Electrical Engineering. At present the department offers the undergraduate course to cater to the ever challenging needs of technical excellence in various facets of electrical engineering.</p>
-                <p  style="text-align: justify;">The Department offers Undergraduate program (B. Tech), Postgraduate programs (M.Tech.) and Doctorate (PhD) program from the session beginning in 2017. The research interests of our faculty encompass a wide gamut of sub-disciplines of Electrical Engineering. We have state-of- the-art lab facilities along with trained staff to handle the latest equipment. The Department has been playing an important role in instilling the avidity amongst students and encouraging research in the various sub-disciplines of Electrical Engineering. In the coming years we see ourselves as pioneers of Advanced Research and Development in our field.</p>
-
-                <h5 class="header">Subjects offered in Freshman Year</h5>
-                <p><strong>First Semester:</strong></p>
-                <div class="container">
-                  <p  style="text-align: justify;"><strong>Classical Physics</strong>: This course is common to both Computer Science and Electrical Engineering. You have studied mechanics before, well this takes it beyond Newton’s laws of motion and introduces more powerful ways to analyse dynamical systems namely the Lagrangian and Hamiltonian formulation of Classical mechanics.</p>
-                  <p  style="text-align: justify;"><strong>Digital System Design</strong>: This course is common to both Computer Science and Electrical Engineering. It introduces you to Arduino and how the vast array of things that can be made using it. You will also be introduced to fundamental concepts used in Digital System like Boolean Algebra, Karnaugh Maps. </p>
-                  <p  style="text-align: justify;"><strong>Applied Digital Logic Design</strong>: This course is common to both Computer Science and Electrical Engineering. This course is similar to the previous one. It builds on it. It introduces you to Multiplexers, Flip Flops, Latches, State Machines. A piece of advice, it would benefit you to learn LATEX and Neso academy will be your best friend!!</p>
-                  <p  style="text-align: justify;"><strong>Electric Circuits</strong>: Similar to the one you studied for JEE. A few new concepts will be introduce like Thevenin’s theorem, Norton’s Theorem, Independent and Dependent source, mesh and nodal analysis.</p>
-                  <p  style="text-align: justify;"><strong>Magnetic Circuits</strong>: Similar to electric circuits. The syllabus includes Coupled circuits, Transformers.</p>
-                  <p  style="text-align: justify;"><strong>Signals and Communications</strong>: What is a signal? How to work with a signal? How to sample a signal? How to convert an analogue signal to digital and vice-versa? How a signal is processed to extract useful information? All these interesting thing are taught in this course.</p>
-                  <p  style="text-align: justify;"><strong>Internet of Things</strong>: How does your television remote work? This course teaches you exactly that. This course introduces you to censors, how to interface a sensor with an Arduino. How to automate everyday things using a sensor, communication between machines wirelessly; this course teaches you all that.</p>
-                  <p  style="text-align: justify;"><strong>Bioengineering</strong>: Introduces you to the field of Neuro-Science. This course teaches you about the brain, the different parts of the brain, how the central nervous system works.</p>
-                </div>
-
-                <p><strong>Second Semester</strong></p>
-                <div class="container">
-
-                  <p  style="text-align: justify;"><strong>Matrix Analysis</strong>:  This course forms the bridge between geometry and algebra using the concepts of matrices. This course introduces the concepts of simultaneous equations, Vector Spaces, Linear Transformations, Orthogonality, Gram-Schmidt process.</p>
-                  <p  style="text-align: justify;"><strong>Differential Equations</strong>: Introduces you to the different methods of solving 1st order differential equations, the different types of methods of solving, Exact and Inexact equations, variable separation, Linear differential equations. 2nd order differential equations, existence and solutions.</p>
-                  <p  style="text-align: justify;"><strong>Data Analytics</strong>: The course goes over the basics of Data Analysis. Teaches you linear regression, fitting models to a data, hypothesis testing, time-series analysis. Probability distributions, random variables, Bayes Theorem.</p>
-                  <p  style="text-align: justify;"><strong>Data Structures</strong>: Arrays, linked lists, Trees are taught and how to use them to store and retrieve data efficiently.</p>
-                  <p  style="text-align: justify;"><strong>Basic Control Theory</strong>: Applications of controllers and control systems, basic building blocks of a control system, types of controllers, thumb rules for designing P/PI/PD/PID controllers, advantages of control system, stability analysis, time response analysis, frequency response analysis.</p>
-                  <p  style="text-align: justify;"><strong>Analogue Electronics</strong>: A basic introduction to nonlinear circuits and how to analyse them. MOSFETS and the different transfer characteristics along with the different types of amplifiers built using it are taught.</p>
-                  <p  style="text-align: justify;"><strong>Digital Signal Processing</strong>: Similar to the Signals and Communications course in the first semester the only difference is instead of working with analogue signals you will be introduced to digital signals and how to process them. There will be a lot of theory assignments and coding assignments which will be mostly done in Python. So, learning a little bit of python would help you a lot.</p>
-                  <p  style="text-align: justify;"><strong>Semiconductor Fundamentals</strong>: What is a semiconductor, types of semiconductors, P-N junction diode, transistors, and their transfer characteristics will be introduced in this course.</p>
-                  <p  style="text-align: justify;"><strong>Embedded Programming</strong>: This course teaches you how programming was done 60 years ago. Introduces you to the concepts of assembly language using AVR ATMEGA. Assembly languages are a very low level languages compared to the high level languages such as C and are closer to the computer hardware than the high level languages. You will be taught how to code in assembly and at the end of the course you will have to do a project using assembly language.</p>
-                  <p  style="text-align: justify;"><strong>Free Elective</strong>: You can choose any course of your liking. Just ensure that the course you take is not in your own department’s list of compulsory courses.</p>
-                  <p  style="text-align: justify;"><strong>LA/CA Elective</strong>: Same as the Liberal and Creative arts elective in the first semester.</p>
-
-                </div>
-                <p  style="text-align: justify;"><strong>Lab Facilities</strong>: Currently one electronics lab is fully functional. The lab is well equipped state of the art computers running both Windows and Linux. The lab is fully stocked with different kinds of resistors, capacitors, inductors, printed circuit boards, multimeters, oscilloscopes, Arduino kits, Raspberry Pi’s, soldering machines and a whole slew of transistors and Integrated circuits.</p>
-
-                <div class="row">
-                  <div class="col s12 m6">
-                    <img src="" id="DSC_0107" style="width: 100%">
-                  </div>
-                  <div class="col s12 m6">
-                    <img src="" id="DSC_0112" style="width: 100%">
-                  </div>
-                </div>
-
-                <p  style="text-align: justify;"><strong>Expectations from the Department</strong>: The EE department at IIT Bhilai even though being relatively new, thrives to provide students a deep insight into the core concepts of the subject. It encompasses the areas of traditional teaching methods and latest developing technology. Many Universities and colleges have separate courses under Electronics and Communication (ECE), Electrical and Electronics (EEE), and Electrical Engineering (EE) each having a specialization in the respective field. However, our approach is to bring to all of this under one common roof so that students are able to master themselves in the subject of their desire. </p>
-
-<ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>EE Hacks:</div>
-      <div class="collapsible-body"><span>
-          <p>
-            "Dude enjoy it (first year)! You will not get time later on."
-This is what you will hear coming to IIT most of the time from seniors.
-DON’T get FOOLED by them. First year is the foundation of coming years. So study and enjoy I a balanced manner.
-
-          </p>
                   <div class="container">
-                    <p  style="text-align: justify;">
-                   1.	Do small projects on weekend. Learn the use of sensors. This will help
-you in IOT class and Independent projects.
-
-                    </p>
-                    <p  style="text-align: justify;">
-                   2.	Coding:  Make yourself comfortable with programming in first year only. Without learning programming you may fall back in many areas of EE in the future.
-
-                    </p>
-                    <p  style="text-align: justify;">
-                    3.	Solve many problems in core subjects like Analog electronics, Semiconductors,
-Signals and Systems etc.
-
-                      </p>
-
-                    <p  style="text-align: justify;">
-                   4.Technical Skills:<br>
-(a.) Learn to use electrical instruments like Oscilloscope, Function
-generator, Digital Multimeter in EE lab.
-<br>
-(b.) Develop the skills of doing circuit analysis using Laplace transform,
-differential equations etc. Most of the time you have to do this.
-
-                       </p>
-                        <p  style="text-align: justify;">
-                   5.Online Course:
-Follow the websites like Udacity, Coursera for online courses (on long
-holidays).
-
-                       </p>
-                        <p  style="text-align: justify;">
-     6.Soft Skills:<br>
-(a.) MATLAB (Used for Data Analytics)<br>
-(b.) Python (Considering the first year this is more important for DSP
-and Data Analytics)<br>
-(c.) C language (for Data Structure and Arduino programming)
-
-                       </p>
-                        <p  style="text-align: justify;">
-                  7. Maths:
-It is a natural tendency of most students after coming to IIT to neglect
-maths. DON’T do it! In CSE we can see the result of our programmings on
-screen. And in Mechanical Engineering whatever is happening we can see
-it physically e.g. by applying force, weighing it etc. But in EE we can’t. First we need to MODEL IT in MATHEMATICAL EQUATIONS and then see, what is the output for particular input.
-<br>So topics in maths like Vector Calculus, Fourier and Laplace transforms,
-Differential Equations, Matrix Analysis are very important.
-Don’t detest these subjects.
-
-
-                       </p>
-                        <p  style="text-align: justify;">
-                    8) The world is at your feet in form of the internet. Explore the same for your benefit.
-                       </p>
+                    <p style="text-align: justify;">
+                      <strong>a. Classical Physics (1st Sem)</strong>: This course is common to both Computer Science and Electrical
+                      Engineering. You have studied mechanics before, well this takes it beyond Newton’s laws of motion and
+                      introduces more powerful ways to analyse dynamical systems namely the Lagrangian and Hamiltonian formulation
+                      of Classical mechanics</p>
+                    <p style="text-align: justify;">
+                      <strong>b. Environmental Chemistry (1st Sem)</strong>: Introduces you to the world of environmental engineering.
+                      You will study the basics of our ecosystem, atmosphere and how existing technologies can be modified
+                      to make them eco-friendlier. A glimpse into current water management and purification methods will
+                      also be given in the course. </p>
+                    <p style="text-align: justify;">
+                      <strong>c. Quantum Chemistry and Chemical Kinetics (2nd Sem)</strong>: The course will have a very brief introduction
+                      to quantum chemistry followed by analysis of chemical kinetics (This part of the course will be all
+                      that you have learned during your JEE prep about chemical kinetics).</p>
+                    <p style="text-align: justify;">
+                      <strong>d. Electrodynamics</strong>: Builds on your JEE concepts of electrodynamics and goes a notch higher
+                      to explore the Maxwell’s equations and electromagnetic waves.</p>
+                    <p style="text-align: justify;">
+                      <strong>e. Linear Algebra</strong>: The concepts developed in this course will act as fundamentals when you
+                      take up advanced computing. The course primarily deals with matrices, builds up on the matrices you
+                      studied for JEE and takes you on a ride (pun intended :P) towards exploring advanced concepts such
+                      as eigen values and eigen vectors. </p>
+                    <br/>
                   </div>
-                  <p style="text-align: justify;"><strong>
-                    * The tips are in no sense a pre-requisite for any of the courses you take during your semesters. They are just a set of pointers to get you in the right direction without having to fumble over a plethora of resources.
+
+                  <p>
+                    <strong>3. Electrical and Electronics Courses:</strong>
+                  </p>
+                  <div class="container">
+                    <p style="text-align: justify;">
+                      <strong>a. Digital System Design</strong>: This course is common to both Computer Science and Electrical Engineering.
+                      It introduces you to Arduino and how the vast array of things that can be made using it. You will also
+                      be introduced to fundamental concepts used in Digital System like Boolean Algebra, Karnaugh Maps.</p>
+                    <p style="text-align: justify;">
+                      <strong>b. Applied Digital Logic Design</strong>: This course is common to both Computer Science and Electrical
+                      Engineering. This course is similar to the previous one. It builds on it. It introduces you to Multiplexers,
+                      Flip Flops, Latches, State Machines. A piece of advice, it would benefit you to learn LATEX and Neso
+                      academy will be your best friend!!</p>
+                    <p style="text-align: justify;">
+                      <strong>c. Digital Signal Processing</strong>: You will be introduced to digital signals and how to process
+                      them. There will be a lot of theory assignments and coding assignments which will be mostly done in
+                      Python. So, learning a little bit of python would help you a lot.</p>
+                    <br/>
+
+                    <p style="text-align: justify;">
+                      <strong>Lab Facilities:</strong> The computer lab flaunts powerful systems (i7 cores) with both windows and
+                      linux distros installed in them. All systems have high speed net connectivity. The laboratory comprises
+                      of more than 40 desktops with all the necessary software and hardware installed. </p>
+                  </div>
+
+                  <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header">
+                        <i class="material-icons">filter_drama</i>CSE Hacks:</div>
+                      <div class="collapsible-body">
+                        <span>
+                          <p>
+                            <strong>For CSE students:</strong>
+                          </p>
+                          <div class="container">
+                            <p style="text-align: justify;">
+                              1) It is recommended to have a laptop as there will be a good number of courses which require you to write assignments on
+                              a computer and submit them online. E.g. CAD Modelling, Programming, Some electrical courses.
+
+                            </p>
+                            <p style="text-align: justify;">
+                              2) Though it is not a pre-requisite but having an idea of coding (loops, basic syntax, conditionals, functions, a tiny bit
+                              of pointers), mainly C language would surely help you to catch pace during the various courses.
+
+                            </p>
+                            <p style="text-align: justify;">
+                              3) Get some knowledge about Linux based systems, mainly Ubuntu. There are plenty of resources on the net to help you install
+                              the same along with your Windows OS.
+
+                            </p>
+
+                            <p style="text-align: justify;">
+                              4) Having some knowledge of Python and MATLAB can be helpful in some courses as these languages are used as tools in their
+                              assignments (Digital Signal Processing).
+
+                            </p>
+                            <p style="text-align: justify;">
+                              5) Advanced C concepts such as Algorithms and Data Structures can be studied. This will help you breeze through the basics
+                              in the classes and focus on more advanced concepts.
+
+                            </p>
+                            <p style="text-align: justify;">
+                              6) Try reading about analysis of algorithms, mainly in terms of time complexity.
+                            </p>
+                            <p style="text-align: justify;">
+                              7) Some basic familiarity with Discrete Mathematics/Mathematical Logic will really help you in some of the courses but is
+                              not compulsory.
+
+                            </p>
+                            <p style="text-align: justify;">
+                              8) The world is at your feet in form of the internet. Explore the same for your benefit.
+                            </p>
+                          </div>
+                          <p style="text-align: justify;">
+                            <strong>
+                              * The tips are in no sense a pre-requisite for any of the courses you take during your semesters. They are just a set of
+                              pointers to get you in the right direction without having to fumble over a plethora of resources.
+                            </strong>
+                          </p>
+
+                        </span>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+
+                <div id="ee" class="col s12 z-depth-1 myContainer">
+                  <h4 class="header teal-text text-accent-4">Electrical Engineering</h4>
+                  <p style="text-align: justify;">
+                    <strong>About the Department</strong>: The Department of Electrical Engineering, IIT Bhilai, since its inception
+                    in the year 2016 has been striving towards providing a vibrant atmosphere for students, in different
+                    aspects of Electrical Engineering. At present the department offers the undergraduate course to cater
+                    to the ever challenging needs of technical excellence in various facets of electrical engineering.</p>
+                  <p style="text-align: justify;">The Department offers Undergraduate program (B. Tech), Postgraduate programs (M.Tech.) and Doctorate (PhD)
+                    program from the session beginning in 2017. The research interests of our faculty encompass a wide gamut
+                    of sub-disciplines of Electrical Engineering. We have state-of- the-art lab facilities along with trained
+                    staff to handle the latest equipment. The Department has been playing an important role in instilling
+                    the avidity amongst students and encouraging research in the various sub-disciplines of Electrical Engineering.
+                    In the coming years we see ourselves as pioneers of Advanced Research and Development in our field.</p>
+
+                  <h5 class="header">Subjects offered in Freshman Year</h5>
+                  <p>
+                    <strong>First Semester:</strong>
+                  </p>
+                  <div class="container">
+                    <p style="text-align: justify;">
+                      <strong>Classical Physics</strong>: This course is common to both Computer Science and Electrical Engineering.
+                      You have studied mechanics before, well this takes it beyond Newton’s laws of motion and introduces
+                      more powerful ways to analyse dynamical systems namely the Lagrangian and Hamiltonian formulation of
+                      Classical mechanics.</p>
+                    <p style="text-align: justify;">
+                      <strong>Digital System Design</strong>: This course is common to both Computer Science and Electrical Engineering.
+                      It introduces you to Arduino and how the vast array of things that can be made using it. You will also
+                      be introduced to fundamental concepts used in Digital System like Boolean Algebra, Karnaugh Maps. </p>
+                    <p style="text-align: justify;">
+                      <strong>Applied Digital Logic Design</strong>: This course is common to both Computer Science and Electrical
+                      Engineering. This course is similar to the previous one. It builds on it. It introduces you to Multiplexers,
+                      Flip Flops, Latches, State Machines. A piece of advice, it would benefit you to learn LATEX and Neso
+                      academy will be your best friend!!</p>
+                    <p style="text-align: justify;">
+                      <strong>Electric Circuits</strong>: Similar to the one you studied for JEE. A few new concepts will be introduce
+                      like Thevenin’s theorem, Norton’s Theorem, Independent and Dependent source, mesh and nodal analysis.</p>
+                    <p style="text-align: justify;">
+                      <strong>Magnetic Circuits</strong>: Similar to electric circuits. The syllabus includes Coupled circuits, Transformers.</p>
+                    <p style="text-align: justify;">
+                      <strong>Signals and Communications</strong>: What is a signal? How to work with a signal? How to sample a signal?
+                      How to convert an analogue signal to digital and vice-versa? How a signal is processed to extract useful
+                      information? All these interesting thing are taught in this course.</p>
+                    <p style="text-align: justify;">
+                      <strong>Internet of Things</strong>: How does your television remote work? This course teaches you exactly
+                      that. This course introduces you to censors, how to interface a sensor with an Arduino. How to automate
+                      everyday things using a sensor, communication between machines wirelessly; this course teaches you
+                      all that.</p>
+                    <p style="text-align: justify;">
+                      <strong>Bioengineering</strong>: Introduces you to the field of Neuro-Science. This course teaches you about
+                      the brain, the different parts of the brain, how the central nervous system works.</p>
+                  </div>
+
+                  <p>
+                    <strong>Second Semester</strong>
+                  </p>
+                  <div class="container">
+
+                    <p style="text-align: justify;">
+                      <strong>Matrix Analysis</strong>: This course forms the bridge between geometry and algebra using the concepts
+                      of matrices. This course introduces the concepts of simultaneous equations, Vector Spaces, Linear Transformations,
+                      Orthogonality, Gram-Schmidt process.</p>
+                    <p style="text-align: justify;">
+                      <strong>Differential Equations</strong>: Introduces you to the different methods of solving 1st order differential
+                      equations, the different types of methods of solving, Exact and Inexact equations, variable separation,
+                      Linear differential equations. 2nd order differential equations, existence and solutions.</p>
+                    <p style="text-align: justify;">
+                      <strong>Data Analytics</strong>: The course goes over the basics of Data Analysis. Teaches you linear regression,
+                      fitting models to a data, hypothesis testing, time-series analysis. Probability distributions, random
+                      variables, Bayes Theorem.</p>
+                    <p style="text-align: justify;">
+                      <strong>Data Structures</strong>: Arrays, linked lists, Trees are taught and how to use them to store and retrieve
+                      data efficiently.</p>
+                    <p style="text-align: justify;">
+                      <strong>Basic Control Theory</strong>: Applications of controllers and control systems, basic building blocks
+                      of a control system, types of controllers, thumb rules for designing P/PI/PD/PID controllers, advantages
+                      of control system, stability analysis, time response analysis, frequency response analysis.</p>
+                    <p style="text-align: justify;">
+                      <strong>Analogue Electronics</strong>: A basic introduction to nonlinear circuits and how to analyse them.
+                      MOSFETS and the different transfer characteristics along with the different types of amplifiers built
+                      using it are taught.</p>
+                    <p style="text-align: justify;">
+                      <strong>Digital Signal Processing</strong>: Similar to the Signals and Communications course in the first semester
+                      the only difference is instead of working with analogue signals you will be introduced to digital signals
+                      and how to process them. There will be a lot of theory assignments and coding assignments which will
+                      be mostly done in Python. So, learning a little bit of python would help you a lot.</p>
+                    <p style="text-align: justify;">
+                      <strong>Semiconductor Fundamentals</strong>: What is a semiconductor, types of semiconductors, P-N junction
+                      diode, transistors, and their transfer characteristics will be introduced in this course.</p>
+                    <p style="text-align: justify;">
+                      <strong>Embedded Programming</strong>: This course teaches you how programming was done 60 years ago. Introduces
+                      you to the concepts of assembly language using AVR ATMEGA. Assembly languages are a very low level
+                      languages compared to the high level languages such as C and are closer to the computer hardware than
+                      the high level languages. You will be taught how to code in assembly and at the end of the course you
+                      will have to do a project using assembly language.</p>
+                    <p style="text-align: justify;">
+                      <strong>Free Elective</strong>: You can choose any course of your liking. Just ensure that the course you take
+                      is not in your own department’s list of compulsory courses.</p>
+                    <p style="text-align: justify;">
+                      <strong>LA/CA Elective</strong>: Same as the Liberal and Creative arts elective in the first semester.</p>
+
+                  </div>
+                  <p style="text-align: justify;">
+                    <strong>Lab Facilities</strong>: Currently one electronics lab is fully functional. The lab is well equipped
+                    state of the art computers running both Windows and Linux. The lab is fully stocked with different kinds
+                    of resistors, capacitors, inductors, printed circuit boards, multimeters, oscilloscopes, Arduino kits,
+                    Raspberry Pi’s, soldering machines and a whole slew of transistors and Integrated circuits.</p>
+
+                  <div class="row">
+                    <div class="col s12 m6">
+                      <img src="" id="DSC_0107" style="width: 100%">
+                    </div>
+                    <div class="col s12 m6">
+                      <img src="" id="DSC_0112" style="width: 100%">
+                    </div>
+                  </div>
+
+                  <p style="text-align: justify;">
+                    <strong>Expectations from the Department</strong>: The EE department at IIT Bhilai even though being relatively
+                    new, thrives to provide students a deep insight into the core concepts of the subject. It encompasses
+                    the areas of traditional teaching methods and latest developing technology. Many Universities and colleges
+                    have separate courses under Electronics and Communication (ECE), Electrical and Electronics (EEE), and
+                    Electrical Engineering (EE) each having a specialization in the respective field. However, our approach
+                    is to bring to all of this under one common roof so that students are able to master themselves in the
+                    subject of their desire. </p>
+
+                  <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header">
+                        <i class="material-icons">filter_drama</i>EE Hacks:</div>
+                      <div class="collapsible-body">
+                        <span>
+                          <p>
+                            "Dude enjoy it (first year)! You will not get time later on." This is what you will hear coming to IIT most of the time from
+                            seniors. DON’T get FOOLED by them. First year is the foundation of coming years. So study and
+                            enjoy I a balanced manner.
+
+                          </p>
+                          <div class="container">
+                            <p style="text-align: justify;">
+                              1. Do small projects on weekend. Learn the use of sensors. This will help you in IOT class and Independent projects.
+
+                            </p>
+                            <p style="text-align: justify;">
+                              2. Coding: Make yourself comfortable with programming in first year only. Without learning programming you may fall back
+                              in many areas of EE in the future.
+
+                            </p>
+                            <p style="text-align: justify;">
+                              3. Solve many problems in core subjects like Analog electronics, Semiconductors, Signals and Systems etc.
+
+                            </p>
+
+                            <p style="text-align: justify;">
+                              4.Technical Skills:
+                              <br> (a.) Learn to use electrical instruments like Oscilloscope, Function generator, Digital Multimeter
+                              in EE lab.
+                              <br> (b.) Develop the skills of doing circuit analysis using Laplace transform, differential equations
+                              etc. Most of the time you have to do this.
+
+                            </p>
+                            <p style="text-align: justify;">
+                              5.Online Course: Follow the websites like Udacity, Coursera for online courses (on long holidays).
+
+                            </p>
+                            <p style="text-align: justify;">
+                              6.Soft Skills:
+                              <br> (a.) MATLAB (Used for Data Analytics)
+                              <br> (b.) Python (Considering the first year this is more important for DSP and Data Analytics)
+                              <br> (c.) C language (for Data Structure and Arduino programming)
+
+                            </p>
+                            <p style="text-align: justify;">
+                              7. Maths: It is a natural tendency of most students after coming to IIT to neglect maths. DON’T do it! In CSE we can see
+                              the result of our programmings on screen. And in Mechanical Engineering whatever is happening
+                              we can see it physically e.g. by applying force, weighing it etc. But in EE we can’t. First
+                              we need to MODEL IT in MATHEMATICAL EQUATIONS and then see, what is the output for particular
+                              input.
+                              <br>So topics in maths like Vector Calculus, Fourier and Laplace transforms, Differential Equations,
+                              Matrix Analysis are very important. Don’t detest these subjects.
+
+
+                            </p>
+                            <p style="text-align: justify;">
+                              8) The world is at your feet in form of the internet. Explore the same for your benefit.
+                            </p>
+                          </div>
+                          <p style="text-align: justify;">
+                            <strong>
+                              * The tips are in no sense a pre-requisite for any of the courses you take during your semesters. They are just a set of
+                              pointers to get you in the right direction without having to fumble over a plethora of resources.
+                            </strong>
+                          </p>
+
+                        </span>
+                      </div>
+                    </li>
+                  </ul>
+
+
+                </div>
+
+                <div id="me" class="col s12 z-depth-1 myContainer">
+                  <h4 class="header teal-text text-accent-4">Mechanical Engineering</h4>
+
+                  <p style="text-align: justify;">
+                    <strong>About the Department</strong>: Have you ever wondered how rockets and flights are manoeuvred? Does the
+                    flourishing sound of an engine and manufacturing processes tingle your curiosity? Then this field is
+                    for you. You will get a boost to your mechanics, statics, solid and fluid dynamics knowledge and you
+                    will surely enjoy all of it, you’ll also learn how mechanical structures are supported, automation and
+                    robotics, workshops (e.g. welding, lathing) and their applications.</p>
+                  <br/>
+
+                  <h5 class="header">A Glimpse into Mechanical Engineering</h5>
+                  <p>Mechanical Engineering basically deals with the following domains:</p>
+                  <div class="container">
+                    <ul>
+                      <li>&cir;&nbsp; Design</li>
+                      <li>&cir;&nbsp; Production and operation of machinery</li>
+                      <li>&cir;&nbsp; Application of thermodynamics and mechanics</li>
+                      <li>&cir;&nbsp; Automated control systems</li>
+                      <li>&cir;&nbsp; Manufacturing</li>
+                    </ul>
+                  </div>
+                  <p style="text-align: justify;">During the course you will learn and explore basic sciences behind the mechanical systems we see using
+                    the tools of physics. You will also learn to fabricate objects using different manufacturing process
+                    that includes moulding, 3D printing, Laser Cutting etc.</p>
+
+                  <h5 class="header">Courses Under Mechanical Engineering (for First Year B. Tech)</h5>
+                  <p>The courses can be categorised into following sections:</p>
+                  <div class="container">
+                    <ul>
+                      <li>1) Mechanics Related</li>
+                      <li>2) Thermodynamics</li>
+                      <li>3) Manufacturing</li>
+                      <li>4) Automation and Control Systems</li>
+                      <li>5) Mathematics</li>
+                      <li>6) Engineering Basics</li>
+                      <li>7) Chemistry</li>
+                      <li>8) Electrodynamics</li>
+                      <li>9) Biology</li>
+                      <li>10) Liberal and Creative Arts Electives</li>
+                    </ul>
+                  </div>
+                  <p style="text-align: justify;">
+                    <strong>Mechanics related and Thermodynamics sections are</strong> basically an extension of what you have studied
+                    for your JEE preparation. Topics covered under this are Fluid Mechanics, Dynamics, Solid Mechanics, Stress-Strain,
+                    System of particles, Thermodynamics.</p>
+                  <p style="text-align: justify;">
+                    <strong>Manufacturing Section</strong> will contain theories on various kind of manufacturing processes from
+                    traditional workshops to automated milling, lathing laser cutting and 3D printing.</p>
+                  <p style="text-align: justify;">
+                    <strong>Automation and Control Systems</strong> will have theories on various automated controls using Arduino
+                    and Programmable Logic Controller(PLC).</p>
+                  <p style="text-align: justify;">
+                    <strong>Mathematics</strong> includes theory courses on Real Analysis, Sequences and Series, Calculus, Vector
+                    Calculus, Linear Algebra and Differential Equations.</p>
+                  <p style="text-align: justify;">
+                    <strong>Engineering Basics</strong> includes theory and practical approach of Engineering Drawing, Engineering
+                    Statics, Manufacturing and Fabrication.</p>
+                  <p style="text-align: justify;">
+                    <strong>Chemistry</strong> includes theory on Quantum Chemistry, Chemical Kinetics and Electrochemistry.</p>
+                  <p style="text-align: justify;">
+                    <strong>Electrodynamics</strong> has one course on Electromagnetism and Maxwell’s Equation.</p>
+                  <p style="text-align: justify;">
+                    <strong>Biology</strong> has one course on “Introduction to Life Sciences”.</p>
+                  <p style="text-align: justify;">
+                    <strong>Liberal and Cultural Arts Electives</strong> have courses apart from the departmental cores. Liberal
+                    Arts courses cover a wide spectrum which includes Economics, Financial Studies, Art and Culture studies,
+                    Management, Humanities, etc. Creative arts courses encapsulate courses on cinema, performing arts, historical
+                    heritage, etc.</p>
+
+                  <h5 class="header">LABS</h5>
+                  <p>In manufacturing section labs are for</p>
+                  <div class="container">
+                    <ul>
+                      <li>&cir;&nbsp; Workshop which includes welding, lathing, fitting and electrical maintenance.</li>
+                      <li>&cir;&nbsp; 3-D Printing</li>
+                      <li>&cir;&nbsp; Do It Yourself (DIY) Labs, which includes CNC Machining, Moulding and Laser Cutting. The
+                        labs for Automation Control Systems are based on applications of Arduino and PLC.</li>
+                    </ul>
+                  </div>
+                  <p style="text-align: justify;">
+                    <strong>
+                      <em>The course content overall covers both applications and research sides of the department. If you are
+                        a true enthusiast, then you’ll love this course.</em>
                     </strong>
                   </p>
 
-                </span></div>
-    </li>
-</ul>
+                  <h5 class="header">Expectations from this department</h5>
+                  <p style="text-align: justify;">Having read the course contents, it’s obvious that Mechanical would remain in industry forever. So, after
+                    studying in this department one can also work in other domains of engineering such as Design, Manufacturing,
+                    Aeronautical and Thermal Engineering for research as well as practical applications. There are some really
+                    great opportunities for research in Manufacturing field due to need of mass production with less environmental
+                    side effects.</p>
 
-
-              </div>
-
-              <div id="me" class="col s12 z-depth-1 myContainer">
-                <h4 class="header teal-text text-accent-4">Mechanical Engineering</h4>
-
-                <p  style="text-align: justify;"><strong>About the Department</strong>: Have you ever wondered how rockets and flights are manoeuvred? Does the flourishing sound of an engine and manufacturing processes tingle your curiosity? Then this field is for you. You will get a boost to your mechanics, statics, solid and fluid dynamics knowledge and you will surely enjoy all of it, you’ll also learn how mechanical structures are supported, automation and robotics, workshops (e.g. welding, lathing) and their applications.</p><br/>
-
-                <h5 class="header">A Glimpse into Mechanical Engineering</h5>
-                <p>Mechanical Engineering basically deals with the following domains:</p>
-                <div class="container">
-                  <ul>
-                    <li>&cir;&nbsp; Design</li>
-                    <li>&cir;&nbsp; Production and operation of machinery</li>
-                    <li>&cir;&nbsp; Application of thermodynamics and mechanics</li>
-                    <li>&cir;&nbsp; Automated control systems</li>
-                    <li>&cir;&nbsp; Manufacturing</li>
-                  </ul>
-                </div>
-                <p  style="text-align: justify;">During the course you will learn and explore basic sciences behind the mechanical systems we see using the tools of physics. You will also learn to fabricate objects using different manufacturing process that includes moulding, 3D printing, Laser Cutting etc.</p>
-
-                <h5 class="header">Courses Under Mechanical Engineering (for First Year B. Tech)</h5>
-                <p>The courses can be categorised into following sections:</p>
-                <div class="container">
-                  <ul>
-                    <li>1) Mechanics Related</li>
-                    <li>2) Thermodynamics</li>
-                    <li>3) Manufacturing</li>
-                    <li>4) Automation and Control Systems</li>
-                    <li>5) Mathematics</li>
-                    <li>6) Engineering Basics</li>
-                    <li>7) Chemistry</li>
-                    <li>8) Electrodynamics</li>
-                    <li>9) Biology</li>
-                    <li>10) Liberal and Creative Arts Electives</li>
-                  </ul>
-                </div>
-                <p  style="text-align: justify;"><strong>Mechanics related and Thermodynamics sections are</strong> basically an extension of what you have studied for your JEE preparation. Topics covered under this are Fluid Mechanics, Dynamics, Solid Mechanics, Stress-Strain, System of particles, Thermodynamics.</p>
-                <p  style="text-align: justify;"><strong>Manufacturing Section</strong> will contain theories on various kind of manufacturing processes from traditional workshops to automated milling, lathing laser cutting and 3D printing.</p>
-                <p  style="text-align: justify;"><strong>Automation and Control Systems</strong> will have theories on various automated controls using Arduino and Programmable Logic Controller(PLC).</p>
-                <p  style="text-align: justify;"><strong>Mathematics</strong> includes theory courses on Real Analysis, Sequences and Series, Calculus, Vector Calculus, Linear Algebra and Differential Equations.</p>
-                <p  style="text-align: justify;"><strong>Engineering Basics</strong> includes theory and practical approach of Engineering Drawing, Engineering Statics, Manufacturing and Fabrication.</p>
-                <p  style="text-align: justify;"><strong>Chemistry</strong> includes theory on Quantum Chemistry, Chemical Kinetics and Electrochemistry.</p>
-                <p  style="text-align: justify;"><strong>Electrodynamics</strong> has one course on Electromagnetism and Maxwell’s Equation.</p>
-                <p  style="text-align: justify;"><strong>Biology</strong> has one course on “Introduction to Life Sciences”.</p>
-                <p  style="text-align: justify;"><strong>Liberal and Cultural Arts Electives</strong> have courses apart from the departmental cores. Liberal Arts courses cover a wide spectrum which includes Economics, Financial Studies, Art and Culture studies, Management, Humanities, etc. Creative arts courses encapsulate courses on cinema, performing arts, historical heritage, etc.</p>
-
-                <h5 class="header">LABS</h5>
-                <p>In manufacturing section labs are for</p>
-                <div class="container">
-                  <ul>
-                    <li>&cir;&nbsp; Workshop which includes welding, lathing, fitting and   electrical maintenance.</li>
-                    <li>&cir;&nbsp; 3-D Printing</li>
-                    <li>&cir;&nbsp; Do It Yourself (DIY) Labs, which includes CNC Machining, Moulding and Laser Cutting. The labs for Automation Control Systems are based on applications of Arduino and PLC.</li>
-                  </ul>
-                </div>
-                <p style="text-align: justify;"><strong><em>The course content overall covers both applications and research sides of the department. If you are a true enthusiast, then you’ll love this course.</em></strong></p>
-
-                <h5 class="header">Expectations from this department</h5>
-                <p style="text-align: justify;">Having read the course contents, it’s obvious that Mechanical would remain in industry forever. So, after studying in this department one can also work in other domains of engineering such as Design, Manufacturing, Aeronautical and Thermal Engineering for research as well as practical applications. There are some really great opportunities for research in Manufacturing field due to need of mass production with less environmental side effects.</p>
-
-                <p class="center"><em>“Any engineering feat is incomplete without Mechanical Engineers” </em></p>
-
-
-<ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>ME Hacks:</div>
-      <div class="collapsible-body"><span>
-          <p><strong>ME Tools:</strong></p>
-                  <div class="container">
-                    <p  style="text-align: justify;">
-                   1.	Mechanical Engineering is all about understanding existing systems and then designing new ones inspired by the ones we have studied. It will be beneficial if you have your JEE concepts fresh for the following topics:
-<br>a.	Fluid Mechanics
-<br>b.	General Mechanics
-<br>c.	Thermodynamics
-<br>d.	Chemical Kinetics
-<br>e.	Solid Mechanics (Stress, Strain, Elasticity)
-
-                    </p>
-                    <p  style="text-align: justify;">
-                    2.	Make yourself comfortable with programming in any one language (preferably C/C++) during the first year itself.
-
-                    </p>
-                    <p  style="text-align: justify;">
-                    3.	Familiarizing yourself with Arduino and other micro-controllers, it will help you a lot in your independent project at the end of the first semester.
-
-                      </p>
-
-                    <p  style="text-align: justify;">
-                    4.	The first year mechanical curriculum consists of a good number of Math Courses. Do not ignore them as they carry with them significant credits of the semester.
-
-                       </p>
-
-                  </div>
-                  <p style="text-align: justify;"><strong>
-                    **These tips are in no sense a pre-requisite for any of the courses mentioned above. They are just a couple of pointers to set you in the right direction without having to wander aimlessly through a plethora of resources.
-                    </strong>
+                  <p class="center">
+                    <em>“Any engineering feat is incomplete without Mechanical Engineers” </em>
                   </p>
 
-                </span></div>
-    </li>
-</ul>
 
+                  <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header">
+                        <i class="material-icons">filter_drama</i>ME Hacks:</div>
+                      <div class="collapsible-body">
+                        <span>
+                          <p>
+                            <strong>ME Tools:</strong>
+                          </p>
+                          <div class="container">
+                            <p style="text-align: justify;">
+                              1. Mechanical Engineering is all about understanding existing systems and then designing new ones inspired by the ones we
+                              have studied. It will be beneficial if you have your JEE concepts fresh for the following topics:
+                              <br>a. Fluid Mechanics
+                              <br>b. General Mechanics
+                              <br>c. Thermodynamics
+                              <br>d. Chemical Kinetics
+                              <br>e. Solid Mechanics (Stress, Strain, Elasticity)
+
+                            </p>
+                            <p style="text-align: justify;">
+                              2. Make yourself comfortable with programming in any one language (preferably C/C++) during the first year itself.
+
+                            </p>
+                            <p style="text-align: justify;">
+                              3. Familiarizing yourself with Arduino and other micro-controllers, it will help you a lot in your independent project at
+                              the end of the first semester.
+
+                            </p>
+
+                            <p style="text-align: justify;">
+                              4. The first year mechanical curriculum consists of a good number of Math Courses. Do not ignore them as they carry with
+                              them significant credits of the semester.
+
+                            </p>
+
+                          </div>
+                          <p style="text-align: justify;">
+                            <strong>
+                              **These tips are in no sense a pre-requisite for any of the courses mentioned above. They are just a couple of pointers to
+                              set you in the right direction without having to wander aimlessly through a plethora of resources.
+                            </strong>
+                          </p>
+
+                        </span>
+                      </div>
+                    </li>
+                  </ul>
+
+
+                </div>
 
               </div>
-
             </div>
           </div>
-        </div>
 
-        <h2 class="header cyan-text text-accent-4 center" id="grading">Grading Policy</h2>
-        <p>The following grade policy and grade values are adopted for evaluation process.</p>
+          <h2 class="header cyan-text text-accent-4 center" id="grading">Grading Policy</h2>
+          <p>The following grade policy and grade values are adopted for evaluation process.</p>
 
-        <div class="container">
-          <table class="striped responsive-table centered z-depth-2">
-            <thead class="teal lighten-4">
-              <tr>
+          <div class="container">
+            <table class="striped responsive-table centered z-depth-2">
+              <thead class="teal lighten-4">
+                <tr>
                   <th>Grades</th>
                   <th>Grade Points</th>
-              </tr>
-            </thead>
+                </tr>
+              </thead>
 
-            <tbody>
-              <tr>
-                <td>A+</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>A</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>A-</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>B</td>
-                <td>8</td>
-              </tr>
-              <tr>
-                <td>B-</td>
-                <td>7</td>
-              </tr>
-              <tr>
-                <td>C</td>
-                <td>6</td>
-              </tr>
-              <tr>
-                <td>C-</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td>D</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>FS</td>
-                <td>Supplementary</td>
-              </tr>
-              <tr>
-                <td>FR</td>
-                <td>Repeat</td>
-              </tr>
-              <tr>
-                <td>I</td>
-                <td>Incomplete</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td>A+</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>A</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>A-</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <td>B</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td>B-</td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <td>C</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>C-</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>D</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>FS</td>
+                  <td>Supplementary</td>
+                </tr>
+                <tr>
+                  <td>FR</td>
+                  <td>Repeat</td>
+                </tr>
+                <tr>
+                  <td>I</td>
+                  <td>Incomplete</td>
+                </tr>
 
-            </tbody>
-          </table>
+              </tbody>
+            </table>
+          </div>
+
+          <p style="text-align: justify;">Course description and grade policy for each course will be provided by the course instructor in the class. </p>
         </div>
-
-        <p style="text-align: justify;">Course description and  grade policy for each course will be provided by the course instructor in the class. </p>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Footer starts -->
+  <!-- Footer starts -->
 
-	  <footer class="page-footer #00b0ff light-blue accent-3">
-		<div class="container">
-		  <div class="row">
-			<div class="col l6 s12">
-			  <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Disclaimer Note</h5>
-			  <p class="grey-text text-lighten-4"  style="text-align: justify;">The content on this website is developed solely by the student body of Indian Institute of Technology Bhilai. None of the views on any of the topics are endorsed by the institution.</p>
+  <footer class="page-footer #00b0ff light-blue accent-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Disclaimer Note</h5>
+          <p class="grey-text text-lighten-4" style="text-align: justify;">The content on this website is developed solely by the student body of Indian Institute of Technology Bhilai. None
+            of the views on any of the topics are endorsed by the institution.</p>
 
 
-			</div>
-			<div class="col l3 s12">
-			  <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Menu</h5>
-			  <ul class="footer_menu"  style="text-align: justify;">
-				<li><a class="white-text" href="index.html">Home</a></li>
-				<li><a class="white-text" href="mentors_2018.html">Student Mentors</a></li>
-				<li><a class="white-text" href="acad1.html">Academics</a></li>
-				<li><a class="white-text" href="life.html">Life @ IITBh</a></li>
-				<li><a class="white-text" href="around1.html">Around IITBh</a></li>
-				<li><a class="white-text" href="ns1.html">NSS &amp; NSO</a></li>
-				<li><a class="white-text" href="Queries.html">Queries</a></li>
-			  </ul>
-			</div>
-			<div class="col l3 s12">
-        <h5 class="white-text">Connect</h5>
-        <ul>
-        <li><a class="white-text" href="https://www.facebook.com/iit.bh/"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a></li>
-        <li><a class="white-text" href="https://twitter.com/IIT_Bhilai"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Twitter</a></li>
-        <li><a class="white-text" href="https://www.instagram.com/iitbhilai/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Instagram</a></li>
-        </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text" style="font-family: 'Exo 2', sans-serif;">Menu</h5>
+          <ul class="footer_menu" style="text-align: justify;">
+            <li>
+              <a class="white-text" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="white-text" href="mentors1.html">Student Mentors</a>
+            </li>
+            <li>
+              <a class="white-text" href="acad1.html">Academics</a>
+            </li>
+            <li>
+              <a class="white-text" href="life.html">Life @ IITBh</a>
+            </li>
+            <li>
+              <a class="white-text" href="around1.html">Around IITBh</a>
+            </li>
+            <li>
+              <a class="white-text" href="ns1.html">NSS &amp; NSO</a>
+            </li>
+            <li>
+              <a class="white-text" href="Queries.html">Queries</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li>
+              <a class="white-text" href="https://www.facebook.com/iit.bh/">
+                <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a>
+            </li>
+            <li>
+              <a class="white-text" href="https://twitter.com/IIT_Bhilai">
+                <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Twitter</a>
+            </li>
+            <li>
+              <a class="white-text" href="https://www.instagram.com/iitbhilai/?hl=en">
+                <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Instagram</a>
+            </li>
+          </ul>
+        </div>
       </div>
-		  </div>
-		</div>
-		<div class="footer-copyright">
-		  <div class="container" style="font-family: 'Exo 2', sans-serif;">
-		  &copy; 2017-2018, Indian Institute of Technology Bhilai
-		  </div>
-		</div>
-	  </footer>
+    </div>
+    <div class="footer-copyright">
+      <div class="container" style="font-family: 'Exo 2', sans-serif;">
+        &copy; 2017-2018, Indian Institute of Technology Bhilai
+      </div>
+    </div>
+  </footer>
 
-	  <!-- Scripts -->
-	  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js1/materialize.js"></script>
-<!-- This file below to be edited for external styling -->
-		<script src="js1/init1.js"></script>
-		<script src="js1/init.js"></script>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js1/materialize.js"></script>
+  <!-- This file below to be edited for external styling -->
+  <script src="js1/init1.js"></script>
+  <script src="js1/init.js"></script>
 
 
-  </body>
+</body>
+
 </html>
