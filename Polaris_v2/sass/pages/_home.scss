@@ -1,0 +1,55 @@
+.introduction {
+    
+    &__text {
+        text-align: justify;
+        font-size: $font-size-primary;
+        word-spacing: 3px;
+        font-weight: 300;
+    }
+}
+
+.info {
+    width: 90%;
+    margin: 0 auto;
+
+    &__text {
+        text-align: justify;
+        font-size: $font-size-primary;
+        word-spacing: 3px;
+        font-weight: 300;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+    &__list {
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+    &__item {
+        font-size: $font-size-primary;
+        font-weight: 300;
+    }
+}
+
+.message {
+    &__text {
+        text-align: justify;
+        font-size: $font-size-primary;
+        word-spacing: 3px;
+        font-weight: 300;
+    }
+
+    &__text span {
+        font-weight: 700;
+    }
+
+    &__byline {
+        font-size: $font-size-primary;
+        word-spacing: 3px;
+        font-weight: 700;
+    }
+}
+
