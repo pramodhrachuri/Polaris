@@ -15,6 +15,10 @@
         width: 100%;
         transform: scale(1.2);
         transition: all .5s;
+
+        &--president {
+            transform: scale(1.2) translateY(5%);
+        }
     }
 
     &__caption {
